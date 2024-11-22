@@ -1905,6 +1905,24 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
           "name": "Kenney Mini Square.ttf"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "npc5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "npc5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "npc6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "npc6.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -8918,13 +8936,564 @@
               "value": "Paul"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "b49be1fe-0230-4853-9392-64595fcf7068",
+          "width": 64,
+          "x": -1619,
+          "y": 186,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "d68f4ac3-4ade-4f66-89e8-232f0c0bf078",
+          "width": 64,
+          "x": -1490,
+          "y": 307,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "607efe5d-2d20-4419-8b67-50078d78c7bf",
+          "width": 64,
+          "x": -698,
+          "y": 460,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "b48a4f21-60b8-4838-a07b-3a1509143a82",
+          "width": 64,
+          "x": -1498,
+          "y": 1080,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "3cf3d0f3-3f69-4174-8ba7-99fb66e46be0",
+          "width": 64,
+          "x": -2269,
+          "y": 979,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "e7e7ae5a-e700-4024-94ba-d95b7a199b73",
+          "width": 64,
+          "x": -860,
+          "y": -33,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "ac95eacb-ab4f-4978-9e5b-eae25f905dbd",
+          "width": 64,
+          "x": -858,
+          "y": 119,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "a4841266-9df0-40f8-9f7c-9897fc16d8d1",
+          "width": 64,
+          "x": -859,
+          "y": 39,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "95084b60-d469-4f59-8260-0e1c27fb2a0a",
+          "width": 64,
+          "x": -625,
+          "y": -25,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "fee1a5f4-ad26-44fa-9481-ab786f1af2b1",
+          "width": 64,
+          "x": -621,
+          "y": 93,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "f31f30cc-6794-4fd2-a0fa-774ea4ebeef7",
+          "width": 64,
+          "x": -2249,
+          "y": 152,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "34793d71-7f19-43a9-abff-740ce65d559b",
+          "width": 64,
+          "x": -567,
+          "y": 1028,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "b74ae38e-3ad3-40e9-8d01-69f9bc259411",
+          "width": 64,
+          "x": -2168,
+          "y": 47,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "cad2c95a-752b-4ef3-b136-faf7126d10c3",
+          "width": 64,
+          "x": -1249,
+          "y": 502,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "4829c083-6d81-48a3-be96-f0c01e73f29d",
+          "width": 64,
+          "x": -2315,
+          "y": 1187,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "dced3f5d-b5c3-44c9-a636-4af0342d6fba",
+          "width": 64,
+          "x": -1614,
+          "y": 1378,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "bbdcc6ec-a721-4f82-80ec-a3d9c2b8a6f1",
+          "width": 64,
+          "x": -584,
+          "y": 1290,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "66690dd9-1221-4804-8459-9a03dc3a0df6",
+          "width": 64,
+          "x": -98,
+          "y": 1100,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "64b4919e-30eb-4ca9-82e6-0237588f38a2",
+          "width": 64,
+          "x": -68,
+          "y": 549,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
         }
       ],
       "objects": [
         {
           "assetStoreId": "",
           "name": "barplot",
-          "type": "Barplot::barplot",
+          "type": "BarplotExtension::barplot",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -9761,6 +10330,102 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "npc2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 7.927276611328125,
+                        "y": 15.236364364624023
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 20
+                          },
+                          {
+                            "x": 9,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "npc5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 7.927276611328125,
+                        "y": 15.236364364624023
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 20
+                          },
+                          {
+                            "x": 9,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "npc6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21280,7 +21945,7 @@
         {
           "assetStoreId": "",
           "name": "Newbarplot",
-          "type": "Barplot::barplot",
+          "type": "BarplotExtension::barplot",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -22771,6 +23436,142 @@
         {
           "name": "Text_AutoTyping",
           "type": "AutoTyping::Text_AutoTyping"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "TestSzene",
+      "name": "TestSzene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Newbarplot",
+          "persistentUuid": "5a8b8348-df2f-4ffb-b47f-b48b76e4447d",
+          "width": 0,
+          "x": 264,
+          "y": 98,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "Newbarplot",
+          "type": "BarplotExtension::barplot",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {}
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Newbarplot"
+          }
+        ]
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
         }
       ]
     }
@@ -31100,7 +31901,7 @@
       "fullName": "",
       "helpPath": "",
       "iconUrl": "",
-      "name": "Barplot",
+      "name": "BarplotExtension",
       "previewIconUrl": "",
       "shortDescription": "",
       "version": "",
@@ -31135,30 +31936,7 @@
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Object",
-                        "a",
-                        "=",
-                        "RandomInRange(1, 800)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ResizableCapability::ResizableBehavior::SetWidth"
-                      },
-                      "parameters": [
-                        "BarPlot",
-                        "Resizable",
-                        "=",
-                        "a"
-                      ]
-                    }
-                  ]
+                  "actions": []
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -31170,7 +31948,7 @@
                 {
                   "description": "Object",
                   "name": "Object",
-                  "supplementaryInformation": "Barplot::barplot",
+                  "supplementaryInformation": "BarplotExtension::barplot",
                   "type": "object"
                 }
               ],
@@ -31188,14 +31966,79 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "PrimitiveDrawing::FillColor"
+                      },
+                      "parameters": [
+                        "BarPainter",
+                        "\"189;16;224\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::OutlineColor"
+                      },
+                      "parameters": [
+                        "BarPainter",
+                        "\"248;231;28\""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "PrimitiveDrawing::Rectangle"
                       },
                       "parameters": [
-                        "BarPlot",
+                        "BarPainter",
                         "0",
                         "0",
                         "400",
                         "400"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::Star"
+                      },
+                      "parameters": [
+                        "BarPainter",
+                        "200",
+                        "200",
+                        "5",
+                        "30",
+                        "2",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::Rectangle"
+                      },
+                      "parameters": [
+                        "BarPainter",
+                        "0",
+                        "0",
+                        "40",
+                        "40"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::FillColor"
+                      },
+                      "parameters": [
+                        "BarPainter",
+                        "\"126;211;33\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::Rectangle"
+                      },
+                      "parameters": [
+                        "BarPainter",
+                        "80",
+                        "0",
+                        "800",
+                        "20"
                       ]
                     }
                   ]
@@ -31205,7 +32048,7 @@
                 {
                   "description": "Object",
                   "name": "Object",
-                  "supplementaryInformation": "Barplot::barplot",
+                  "supplementaryInformation": "BarplotExtension::barplot",
                   "type": "object"
                 }
               ],
@@ -31226,7 +32069,7 @@
           "objects": [
             {
               "assetStoreId": "",
-              "name": "BarPlot",
+              "name": "BarPainter",
               "type": "PrimitiveDrawing::Drawer",
               "variables": [
                 {
@@ -31260,17 +32103,59 @@
               "outlineSize": 10,
               "outlineOpacity": 255,
               "absoluteCoordinates": false,
-              "clearBetweenFrames": true,
+              "clearBetweenFrames": false,
               "antialiasing": "none",
               "fillColor": {
-                "r": 236,
-                "g": 233,
-                "b": 233
+                "r": 126,
+                "g": 211,
+                "b": 33
               },
               "outlineColor": {
                 "r": 156,
                 "g": 73,
                 "b": 73
+              }
+            },
+            {
+              "assetStoreId": "",
+              "bold": false,
+              "italic": false,
+              "name": "NewText",
+              "smoothed": true,
+              "type": "TextObject::Text",
+              "underlined": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "string": "Barplot",
+              "font": "",
+              "textAlignment": "left",
+              "characterSize": 200,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Barplot",
+                "font": "",
+                "textAlignment": "left",
+                "verticalTextAlignment": "top",
+                "characterSize": 200,
+                "color": "0;0;0"
               }
             }
           ],
@@ -31278,7 +32163,10 @@
             "folderName": "__ROOT",
             "children": [
               {
-                "objectName": "BarPlot"
+                "objectName": "BarPainter"
+              },
+              {
+                "objectName": "NewText"
               }
             ]
           },
@@ -31321,7 +32209,7 @@
               "height": 307,
               "keepRatio": true,
               "layer": "",
-              "name": "BarPlot",
+              "name": "BarPainter",
               "persistentUuid": "b42bb33a-54f4-42e0-b025-246f60791f8b",
               "width": 386,
               "x": 0,
@@ -31350,6 +32238,22 @@
                   ]
                 }
               ]
+            },
+            {
+              "angle": 0,
+              "customSize": false,
+              "height": 0,
+              "keepRatio": true,
+              "layer": "",
+              "name": "NewText",
+              "persistentUuid": "d72e7780-1a00-4c47-904b-8cbf5722909d",
+              "width": 0,
+              "x": -100,
+              "y": 46,
+              "zOrder": 2204,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
             }
           ]
         }
