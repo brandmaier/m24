@@ -2061,7 +2061,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 0.4355314906379485,
+        "zoomFactor": 0.3340374048598129,
         "windowMask": false
       },
       "objectsGroups": [
@@ -9660,15 +9660,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 49.116279069767444,
+          "height": 228.18604651162792,
           "keepRatio": true,
           "layer": "Bigpad",
           "name": "ShadedDarkJoystick2",
           "persistentUuid": "51aeab19-820d-434e-a6dc-4cf7099bc1e3",
-          "width": 0,
-          "x": 116,
-          "y": 596,
+          "width": 220,
+          "x": 186,
+          "y": 499,
           "zOrder": 2220,
           "numberProperties": [],
           "stringProperties": [],
@@ -19767,11 +19768,29 @@
               "subInstructions": [
                 {
                   "type": {
-                    "value": "KeyPressed"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "e"
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "e"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                      },
+                      "parameters": [
+                        "Befragen_knopf_Q_oder_E_",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    }
                   ]
                 },
                 {
@@ -20129,7 +20148,7 @@
               "parameters": [
                 "npc_antwort",
                 "=",
-                "RandomInRange(1,100)"
+                "roundTo(BetterRandomness::RandomNormal(10),2)"
               ]
             },
             {
@@ -20139,7 +20158,7 @@
               "parameters": [
                 "npc_antwort",
                 "=",
-                "roundTo(BetterRandomness::RandomNormal(10),2)"
+                "RandomInRange(1,100)"
               ]
             },
             {
