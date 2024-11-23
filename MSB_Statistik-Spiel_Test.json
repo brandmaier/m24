@@ -9724,6 +9724,122 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "9652e402-c21f-4faa-b986-1661ca7a6995",
+          "width": 64,
+          "x": -2429,
+          "y": -170,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "dd7fd22f-e421-42b4-ac87-5b40809e8a12",
+          "width": 64,
+          "x": -2535,
+          "y": -523,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "11a5f763-9a10-487e-8910-e80b14182573",
+          "width": 64,
+          "x": -2255,
+          "y": -555,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "f51e4260-355b-4243-9d8e-6c578bb4ea8a",
+          "width": 64,
+          "x": -2479,
+          "y": -319,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
         }
       ],
       "objects": [
@@ -9752,6 +9868,32 @@
               "name": "varianz",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "Antworten",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "\"Keine Zeit\""
+                },
+                {
+                  "type": "string",
+                  "value": "\"Muss zum Tutorium...\""
+                },
+                {
+                  "type": "string",
+                  "value": "\"Sorry - Flunkiball wartet!\""
+                },
+                {
+                  "type": "string",
+                  "value": "\"Du hast mich doch schon gefragt!\""
+                },
+                {
+                  "type": "string",
+                  "value": "\"Sagte ich bereits!\""
+                }
+              ]
             }
           ],
           "effects": [],
@@ -18594,22 +18736,6 @@
             },
             {
               "type": {
-                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
-              },
-              "parameters": [
-                "E",
-                "ShakeObject_PositionAngle",
-                "0.5",
-                "0",
-                "1",
-                "10",
-                "1",
-                "yes",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "HideLayer"
               },
               "parameters": [
@@ -18623,6 +18749,15 @@
               },
               "parameters": [
                 "bigpad_large"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"Inaktiv\""
               ]
             }
           ],
@@ -18653,21 +18788,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Multiplayer::MultiplayerObjectBehavior::IsObjectOwnedByCurrentPlayer"
-              },
-              "parameters": [
-                "Player",
-                "MultiplayerObject"
-              ]
-            }
-          ],
-          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -18717,44 +18837,6 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Player",
-                "CollisionDetect",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Player",
-                "=",
-                "Player.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "Player",
-                "",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -18764,6 +18846,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -18854,6 +18937,15 @@
                             "ShadedDarkJoystick",
                             "\"Down\"",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Multiplayer::MultiplayerObjectBehavior::IsObjectOwnedByCurrentPlayer"
+                          },
+                          "parameters": [
+                            "Player",
+                            "MultiplayerObject"
                           ]
                         }
                       ]
@@ -19103,10 +19195,49 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "CollisionDetect",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "Player.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Dialogue",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19217,16 +19348,6 @@
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "AutoTyping::BitmapText_AutoTyping::StartAtBeginning"
-                      },
-                      "parameters": [
-                        "Dialogue",
-                        "BitmapText_AutoTyping",
-                        ""
-                      ]
-                    },
                     {
                       "type": {
                         "value": "AutoTyping::BitmapText_AutoTyping::StartAtBeginning"
@@ -19625,6 +19746,17 @@
           "actions": []
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Interaktion mit Gegenständen",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -19710,17 +19842,203 @@
                 "bigpad_large"
               ]
             }
-          ],
-          "events": [
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Interaktion mit NPC",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "Befragen_knopf_Q_oder_E_",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "NPC",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "NPC",
+                "Befragt",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "warten",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "warten",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "E",
+                "=",
+                "NPC.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "E",
+                "=",
+                "NPC.Y()-80"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Talk.wav",
+                "",
+                "25",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ArrayTools::ObjectShuffle"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "Antworten",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "E",
+                "Text",
+                "=",
+                "Player.Antworten[0]"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "E",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "E",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "E"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "warten",
+                "False",
+                ""
+              ]
             }
           ]
         },
@@ -19819,9 +20137,9 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "mittelwert",
+                "npc_antwort",
                 "=",
-                "BetterRandomness::RandomNormal()"
+                "roundTo(BetterRandomness::RandomNormal(10),2)"
               ]
             },
             {
@@ -19873,7 +20191,7 @@
               "parameters": [
                 "E",
                 "=",
-                "NPC.PointX(\"\")"
+                "NPC.X()"
               ]
             },
             {
@@ -19883,7 +20201,7 @@
               "parameters": [
                 "E",
                 "=",
-                "NPC.PointY(\"\")-80"
+                "NPC.Y()-80"
               ]
             },
             {
@@ -19978,7 +20296,7 @@
               "parameters": [
                 "E",
                 "Tween",
-                "PosX",
+                "\"PosX\"",
                 "E.X()-500",
                 "\"linear\"",
                 "1",
@@ -20074,6 +20392,17 @@
           "actions": []
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Berechnungen",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -20132,13 +20461,36 @@
           "eventsSheetExpanded": false
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Clipboard",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"Inaktiv\"",
+                ">=",
+                "120"
+              ]
+            }
+          ],
           "actions": []
         },
         {
@@ -78859,6 +79211,11 @@
           "name": "mittelwert",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "x",
+          "type": "number",
+          "value": 24
         }
       ],
       "eventsFunctions": [
@@ -78875,6 +79232,18 @@
               "actions": []
             },
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Draw a random number from a Gaussian"
+            },
+            {
               "type": "BuiltinCommonInstructions::JsCode",
               "inlineCode": [
                 "  //console.log(\"Hallo!\");",
@@ -78886,9 +79255,12 @@
                 "  // console.log(\"Hallo 2\");",
                 "  number = number / 10.0 + 0.5; ",
                 "  //if (num > 1 || num < 0) return randn_bm() // resample between 0 and 1",
-                " console.log(\"Hallo: \"+number);",
-                "  runtimeScene.getVariables().get(\"x\").setNumber(number)",
-                ""
+                " // console.log(\"Hallo: \"+number);",
+                "  number = number + eventsFunctionContext.getArgument(\"mean\");",
+                "  ",
+                "  //runtimeScene.getVariables().get(\"x\").setNumber(number)",
+                "  runtimeScene.getVariablesForExtension(\"BetterRandomness\").get(\"x\").setNumber(number)",
+                " console.log(\"Set number!\");"
               ],
               "parameterObjects": "",
               "useStrict": true,
@@ -78903,7 +79275,7 @@
                     "value": "SetReturnNumber"
                   },
                   "parameters": [
-                    "1"
+                    "x"
                   ]
                 }
               ]
@@ -78912,7 +79284,13 @@
           "expressionType": {
             "type": "expression"
           },
-          "parameters": [],
+          "parameters": [
+            {
+              "description": "",
+              "name": "mean",
+              "type": "expression"
+            }
+          ],
           "objectGroups": []
         }
       ],
