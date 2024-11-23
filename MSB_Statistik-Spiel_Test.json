@@ -20148,7 +20148,7 @@
               "parameters": [
                 "npc_antwort",
                 "=",
-                "roundTo(BetterRandomness::RandomNormal(10),2)"
+                "RandomInRange(1,100)"
               ]
             },
             {
@@ -20158,7 +20158,7 @@
               "parameters": [
                 "npc_antwort",
                 "=",
-                "RandomInRange(1,100)"
+                "roundTo(BetterRandomness::RandomNormal(50,15),2)"
               ]
             },
             {
@@ -79272,10 +79272,10 @@
                 "  while(v == 0) v = Math.random(); // exclude 0",
                 "  let number = Math.sqrt( -2.0 * Math.log(u) ) * Math.cos( 2.0 * Math.PI * v );",
                 "  // console.log(\"Hallo 2\");",
-                "  number = number / 10.0 + 0.5; ",
+                "  //number = number / 10.0 + ; ",
                 "  //if (num > 1 || num < 0) return randn_bm() // resample between 0 and 1",
                 " // console.log(\"Hallo: \"+number);",
-                "  number = number + eventsFunctionContext.getArgument(\"mean\");",
+                "  number = number * eventsFunctionContext.getArgument(\"sd\")  + eventsFunctionContext.getArgument(\"mean\");",
                 "  ",
                 "  //runtimeScene.getVariables().get(\"x\").setNumber(number)",
                 "  runtimeScene.getVariablesForExtension(\"BetterRandomness\").get(\"x\").setNumber(number)",
@@ -79307,6 +79307,11 @@
             {
               "description": "",
               "name": "mean",
+              "type": "expression"
+            },
+            {
+              "description": "",
+              "name": "sd",
               "type": "expression"
             }
           ],
