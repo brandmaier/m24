@@ -1950,6 +1950,132 @@
         "name": "NewSprite6",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "prof3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "prof3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/bb3df94a82fddb17d9faade2cae18ed400186b508950898b80860294b710bb7a_Chest.png",
+          "name": "Chest.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skelet_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skelet_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Characters/bb522b413e49777ab8cadc3e13691bcd917fe3e2904fc21ce32596dc3c2d95c9_Skelet_Idle_1.png",
+          "name": "Skelet_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skelet_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skelet_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Characters/636e66b22d8976332910046d7879655b37eaa1a901f16570222b5c286fb5525a_Skelet_Idle_2.png",
+          "name": "Skelet_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skelet_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skelet_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Characters/a969a1709f7d916d0a43604a054bb7d9069859fca654c40905f693942d978c62_Skelet_Idle_3.png",
+          "name": "Skelet_Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skelet_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skelet_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Characters/840189db36b500881f49aa1c6b990d412f20deb99473ad229dbc33fcba54b0b7_Skelet_Idle_4.png",
+          "name": "Skelet_Idle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skelet_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skelet_Run_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Characters/b2d066149695eaf65f27aa4b5d98d15b6f499d9dfd5f239c95772095cc51910c_Skelet_Run_1.png",
+          "name": "Skelet_Run_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skelet_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skelet_Run_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Characters/9270c09db7a2084703c8401f4b8210515881f53f0b89983d50e34215e095c2c8_Skelet_Run_2.png",
+          "name": "Skelet_Run_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skelet_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skelet_Run_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Characters/e8de5ed3aab39cd411e56ceb4bc15283b92d0591d391d345aa7bb9ea9a83110c_Skelet_Run_3.png",
+          "name": "Skelet_Run_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skelet_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skelet_Run_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Characters/a60cee26b594e6b643b96243c8aea5bbb3897df30a1155794d4b615ee59954cb_Skelet_Run_4.png",
+          "name": "Skelet_Run_4.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -9841,6 +9967,23 @@
               "value": "Paul"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 60.63157894736842,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Chest",
+          "persistentUuid": "421eb236-65a5-4ba2-9196-d71524227c77",
+          "width": 64,
+          "x": -1882,
+          "y": 1059,
+          "zOrder": 2224,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -18281,6 +18424,405 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "3783d172bf560198d131c5beb17078cfc594b7b809db7ecc6051fe8d31c6acc2",
+          "name": "Chest",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Texte",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "Ich habe keinen Schlüssel"
+                },
+                {
+                  "type": "string",
+                  "value": "Da steht \"Klausurlösungen\" auf der Kiste"
+                }
+              ]
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chest.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 19,
+                            "y": 0
+                          },
+                          {
+                            "x": 19,
+                            "y": 18
+                          },
+                          {
+                            "x": 0,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "2623fae11c209b25cb7829abf7292278eda166ee7f5c65b25cae4a237aebdca4",
+          "name": "Skelet",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Skelet_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 13,
+                            "y": 16
+                          },
+                          {
+                            "x": 3,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Skelet_Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 13,
+                            "y": 16
+                          },
+                          {
+                            "x": 3,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Skelet_Idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 13,
+                            "y": 16
+                          },
+                          {
+                            "x": 3,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Skelet_Idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 13,
+                            "y": 16
+                          },
+                          {
+                            "x": 3,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Run",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Skelet_Run_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 13,
+                            "y": 16
+                          },
+                          {
+                            "x": 3,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Skelet_Run_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 13,
+                            "y": 16
+                          },
+                          {
+                            "x": 3,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Skelet_Run_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 13,
+                            "y": 16
+                          },
+                          {
+                            "x": 3,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Skelet_Run_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 13,
+                            "y": 16
+                          },
+                          {
+                            "x": 3,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -18695,7 +19237,13 @@
             "objectName": "Wood"
           },
           {
+            "objectName": "Chest"
+          },
+          {
             "objectName": "ShadedDarkJoystick2"
+          },
+          {
+            "objectName": "Skelet"
           }
         ]
       },
@@ -19864,9 +20412,146 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Interaktion mit Truhe\n"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "Befragen_knopf_Q_oder_E_",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Chest",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ArrayTools::ObjectShuffle"
+              },
+              "parameters": [
+                "",
+                "Chest",
+                "Texte",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "E",
+                "Text",
+                "=",
+                "Chest.ArrayVariableFirstString(Texte)"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "E",
+                "=",
+                "Player.Y()-80"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "E",
+                "=",
+                "Player.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "E",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "E",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "E"
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -24663,6 +25348,737 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Quiz",
+      "name": "Quiz",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "b1d3c3d9-260d-489f-a6da-aeb4fa7eee57",
+          "width": 0,
+          "x": -70,
+          "y": 195,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 53.33333333333333,
+          "height": 75,
+          "layer": "",
+          "name": "ButtonA",
+          "persistentUuid": "adbce4ec-ba47-4cd2-ab2f-c0e7dbcd3f72",
+          "width": 100,
+          "x": 500,
+          "y": 220,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 222,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Angabe",
+          "persistentUuid": "2f26a118-ad09-454b-92a9-cca4d74b4b0c",
+          "width": 1218,
+          "x": 39,
+          "y": 19,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 25,
+          "height": 75,
+          "layer": "",
+          "name": "ButtonB",
+          "persistentUuid": "0a632999-b790-4300-ad21-d244db02f691",
+          "width": 100,
+          "x": 500,
+          "y": 320,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 25,
+          "height": 75,
+          "layer": "",
+          "name": "ButtonC",
+          "persistentUuid": "e73592e9-661b-417c-a899-19b6b8328c7f",
+          "width": 100,
+          "x": 500,
+          "y": 420,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 25,
+          "height": 75,
+          "layer": "",
+          "name": "ButtonD",
+          "persistentUuid": "2cebb602-b7f4-47bf-a9e4-623a0414c994",
+          "width": 100,
+          "x": 500,
+          "y": 520,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextA",
+          "persistentUuid": "16ce25ee-4d9c-4909-8409-f737c6f66c0f",
+          "width": 653,
+          "x": 613,
+          "y": 227,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "prof3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 70,
+                            "y": 66
+                          },
+                          {
+                            "x": 453,
+                            "y": 66
+                          },
+                          {
+                            "x": 453,
+                            "y": 528
+                          },
+                          {
+                            "x": 70,
+                            "y": 528
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
+          "name": "ButtonA",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 6,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "a",
+              "font": "Kenney Mini Square.ttf",
+              "textAlignment": "center",
+              "characterSize": 45,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "a",
+                "font": "Kenney Mini Square.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 45,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Angabe",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Wieviele Freiheitsgrade hat der Vierfelder Chi-Quadrat-Test immer?",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Wieviele Freiheitsgrade hat der Vierfelder Chi-Quadrat-Test immer?",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
+          "name": "ButtonB",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 6,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "b",
+              "font": "Kenney Mini Square.ttf",
+              "textAlignment": "center",
+              "characterSize": 45,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "b",
+                "font": "Kenney Mini Square.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 45,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
+        },
+        {
+          "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
+          "name": "ButtonC",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 6,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "c",
+              "font": "Kenney Mini Square.ttf",
+              "textAlignment": "center",
+              "characterSize": 45,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "c",
+                "font": "Kenney Mini Square.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 45,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
+        },
+        {
+          "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
+          "name": "ButtonD",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 6,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "d",
+              "font": "Kenney Mini Square.ttf",
+              "textAlignment": "center",
+              "characterSize": 45,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "d",
+                "font": "Kenney Mini Square.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 45,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Blue Border_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextA",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "ButtonA"
+          },
+          {
+            "objectName": "ButtonB"
+          },
+          {
+            "objectName": "ButtonC"
+          },
+          {
+            "objectName": "ButtonD"
+          },
+          {
+            "objectName": "Angabe"
+          },
+          {
+            "objectName": "TextA"
+          }
+        ]
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
