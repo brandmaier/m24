@@ -2465,6 +2465,134 @@
         "name": "Big_Pad_Baby.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Dog_Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Down_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Down_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Down_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Down_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Down_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Right_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Right_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Right_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Right_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Right_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Left_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Left_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Left_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Left_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Up_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Up_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Up_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Up_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Up_4.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2576,7 +2704,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 0.626502747839705,
+        "zoomFactor": 1.4900830505994667,
         "windowMask": false
       },
       "objectsGroups": [
@@ -9829,7 +9957,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 21
+              "value": 22
             }
           ],
           "stringProperties": [],
@@ -10430,6 +10558,23 @@
           "x": -782,
           "y": 71,
           "zOrder": 2227,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 67,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player3",
+          "persistentUuid": "611bd616-eb13-4ab6-8da3-6a3d9f140bed",
+          "width": 67,
+          "x": -2102,
+          "y": 430,
+          "zOrder": 2228,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12214,6 +12359,54 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Tina_Down_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 7.927276611328125,
+                        "y": 15.236364364624023
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 20
+                          },
+                          {
+                            "x": 9,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Down_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -20784,6 +20977,672 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Player3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "MultiplayerObject",
+              "type": "Multiplayer::MultiplayerObjectBehavior",
+              "playerNumber": 1,
+              "actionOnPlayerDisconnect": "DestroyObject"
+            },
+            {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "maxSpeed": 500,
+              "acceleration": 900000,
+              "allowDiagonals": false,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "customIsometryAngle": 30,
+              "deceleration": 900000,
+              "ignoreDefaultControls": false,
+              "movementAngleOffset": 0,
+              "rotateObject": false,
+              "viewpoint": "TopDown"
+            },
+            {
+              "name": "TopDownMultitouchMapper",
+              "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper",
+              "TopDownMovement": "TopDownMovement",
+              "ControllerIdentifier": 1,
+              "JoystickIdentifier": "Primary",
+              "StickMode": "8 Directions"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Down",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Down_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Down_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Down_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Down_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Right_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Right_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Right_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Right_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Left",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Left_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Left_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Left_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Left_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Up",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Up_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Up_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Up_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Up_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 13
+                          },
+                          {
+                            "x": 14,
+                            "y": 16
+                          },
+                          {
+                            "x": 2,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -20797,6 +21656,9 @@
           },
           {
             "objectName": "Player2"
+          },
+          {
+            "objectName": "Player3"
           },
           {
             "objectName": "NPC"
