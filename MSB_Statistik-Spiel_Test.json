@@ -2441,6 +2441,30 @@
         "name": "NPC_19.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Bierflasche_klein.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bierflasche_klein.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Bierflasche_gross.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bierflasche_gross.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Big_Pad_Baby.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big_Pad_Baby.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2552,7 +2576,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 0.6265027478397049,
+        "zoomFactor": 0.626502747839705,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2881,8 +2905,8 @@
           "name": "Grass",
           "persistentUuid": "7f1276eb-6125-4cca-8f4e-b3d48ca9c730",
           "width": 5222,
-          "x": -3406,
-          "y": -1461,
+          "x": -3396,
+          "y": -1579,
           "zOrder": 2050,
           "numberProperties": [],
           "stringProperties": [],
@@ -10355,6 +10379,57 @@
           "x": -2008,
           "y": 258,
           "zOrder": 2226,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 56,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bierflasche",
+          "persistentUuid": "c7f09e87-b4df-44ef-89c7-05b4e35abbbe",
+          "width": 56,
+          "x": -785,
+          "y": -30,
+          "zOrder": 2227,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 56,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bierflasche",
+          "persistentUuid": "3b7bace9-a327-4bd2-b651-5d8e35e1680d",
+          "width": 56,
+          "x": -784,
+          "y": 20,
+          "zOrder": 2227,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 56,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bierflasche",
+          "persistentUuid": "5abdc44e-fdb9-47ae-bc42-02268dae3140",
+          "width": 56,
+          "x": -782,
+          "y": 71,
+          "zOrder": 2227,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18984,6 +19059,54 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "baby",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Big_Pad_Baby.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 24,
+                            "y": 27
+                          },
+                          {
+                            "x": 838,
+                            "y": 27
+                          },
+                          {
+                            "x": 838,
+                            "y": 552
+                          },
+                          {
+                            "x": 24,
+                            "y": 552
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -20541,6 +20664,126 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Bierflasche",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bierflasche_klein.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 10,
+                            "y": 12
+                          },
+                          {
+                            "x": 5,
+                            "y": 12
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Bierflasche_big",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bierflasche_gross.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 32,
+                            "y": 5
+                          },
+                          {
+                            "x": 58,
+                            "y": 5
+                          },
+                          {
+                            "x": 58,
+                            "y": 85
+                          },
+                          {
+                            "x": 32,
+                            "y": 85
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -20673,6 +20916,12 @@
               },
               {
                 "objectName": "Grass"
+              },
+              {
+                "objectName": "Bierflasche"
+              },
+              {
+                "objectName": "Bierflasche_big"
               },
               {
                 "objectName": "Varianz"
