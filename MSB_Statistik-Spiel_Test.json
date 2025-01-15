@@ -2593,6 +2593,30 @@
         "name": "Dog_Up_4.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Big_Pad_Stichprobenkennwertverteilung_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big_Pad_Stichprobenkennwertverteilung_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Big_Pad_Stichprobenkennwertverteilung_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big_Pad_Stichprobenkennwertverteilung_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Big_Pad_Stichprobenkennwertverteilung_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big_Pad_Stichprobenkennwertverteilung_3.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -19264,6 +19288,150 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Big_Pad_Baby.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 24,
+                            "y": 27
+                          },
+                          {
+                            "x": 838,
+                            "y": 27
+                          },
+                          {
+                            "x": 838,
+                            "y": 552
+                          },
+                          {
+                            "x": 24,
+                            "y": 552
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stichprobenkennwertverteilung_1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Big_Pad_Stichprobenkennwertverteilung_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 24,
+                            "y": 27
+                          },
+                          {
+                            "x": 838,
+                            "y": 27
+                          },
+                          {
+                            "x": 838,
+                            "y": 552
+                          },
+                          {
+                            "x": 24,
+                            "y": 552
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stichprobenkennwertverteilung_2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Big_Pad_Stichprobenkennwertverteilung_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 24,
+                            "y": 27
+                          },
+                          {
+                            "x": 838,
+                            "y": 27
+                          },
+                          {
+                            "x": 838,
+                            "y": 552
+                          },
+                          {
+                            "x": 24,
+                            "y": 552
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Big_Pad_Stichprobenkennwertverteilung_3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
