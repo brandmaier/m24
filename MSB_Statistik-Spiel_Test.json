@@ -8965,8 +8965,8 @@
           "name": "NPC",
           "persistentUuid": "c365b1af-f9b8-4b6d-8b1e-f87b8c9367e3",
           "width": 64,
-          "x": -2404,
-          "y": 307,
+          "x": -2414,
+          "y": 306,
           "zOrder": 2208,
           "numberProperties": [
             {
@@ -9984,6 +9984,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Skelet",
+          "persistentUuid": "d1178f3b-f8ee-4faf-b27f-a524a6e95849",
+          "width": 64,
+          "x": -1331,
+          "y": 136,
+          "zOrder": 2225,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -10036,6 +10053,14 @@
                 {
                   "type": "string",
                   "value": "\"Sagte ich bereits!\""
+                },
+                {
+                  "type": "string",
+                  "value": "\"Erstmal 'n Kaffee\""
+                },
+                {
+                  "type": "string",
+                  "value": "\"Ach nee\""
                 }
               ]
             }
@@ -10718,7 +10743,21 @@
               "value": false
             }
           ],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "LeuchtEffekt",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 0,
+                "outerStrength": 0
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [
             {
               "name": "FlashEffect",
@@ -18508,7 +18547,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "DrawPathfinding",
+              "type": "DrawPathfinding::DrawPathfinding",
+              "LoopIndex": 0,
+              "CorrectionX": 2.0247e-320,
+              "CorrectionY": 2.0247e-320
+            }
+          ],
           "animations": [
             {
               "name": "Idle",
@@ -18823,6 +18870,22 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NPCShapePainter",
+          "type": "PrimitiveDrawing::Drawer",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "fillOpacity": 255,
+          "outlineSize": 1,
+          "outlineOpacity": 255,
+          "absoluteCoordinates": false,
+          "clearBetweenFrames": true,
+          "antialiasing": "none",
+          "fillColor": "",
+          "outlineColor": ""
         }
       ],
       "objectsFolderStructure": {
@@ -19244,6 +19307,9 @@
           },
           {
             "objectName": "Skelet"
+          },
+          {
+            "objectName": "NPCShapePainter"
           }
         ]
       },
@@ -19381,6 +19447,34 @@
                 "",
                 "pathfinding_point.X()",
                 "pathfinding_point.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "Skelet",
+                "Player.X()",
+                "Player.Y()",
+                "25",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Skelet",
+                "CollisionDetect",
+                ""
               ]
             }
           ]
@@ -20286,13 +20380,50 @@
                 "\"Background\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+              },
+              "parameters": [
+                "NPC",
+                "Effect",
+                "\"LeuchtEffekt\"",
+                "\"outerStrength\"",
+                "0"
+              ]
             }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "NPC",
+                "75",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+              },
+              "parameters": [
+                "NPC",
+                "Effect",
+                "\"LeuchtEffekt\"",
+                "\"outerStrength\"",
+                "5"
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -20601,7 +20732,7 @@
               "parameters": [
                 "Player",
                 "NPC",
-                "100",
+                "75",
                 ""
               ]
             },
@@ -20793,7 +20924,7 @@
               "parameters": [
                 "Player",
                 "NPC",
-                "100",
+                "75",
                 ""
               ]
             },
@@ -21165,6 +21296,22 @@
           "eventsSheetExpanded": false
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "DebuggerTools::ConsoleLog"
+              },
+              "parameters": [
+                "ToString(BetterRandomness::Function(5, 0, 1, 10))",
+                "\"info\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -21174,11 +21321,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -21417,6 +21559,10 @@
         {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "DrawPathfinding",
+          "type": "DrawPathfinding::DrawPathfinding"
         },
         {
           "name": "Effect",
@@ -25375,7 +25521,64 @@
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "Questions",
+          "type": "array",
+          "children": [
+            {
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "Wieviele Freheitsgrade hat der Vier-Felder Chi-Quadrat-Test immer?"
+                },
+                {
+                  "type": "string",
+                  "value": "1"
+                },
+                {
+                  "type": "string",
+                  "value": "2"
+                },
+                {
+                  "type": "string",
+                  "value": "n-1"
+                },
+                {
+                  "type": "string",
+                  "value": "k-1"
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "Wie bezeichnet man die Typ-I Fehlerrate auch?"
+                },
+                {
+                  "type": "string",
+                  "value": "Alpha-Fehler"
+                },
+                {
+                  "type": "string",
+                  "value": "Beta-Fehler"
+                },
+                {
+                  "type": "string",
+                  "value": "Statistische Teststaerke"
+                },
+                {
+                  "type": "string",
+                  "value": "Multiples Testproblem"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -25487,6 +25690,38 @@
           "x": 613,
           "y": 227,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextB",
+          "persistentUuid": "521ac017-bdd7-48fd-9ce2-2e06c66ee8b2",
+          "width": 0,
+          "x": 615,
+          "y": 326,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextC",
+          "persistentUuid": "afa860dd-e0bf-4d2e-b8b6-89a4f8072d66",
+          "width": 0,
+          "x": 615,
+          "y": 427,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25945,7 +26180,7 @@
           "string": "Text",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 35,
           "color": {
             "b": 0,
             "g": 0,
@@ -25969,7 +26204,91 @@
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 35,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextB",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 35,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 35,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextC",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 35,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 35,
             "color": "0;0;0"
           }
         }
@@ -25997,10 +26316,147 @@
           },
           {
             "objectName": "TextA"
+          },
+          {
+            "objectName": "TextB"
+          },
+          {
+            "objectName": "TextC"
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ArrayTools::Shuffle"
+              },
+              "parameters": [
+                "",
+                "Questions",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Angabe",
+                "Text",
+                "=",
+                "Questions[0][0]"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TextA",
+                "Text",
+                "=",
+                "Questions[0][1]"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TextB",
+                "Text",
+                "=",
+                "Questions[0][2]"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TextC",
+                "Text",
+                "=",
+                "Questions[0][3]"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "ButtonA",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "ButtonB",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "ButtonC",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "ButtonD",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Hauptgebaeude\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -26085,6 +26541,352 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "Entropy",
+      "category": "Advanced",
+      "extensionNamespace": "",
+      "fullName": "Pathfinding painter",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXJlc2lzdG9yLW5vZGVzIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIsMTFIMy42N0M0LjA4LDkuODMgNS4xOSw5IDYuNSw5QTMsMyAwIDAsMSA5LjUsMTJDOS41LDEyLjY1IDkuMjksMTMuMjUgOC45NCwxMy43NEwxMC4wNywxNS4zNUwxMy4xMSw0TDE0LjYxLDYuMTNMMTYuNyw5LjExTDE3LjUsOUMxOC44MSw5IDE5LjkyLDkuODMgMjAuMzMsMTFIMjJWMTNIMjAuMzNDMTkuOTIsMTQuMTcgMTguODEsMTUgMTcuNSwxNUEzLDMgMCAwLDEgMTQuNSwxMkMxNC41LDExLjM1IDE0LjcxLDEwLjc1IDE1LjA2LDEwLjI2TDEzLjkzLDguNjVMMTAuODksMjBMNy4zLDE0Ljg5QzcuMDUsMTQuOTYgNi43OCwxNSA2LjUsMTVDNS4xOSwxNSA0LjA4LDE0LjE3IDMuNjcsMTNIMlYxMU0xNy41LDEwLjVBMS41LDEuNSAwIDAsMCAxNiwxMkExLjUsMS41IDAgMCwwIDE3LjUsMTMuNUExLjUsMS41IDAgMCwwIDE5LDEyQTEuNSwxLjUgMCAwLDAgMTcuNSwxMC41TTYuNSwxMC41QTEuNSwxLjUgMCAwLDAgNSwxMkExLjUsMS41IDAgMCwwIDYuNSwxMy41QTEuNSwxLjUgMCAwLDAgOCwxMkExLjUsMS41IDAgMCwwIDYuNSwxMC41WiIgLz48L3N2Zz4=",
+      "name": "DrawPathfinding",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/resistor-nodes.svg",
+      "shortDescription": "Draw the pathfinding of an object using a shape painter.",
+      "version": "0.1.4",
+      "description": "Draw the path followed by an object using a shape painter.",
+      "origin": {
+        "identifier": "DrawPathfinding",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "pathfinding",
+        "debug",
+        "shape painter",
+        "draw"
+      ],
+      "authorIds": [
+        "q8ubdigLvIRXLxsJDDTaokO41mc2"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Draw the path followed by the object using a shape painter.",
+          "fullName": "Pathfinding painter",
+          "name": "DrawPathfinding",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "description": "Draw the path followed by the object using a shape painter. It automatically creates an instance of the shape painter object if there is none.",
+              "fullName": "Draw pathfinding",
+              "functionType": "Action",
+              "name": "DrawPathfinding",
+              "sentence": "Draw the path followed by _PARAM0_ using _PARAM3_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Create the shape painter if one doesn't exist"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NbObjet"
+                      },
+                      "parameters": [
+                        "ShapePainterObject",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "ShapePainterObject",
+                        "0",
+                        "0",
+                        "Object.Layer()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "ShapePainterObject",
+                        "=",
+                        "Object.ZOrder()-1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Enforce absolute coordinates"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::AreCoordinatesRelative"
+                      },
+                      "parameters": [
+                        "ShapePainterObject"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::UseRelativeCoordinates"
+                      },
+                      "parameters": [
+                        "ShapePainterObject",
+                        "no"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Reset counter"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DrawPathfinding::DrawPathfinding::SetPropertyLoopIndex"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Draw path"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "Object.PathfindingBehavior::NodeCount()",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Draw circles on each node"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "DrawPathfinding::DrawPathfinding::PropertyLoopIndex"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "<=",
+                            "Object.PathfindingBehavior::NodeCount()-1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PrimitiveDrawing::Circle"
+                          },
+                          "parameters": [
+                            "ShapePainterObject",
+                            "Object.PathfindingBehavior::GetNodeX(LoopIndex)",
+                            "Object.PathfindingBehavior::GetNodeY(LoopIndex)",
+                            "3"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Draw lines between nodes"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "DrawPathfinding::DrawPathfinding::PropertyLoopIndex"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "<",
+                            "Object.PathfindingBehavior::NodeCount()-1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PrimitiveDrawing::LineV2"
+                          },
+                          "parameters": [
+                            "ShapePainterObject",
+                            "Object.PathfindingBehavior::GetNodeX(LoopIndex)",
+                            "Object.PathfindingBehavior::GetNodeY(LoopIndex)",
+                            "Object.PathfindingBehavior::GetNodeX(LoopIndex +1)",
+                            "Object.PathfindingBehavior::GetNodeY(LoopIndex+1)",
+                            "3"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "DrawPathfinding::DrawPathfinding::SetPropertyLoopIndex"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "DrawPathfinding::DrawPathfinding",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Pathfinding behavior",
+                  "name": "PathfindingBehavior",
+                  "supplementaryInformation": "PathfindingBehavior::PathfindingBehavior",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Shape painter used to draw the path",
+                  "name": "ShapePainterObject",
+                  "supplementaryInformation": "PrimitiveDrawing::Drawer",
+                  "type": "objectList"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "LoopIndex",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "LoopIndex"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "CorrectionX"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "CorrectionY"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
     {
       "author": "",
       "category": "User interface",
@@ -80729,6 +81531,108 @@
               "description": "",
               "name": "sd",
               "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Expression",
+          "name": "Function",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "let mean =  eventsFunctionContext.getArgument(\"mean\");",
+                "let mean0 = eventsFunctionContext.getArgument(\"mean0\");",
+                "let sd =  eventsFunctionContext.getArgument(\"sd\");",
+                "let n =  eventsFunctionContext.getArgument(\"n\")",
+                "",
+                "let t = (mean-mean0)/Math.sqrt(sd/n)",
+                "",
+                "eventsFunctionContext.returnValue = t;",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "",
+              "name": "mean",
+              "type": "expression"
+            },
+            {
+              "description": "",
+              "name": "mean0",
+              "type": "expression"
+            },
+            {
+              "description": "",
+              "name": "sd",
+              "type": "expression"
+            },
+            {
+              "description": "",
+              "name": "n",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Expression",
+          "name": "critT",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "let crit = [12.7065, 4.3026, 3.1824, 2.7764, 2.5706, 2.4469, 2.3646, 2.306, 2.2621, 2.2282,",
+                "2.201, 2.1788, 2.1604, 2.1448, 2.1314, 2.1199, 2.1098, 2.1009, 2.093, 2.086]",
+                "",
+                "let df = eventsFunctionContext.getArgument(\"df\") ",
+                "",
+                "if ((df-1) <= 20) {",
+                "    return crit[df-1];",
+                "} else if ((df-1) > 100) {",
+                "    // bad approximation",
+                "    return (1.96);",
+                "} else {",
+                "    // bad linear approximation",
+                "    2.086 - (2.086-1.96)/80*(df-20)",
+                "}"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "",
+              "name": "df",
+              "type": "objectList"
             }
           ],
           "objectGroups": []
