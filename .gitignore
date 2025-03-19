@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+*.autosave
+*.DS_Store
