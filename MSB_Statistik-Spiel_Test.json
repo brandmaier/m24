@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 217,
+    "build": 226,
     "major": 5,
-    "minor": 4,
+    "minor": 5,
     "revision": 0
   },
   "properties": {
@@ -18,7 +18,6 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "top-down-rpg",
-    "useExternalSourceFiles": false,
     "version": "0.0.1",
     "name": "MSB - Statistikspiel",
     "description": "Statistik M24 Gamification",
@@ -98,7 +97,6 @@
   "resources": {
     "resources": [
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharDown9.png",
         "kind": "image",
         "metadata": "",
@@ -107,7 +105,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharDown10.png",
         "kind": "image",
         "metadata": "",
@@ -116,7 +113,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharDown11.png",
         "kind": "image",
         "metadata": "",
@@ -125,7 +121,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharDown12.png",
         "kind": "image",
         "metadata": "",
@@ -134,7 +129,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACgarRight9.png",
         "kind": "image",
         "metadata": "",
@@ -143,7 +137,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACgarRight10.png",
         "kind": "image",
         "metadata": "",
@@ -152,7 +145,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACgarRight11.png",
         "kind": "image",
         "metadata": "",
@@ -161,7 +153,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACgarRight12.png",
         "kind": "image",
         "metadata": "",
@@ -170,7 +161,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharLeft9.png",
         "kind": "image",
         "metadata": "",
@@ -179,7 +169,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharLeft10.png",
         "kind": "image",
         "metadata": "",
@@ -188,7 +177,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharLeft11.png",
         "kind": "image",
         "metadata": "",
@@ -197,7 +185,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharLeft12.png",
         "kind": "image",
         "metadata": "",
@@ -206,7 +193,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharUp9.png",
         "kind": "image",
         "metadata": "",
@@ -215,7 +201,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharUp11.png",
         "kind": "image",
         "metadata": "",
@@ -224,7 +209,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharUp10.png",
         "kind": "image",
         "metadata": "",
@@ -233,7 +217,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharUp12.png",
         "kind": "image",
         "metadata": "",
@@ -242,7 +225,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Dock3.png",
         "kind": "image",
         "metadata": "",
@@ -251,7 +233,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Tree5.png",
         "kind": "image",
         "metadata": "",
@@ -260,7 +241,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Tree6.png",
         "kind": "image",
         "metadata": "",
@@ -269,7 +249,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bush3.png",
         "kind": "image",
         "metadata": "",
@@ -278,7 +257,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/House5.png",
         "kind": "image",
         "metadata": "",
@@ -287,7 +265,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/House6.png",
         "kind": "image",
         "metadata": "",
@@ -296,7 +273,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/WaterCorner5.png",
         "kind": "image",
         "metadata": "",
@@ -305,7 +281,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Grass3.png",
         "kind": "image",
         "metadata": "",
@@ -314,7 +289,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/WaterEdgeRight3.png",
         "kind": "image",
         "metadata": "",
@@ -323,7 +297,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/WaterEdgeUp3.png",
         "kind": "image",
         "metadata": "",
@@ -332,7 +305,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Water3.png",
         "kind": "image",
         "metadata": "",
@@ -341,7 +313,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/RoadEdge3.png",
         "kind": "image",
         "metadata": "",
@@ -350,7 +321,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Enemy_Spawn_Location3.png",
         "kind": "image",
         "metadata": "",
@@ -366,7 +336,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/8BitOperatorPlus8Regular_Edited3.png",
         "kind": "image",
         "metadata": "",
@@ -375,7 +344,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Border5.png",
         "kind": "image",
         "metadata": "",
@@ -384,7 +352,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Border6.png",
         "kind": "image",
         "metadata": "",
@@ -423,7 +390,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Road3.png",
         "kind": "image",
         "metadata": "",
@@ -432,7 +398,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/WaterCorner6.png",
         "kind": "image",
         "metadata": "",
@@ -441,7 +406,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Creature_Player3.png",
         "kind": "image",
         "metadata": "",
@@ -450,7 +414,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Creature_Enemy3.png",
         "kind": "image",
         "metadata": "",
@@ -459,7 +422,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/thumbnail3.png",
         "kind": "image",
         "metadata": "",
@@ -468,7 +430,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Shaded dark joystick border3.png",
         "kind": "image",
         "metadata": "",
@@ -481,7 +442,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Shaded dark joystick thumb3.png",
         "kind": "image",
         "metadata": "",
@@ -494,7 +454,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Target round button3.png",
         "kind": "image",
         "metadata": "",
@@ -507,7 +466,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Flat Bar Red Fill Bar3.png",
         "kind": "image",
         "metadata": "",
@@ -520,7 +478,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Flat Bar White Border3.png",
         "kind": "image",
         "metadata": "",
@@ -533,7 +490,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "roter_Teppich_Test7.png",
         "kind": "image",
         "metadata": "",
@@ -542,7 +498,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Steinboden.png",
         "kind": "image",
         "metadata": "",
@@ -551,7 +506,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Steinboden2.png",
         "kind": "image",
         "metadata": "",
@@ -560,7 +514,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Ruedesheimerstrasse_Besetzung_Juli23_page-0002.jpg",
         "kind": "image",
         "metadata": "",
@@ -569,7 +522,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Ruedesheimerstrasse_Besetzung_Juli23_page-1.jpg",
         "kind": "image",
         "metadata": "",
@@ -578,7 +530,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets_spritesheet_v2_free.png",
         "kind": "image",
         "metadata": "",
@@ -587,7 +538,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Gartenelemente_Baum_3.png",
         "kind": "image",
         "metadata": "",
@@ -596,7 +546,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Gartenelemente_Baum_1.png",
         "kind": "image",
         "metadata": "",
@@ -605,7 +554,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Gartenelemente_Blume_1.png",
         "kind": "image",
         "metadata": "",
@@ -614,7 +562,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Gartenelemente_Blume_2.png",
         "kind": "image",
         "metadata": "",
@@ -623,7 +570,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Gartenelemente_Busch_blueten.png",
         "kind": "image",
         "metadata": "",
@@ -632,7 +578,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Gartenelemente_Busch.png",
         "kind": "image",
         "metadata": "",
@@ -641,7 +586,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Gartenelemente_Pilze.png",
         "kind": "image",
         "metadata": "",
@@ -650,7 +594,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Gartenelemente_Pilz_1.png",
         "kind": "image",
         "metadata": "",
@@ -659,7 +602,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Gartenelemente_Pilz_2.png",
         "kind": "image",
         "metadata": "",
@@ -668,7 +610,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Wandelement_Ecke3.png",
         "kind": "image",
         "metadata": "",
@@ -677,7 +618,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Wandelement_4.png",
         "kind": "image",
         "metadata": "",
@@ -686,7 +626,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Wandelement_Ecke_2.png",
         "kind": "image",
         "metadata": "",
@@ -695,7 +634,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Tisch_Stuhl_2.png",
         "kind": "image",
         "metadata": "",
@@ -704,7 +642,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Tresen.png",
         "kind": "image",
         "metadata": "",
@@ -713,7 +650,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "sofa_foyer.png",
         "kind": "image",
         "metadata": "",
@@ -722,7 +658,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Tisch_Stuhl_3.png",
         "kind": "image",
         "metadata": "",
@@ -731,7 +666,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Tisch.png",
         "kind": "image",
         "metadata": "",
@@ -740,7 +674,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Wandelement_5.png",
         "kind": "image",
         "metadata": "",
@@ -749,7 +682,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Wandelement_6.png",
         "kind": "image",
         "metadata": "",
@@ -758,7 +690,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Wandelement_32x34.png",
         "kind": "image",
         "metadata": "",
@@ -767,7 +698,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Blue Button With Shadow_Hovered.png",
         "kind": "image",
         "metadata": "",
@@ -780,7 +710,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Blue Button With Shadow_Idle.png",
         "kind": "image",
         "metadata": "",
@@ -793,7 +722,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Blue Button With Shadow_Pressed.png",
         "kind": "image",
         "metadata": "",
@@ -817,7 +745,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bronze Shield.png",
         "kind": "image",
         "metadata": "",
@@ -830,7 +757,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Iron Gauntlets.png",
         "kind": "image",
         "metadata": "",
@@ -843,7 +769,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Iron Helmet.png",
         "kind": "image",
         "metadata": "",
@@ -856,7 +781,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Iron Boots.png",
         "kind": "image",
         "metadata": "",
@@ -869,7 +793,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Iron Chestplate.png",
         "kind": "image",
         "metadata": "",
@@ -882,7 +805,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Iron Leggings.png",
         "kind": "image",
         "metadata": "",
@@ -895,7 +817,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Leather Boots.png",
         "kind": "image",
         "metadata": "",
@@ -908,7 +829,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Leather Chestplate.png",
         "kind": "image",
         "metadata": "",
@@ -921,7 +841,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Leather Helmet.png",
         "kind": "image",
         "metadata": "",
@@ -934,7 +853,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Leather Gauntlets.png",
         "kind": "image",
         "metadata": "",
@@ -947,7 +865,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Leather Leggings.png",
         "kind": "image",
         "metadata": "",
@@ -960,7 +877,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Metal Shield.png",
         "kind": "image",
         "metadata": "",
@@ -973,7 +889,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Blue Potion.png",
         "kind": "image",
         "metadata": "",
@@ -986,7 +901,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bone.png",
         "kind": "image",
         "metadata": "",
@@ -999,7 +913,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bronze Coin.png",
         "kind": "image",
         "metadata": "",
@@ -1012,7 +925,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Coin Sack.png",
         "kind": "image",
         "metadata": "",
@@ -1025,7 +937,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Emerald Gem.png",
         "kind": "image",
         "metadata": "",
@@ -1038,7 +949,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Flint and Steel.png",
         "kind": "image",
         "metadata": "",
@@ -1051,7 +961,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Gold Coin.png",
         "kind": "image",
         "metadata": "",
@@ -1064,7 +973,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Red Potion.png",
         "kind": "image",
         "metadata": "",
@@ -1077,7 +985,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Green Potion.png",
         "kind": "image",
         "metadata": "",
@@ -1090,7 +997,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Gold Ingot.png",
         "kind": "image",
         "metadata": "",
@@ -1103,7 +1009,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Gold Key.png",
         "kind": "image",
         "metadata": "",
@@ -1116,7 +1021,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Hessonite Gemstone.png",
         "kind": "image",
         "metadata": "",
@@ -1129,7 +1033,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Ruby Ring.png",
         "kind": "image",
         "metadata": "",
@@ -1142,7 +1045,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Sapphire Gem.png",
         "kind": "image",
         "metadata": "",
@@ -1155,7 +1057,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Ruby.png",
         "kind": "image",
         "metadata": "",
@@ -1168,7 +1069,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Sapphire Ring.png",
         "kind": "image",
         "metadata": "",
@@ -1181,7 +1081,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Silver Key.png",
         "kind": "image",
         "metadata": "",
@@ -1194,7 +1093,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Silver Coin.png",
         "kind": "image",
         "metadata": "",
@@ -1207,7 +1105,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Yellow Potion.png",
         "kind": "image",
         "metadata": "",
@@ -1220,7 +1117,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Apple.png",
         "kind": "image",
         "metadata": "",
@@ -1233,7 +1129,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Blueberries.png",
         "kind": "image",
         "metadata": "",
@@ -1246,7 +1141,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Cheese.png",
         "kind": "image",
         "metadata": "",
@@ -1259,7 +1153,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Cherry.png",
         "kind": "image",
         "metadata": "",
@@ -1272,7 +1165,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Cookie.png",
         "kind": "image",
         "metadata": "",
@@ -1285,7 +1177,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Eggs.png",
         "kind": "image",
         "metadata": "",
@@ -1298,7 +1189,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Green Apple.png",
         "kind": "image",
         "metadata": "",
@@ -1311,7 +1201,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Leamon.png",
         "kind": "image",
         "metadata": "",
@@ -1324,7 +1213,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Strawberry.png",
         "kind": "image",
         "metadata": "",
@@ -1337,7 +1225,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bronze Pickaxe.png",
         "kind": "image",
         "metadata": "",
@@ -1350,7 +1237,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bronze Shovel.png",
         "kind": "image",
         "metadata": "",
@@ -1363,7 +1249,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Turkey Leg.png",
         "kind": "image",
         "metadata": "",
@@ -1376,7 +1261,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Anvil.png",
         "kind": "image",
         "metadata": "",
@@ -1389,7 +1273,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bronze Hammer.png",
         "kind": "image",
         "metadata": "",
@@ -1402,7 +1285,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Pickaxe.png",
         "kind": "image",
         "metadata": "",
@@ -1415,7 +1297,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Shovel.png",
         "kind": "image",
         "metadata": "",
@@ -1428,7 +1309,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Arrow.png",
         "kind": "image",
         "metadata": "",
@@ -1441,7 +1321,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Hammer.png",
         "kind": "image",
         "metadata": "",
@@ -1454,7 +1333,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bardiche.png",
         "kind": "image",
         "metadata": "",
@@ -1467,7 +1345,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bomb.png",
         "kind": "image",
         "metadata": "",
@@ -1480,7 +1357,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bronze Bardiche.png",
         "kind": "image",
         "metadata": "",
@@ -1493,7 +1369,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bronze Battle Axe.png",
         "kind": "image",
         "metadata": "",
@@ -1506,7 +1381,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Battle Axe.png",
         "kind": "image",
         "metadata": "",
@@ -1519,7 +1393,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bronze Dagger.png",
         "kind": "image",
         "metadata": "",
@@ -1532,7 +1405,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bronze Sword.png",
         "kind": "image",
         "metadata": "",
@@ -1545,7 +1417,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Dagger.png",
         "kind": "image",
         "metadata": "",
@@ -1558,7 +1429,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Crossbow.png",
         "kind": "image",
         "metadata": "",
@@ -1571,7 +1441,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Wooden Arrow.png",
         "kind": "image",
         "metadata": "",
@@ -1584,7 +1453,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Wooden Bow.png",
         "kind": "image",
         "metadata": "",
@@ -1597,7 +1465,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/boomerang.png",
         "kind": "image",
         "metadata": "",
@@ -1610,7 +1477,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Metal Bow.png",
         "kind": "image",
         "metadata": "",
@@ -1623,7 +1489,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Sword.png",
         "kind": "image",
         "metadata": "",
@@ -1636,7 +1501,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Wooden Crossbow.png",
         "kind": "image",
         "metadata": "",
@@ -1649,7 +1513,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Green Apple2.png",
         "kind": "image",
         "metadata": "",
@@ -1662,7 +1525,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Leaf.png",
         "kind": "image",
         "metadata": "",
@@ -1675,7 +1537,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Wood.png",
         "kind": "image",
         "metadata": "",
@@ -1688,7 +1549,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "bigpad.png",
         "kind": "image",
         "metadata": "",
@@ -1697,7 +1557,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Bigpad_large.png",
         "kind": "image",
         "metadata": "",
@@ -1706,7 +1565,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Bigpad large2.png",
         "kind": "image",
         "metadata": "",
@@ -1715,7 +1573,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Bigpad large3.png",
         "kind": "image",
         "metadata": "",
@@ -1724,7 +1581,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Bigpad large4.png",
         "kind": "image",
         "metadata": "",
@@ -1733,7 +1589,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "npc1.png",
         "kind": "image",
         "metadata": "",
@@ -1742,7 +1597,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Purple Button With Stone Frame_Hovered.png",
         "kind": "image",
         "metadata": "",
@@ -1755,7 +1609,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Purple Button With Stone Frame_Idle.png",
         "kind": "image",
         "metadata": "",
@@ -1768,7 +1621,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Purple Button With Stone Frame_Pressed.png",
         "kind": "image",
         "metadata": "",
@@ -1792,7 +1644,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1812,7 +1663,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "npc3.png",
         "kind": "image",
         "metadata": "",
@@ -1821,7 +1671,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "npc4.png",
         "kind": "image",
         "metadata": "",
@@ -1830,7 +1679,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "npc2.png",
         "kind": "image",
         "metadata": "",
@@ -1839,7 +1687,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "prof1.png",
         "kind": "image",
         "metadata": "",
@@ -1848,7 +1695,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "prof2.png",
         "kind": "image",
         "metadata": "",
@@ -1857,7 +1703,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Transparent Button With White Blue Border_Hovered.png",
         "kind": "image",
         "metadata": "",
@@ -1870,7 +1715,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Transparent Button With White Blue Border_Idle.png",
         "kind": "image",
         "metadata": "",
@@ -1883,7 +1727,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Transparent Button With White Blue Border_Pressed.png",
         "kind": "image",
         "metadata": "",
@@ -1907,7 +1750,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "npc5.png",
         "kind": "image",
         "metadata": "",
@@ -1916,7 +1758,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "npc6.png",
         "kind": "image",
         "metadata": "",
@@ -1925,7 +1766,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "npc7.png",
         "kind": "image",
         "metadata": "",
@@ -1934,7 +1774,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite5.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1943,7 +1782,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1952,7 +1790,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "prof3.png",
         "kind": "image",
         "metadata": "",
@@ -1961,7 +1798,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Chest.png",
         "kind": "image",
         "metadata": "",
@@ -1974,7 +1810,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Skelet_Idle_1.png",
         "kind": "image",
         "metadata": "",
@@ -1987,7 +1822,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Skelet_Idle_2.png",
         "kind": "image",
         "metadata": "",
@@ -2000,7 +1834,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Skelet_Idle_3.png",
         "kind": "image",
         "metadata": "",
@@ -2013,7 +1846,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Skelet_Idle_4.png",
         "kind": "image",
         "metadata": "",
@@ -2026,7 +1858,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Skelet_Run_1.png",
         "kind": "image",
         "metadata": "",
@@ -2039,7 +1870,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Skelet_Run_2.png",
         "kind": "image",
         "metadata": "",
@@ -2052,7 +1882,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Skelet_Run_3.png",
         "kind": "image",
         "metadata": "",
@@ -2065,7 +1894,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Skelet_Run_4.png",
         "kind": "image",
         "metadata": "",
@@ -2076,6 +1904,14 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Characters/a60cee26b594e6b643b96243c8aea5bbb3897df30a1155794d4b615ee59954cb_Skelet_Run_4.png",
           "name": "Skelet_Run_4.png"
         }
+      },
+      {
+        "file": "NPC_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NPC_2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2162,8 +1998,143 @@
         {
           "type": "number",
           "value": 10
+        },
+        {
+          "type": "number",
+          "value": 0
         }
       ]
+    },
+    {
+      "name": "NameList",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "Karim"
+        },
+        {
+          "type": "string",
+          "value": "Ronja"
+        },
+        {
+          "type": "string",
+          "value": "Meryem"
+        },
+        {
+          "type": "string",
+          "value": "Merve"
+        },
+        {
+          "type": "string",
+          "value": "Sina"
+        },
+        {
+          "type": "string",
+          "value": "Franziska"
+        },
+        {
+          "type": "string",
+          "value": "Helene"
+        },
+        {
+          "type": "string",
+          "value": "Pauline"
+        },
+        {
+          "type": "string",
+          "value": "Anke"
+        },
+        {
+          "type": "string",
+          "value": "Robert"
+        },
+        {
+          "type": "string",
+          "value": "Fatima"
+        },
+        {
+          "type": "string",
+          "value": "Abdul"
+        },
+        {
+          "type": "string",
+          "value": "Mohammed"
+        },
+        {
+          "type": "string",
+          "value": "Enver"
+        },
+        {
+          "type": "string",
+          "value": "Berkay"
+        },
+        {
+          "type": "string",
+          "value": "Özhan"
+        },
+        {
+          "type": "string",
+          "value": "Denis"
+        },
+        {
+          "type": "string",
+          "value": "Markus"
+        },
+        {
+          "type": "string",
+          "value": "Lea"
+        },
+        {
+          "type": "string",
+          "value": "Sarah"
+        },
+        {
+          "type": "string",
+          "value": "Martina"
+        },
+        {
+          "type": "string",
+          "value": "Lisa"
+        },
+        {
+          "type": "string",
+          "value": "Lena"
+        },
+        {
+          "type": "string",
+          "value": "Ava"
+        },
+        {
+          "type": "string",
+          "value": "Eva"
+        },
+        {
+          "type": "string",
+          "value": "Tarek"
+        },
+        {
+          "type": "string",
+          "value": "Hanna"
+        },
+        {
+          "type": "string",
+          "value": "Lotte"
+        },
+        {
+          "type": "string",
+          "value": "Erin"
+        },
+        {
+          "type": "string",
+          "value": "Maya"
+        }
+      ]
+    },
+    {
+      "name": "TempName",
+      "type": "string",
+      "value": "Unbenannt"
     }
   ],
   "layouts": [
@@ -2256,6 +2227,11 @@
           "name": "pathfinding_wait",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "randomIndex",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -10031,6 +10007,7 @@
               "value": 0
             },
             {
+              "folded": true,
               "name": "Antworten",
               "type": "array",
               "children": [
@@ -10063,6 +10040,11 @@
                   "value": "\"Ach nee\""
                 }
               ]
+            },
+            {
+              "name": "DataTable",
+              "type": "array",
+              "children": []
             }
           ],
           "effects": [],
@@ -10741,6 +10723,26 @@
               "name": "Befragt",
               "type": "boolean",
               "value": false
+            },
+            {
+              "name": "Happiness",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Handedness",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Age",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "StatsExamScore",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [
@@ -10843,7 +10845,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "npc4.png",
+                      "image": "NPC_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11410,7 +11412,178 @@
           "texture": "Grass1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Test",
+              "type": "number",
+              "value": 100
+            },
+            {
+              "folded": true,
+              "name": "NameList",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "Paul"
+                },
+                {
+                  "type": "string",
+                  "value": "Marie"
+                },
+                {
+                  "type": "string",
+                  "value": "Karim"
+                },
+                {
+                  "type": "string",
+                  "value": "Alessya"
+                },
+                {
+                  "type": "string",
+                  "value": "Hanna"
+                },
+                {
+                  "type": "string",
+                  "value": "Simon"
+                },
+                {
+                  "type": "string",
+                  "value": "Leyla"
+                },
+                {
+                  "type": "string",
+                  "value": "Sophie"
+                },
+                {
+                  "type": "string",
+                  "value": "Lena"
+                },
+                {
+                  "type": "string",
+                  "value": "Meryem"
+                },
+                {
+                  "type": "string",
+                  "value": "Clara"
+                },
+                {
+                  "type": "string",
+                  "value": "Abdul"
+                },
+                {
+                  "type": "string",
+                  "value": "Kate"
+                },
+                {
+                  "type": "string",
+                  "value": "Bianca"
+                },
+                {
+                  "type": "string",
+                  "value": "Radek"
+                },
+                {
+                  "type": "string",
+                  "value": "Ruth"
+                },
+                {
+                  "type": "string",
+                  "value": "Lissi"
+                },
+                {
+                  "type": "string",
+                  "value": "Ari"
+                },
+                {
+                  "type": "string",
+                  "value": "Lindsay"
+                },
+                {
+                  "type": "string",
+                  "value": "Carla"
+                },
+                {
+                  "type": "string",
+                  "value": "Helene"
+                },
+                {
+                  "type": "string",
+                  "value": "Pauline"
+                },
+                {
+                  "type": "string",
+                  "value": "Jonathan"
+                },
+                {
+                  "type": "string",
+                  "value": "Max"
+                },
+                {
+                  "type": "string",
+                  "value": "Roman"
+                },
+                {
+                  "type": "string",
+                  "value": "Beate"
+                },
+                {
+                  "type": "string",
+                  "value": "Kristina"
+                },
+                {
+                  "type": "string",
+                  "value": "Fatima"
+                },
+                {
+                  "type": "string",
+                  "value": "Larissa"
+                },
+                {
+                  "type": "string",
+                  "value": "Chris"
+                },
+                {
+                  "type": "string",
+                  "value": "Robert"
+                },
+                {
+                  "type": "string",
+                  "value": "Annika"
+                },
+                {
+                  "type": "string",
+                  "value": "Lotta"
+                },
+                {
+                  "type": "string",
+                  "value": "Zeynep"
+                },
+                {
+                  "type": "string",
+                  "value": "Thomas"
+                },
+                {
+                  "type": "string",
+                  "value": "Mohammed"
+                },
+                {
+                  "type": "string",
+                  "value": "Merve"
+                }
+              ]
+            },
+            {
+              "name": "randomIndex",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "TempName",
+              "type": "string",
+              "value": "0"
+            }
+          ],
           "effects": [],
           "behaviors": []
         },
@@ -17996,6 +18169,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -18006,10 +18181,8 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 200,
-              "name": "Pathfinding",
               "rotateObject": true,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             }
           ],
           "animations": [
@@ -18549,6 +18722,7 @@
           "effects": [],
           "behaviors": [
             {
+              "isFolded": true,
               "name": "DrawPathfinding",
               "type": "DrawPathfinding::DrawPathfinding",
               "LoopIndex": 0,
@@ -19377,6 +19551,87 @@
             }
           ],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "NPC",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "TempName",
+                    "=",
+                    "ArrayTools::GlobalRandomStringInArray(NameList)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DebuggerTools::ConsoleLog"
+                  },
+                  "parameters": [
+                    "NPC.Name",
+                    "\"info\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DebuggerTools::ConsoleLog"
+                  },
+                  "parameters": [
+                    "TempName",
+                    "\"info\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Name",
+                    "=",
+                    "TempName"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Age",
+                    "=",
+                    "RandomInRange(17,30)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Happiness",
+                    "=",
+                    "BetterRandomness::RandomNormal(50,5)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Handedness",
+                    "=",
+                    "RandomInRange(0,1)"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -21218,6 +21473,17 @@
                 "=",
                 "100"
               ]
+            },
+            {
+              "type": {
+                "value": "BetterRandomness::AddRow"
+              },
+              "parameters": [
+                "",
+                "npc_antwort",
+                "NPC.Name",
+                ""
+              ]
             }
           ]
         },
@@ -21298,18 +21564,7 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "DebuggerTools::ConsoleLog"
-              },
-              "parameters": [
-                "ToString(BetterRandomness::Function(5, 0, 1, 10))",
-                "\"info\"",
-                ""
-              ]
-            }
-          ]
+          "actions": []
         },
         {
           "colorB": 228,
@@ -21346,8 +21601,34 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"x\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BetterRandomness::DownloadFile"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -26546,6 +26827,7 @@
       "category": "Advanced",
       "extensionNamespace": "",
       "fullName": "Pathfinding painter",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXJlc2lzdG9yLW5vZGVzIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIsMTFIMy42N0M0LjA4LDkuODMgNS4xOSw5IDYuNSw5QTMsMyAwIDAsMSA5LjUsMTJDOS41LDEyLjY1IDkuMjksMTMuMjUgOC45NCwxMy43NEwxMC4wNywxNS4zNUwxMy4xMSw0TDE0LjYxLDYuMTNMMTYuNyw5LjExTDE3LjUsOUMxOC44MSw5IDE5LjkyLDkuODMgMjAuMzMsMTFIMjJWMTNIMjAuMzNDMTkuOTIsMTQuMTcgMTguODEsMTUgMTcuNSwxNUEzLDMgMCAwLDEgMTQuNSwxMkMxNC41LDExLjM1IDE0LjcxLDEwLjc1IDE1LjA2LDEwLjI2TDEzLjkzLDguNjVMMTAuODksMjBMNy4zLDE0Ljg5QzcuMDUsMTQuOTYgNi43OCwxNSA2LjUsMTVDNS4xOSwxNSA0LjA4LDE0LjE3IDMuNjcsMTNIMlYxMU0xNy41LDEwLjVBMS41LDEuNSAwIDAsMCAxNiwxMkExLjUsMS41IDAgMCwwIDE3LjUsMTMuNUExLjUsMS41IDAgMCwwIDE5LDEyQTEuNSwxLjUgMCAwLDAgMTcuNSwxMC41TTYuNSwxMC41QTEuNSwxLjUgMCAwLDAgNSwxMkExLjUsMS41IDAgMCwwIDYuNSwxMy41QTEuNSwxLjUgMCAwLDAgOCwxMkExLjUsMS41IDAgMCwwIDYuNSwxMC41WiIgLz48L3N2Zz4=",
       "name": "DrawPathfinding",
@@ -26892,6 +27174,7 @@
       "category": "User interface",
       "extensionNamespace": "",
       "fullName": "Button states and effects",
+      "gdevelopVersion": "",
       "helpPath": "/objects/button",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWdlc3R1cmUtdGFwLWJ1dHRvbiIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xMyA1QzE1LjIxIDUgMTcgNi43OSAxNyA5QzE3IDEwLjUgMTYuMiAxMS43NyAxNSAxMi40NlYxMS4yNEMxNS42MSAxMC42OSAxNiA5Ljg5IDE2IDlDMTYgNy4zNCAxNC42NiA2IDEzIDZTMTAgNy4zNCAxMCA5QzEwIDkuODkgMTAuMzkgMTAuNjkgMTEgMTEuMjRWMTIuNDZDOS44IDExLjc3IDkgMTAuNSA5IDlDOSA2Ljc5IDEwLjc5IDUgMTMgNU0yMCAyMC41QzE5Ljk3IDIxLjMyIDE5LjMyIDIxLjk3IDE4LjUgMjJIMTNDMTIuNjIgMjIgMTIuMjYgMjEuODUgMTIgMjEuNTdMOCAxNy4zN0w4Ljc0IDE2LjZDOC45MyAxNi4zOSA5LjIgMTYuMjggOS41IDE2LjI4SDkuN0wxMiAxOFY5QzEyIDguNDUgMTIuNDUgOCAxMyA4UzE0IDguNDUgMTQgOVYxMy40N0wxNS4yMSAxMy42TDE5LjE1IDE1Ljc5QzE5LjY4IDE2LjAzIDIwIDE2LjU2IDIwIDE3LjE0VjIwLjVNMjAgMkg0QzIuOSAyIDIgMi45IDIgNFYxMkMyIDEzLjExIDIuOSAxNCA0IDE0SDhWMTJMNCAxMkw0IDRIMjBMMjAgMTJIMThWMTRIMjBWMTMuOTZMMjAuMDQgMTRDMjEuMTMgMTQgMjIgMTMuMDkgMjIgMTJWNEMyMiAyLjkgMjEuMTEgMiAyMCAyWiIgLz48L3N2Zz4=",
       "name": "ButtonStates",
@@ -33032,6 +33315,7 @@
       "category": "Camera",
       "extensionNamespace": "",
       "fullName": "Camera shake",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXZlY3Rvci1kaWZmZXJlbmNlLWFiIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTMsMUMxLjg5LDEgMSwxLjg5IDEsM1Y1SDNWM0g1VjFIM003LDFWM0gxMFYxSDdNMTIsMVYzSDE0VjVIMTZWM0MxNiwxLjg5IDE1LjExLDEgMTQsMUgxMk0xLDdWMTBIM1Y3SDFNMTQsN0MxNCw3IDE0LDExLjY3IDE0LDE0QzExLjY3LDE0IDcsMTQgNywxNEM3LDE0IDcsMTggNywyMEM3LDIxLjExIDcuODksMjIgOSwyMkgyMEMyMS4xMSwyMiAyMiwyMS4xMSAyMiwyMFY5QzIyLDcuODkgMjEuMTEsNyAyMCw3QzE4LDcgMTQsNyAxNCw3TTE2LDlIMjBWMjBIOVYxNkgxNEMxNS4xMSwxNiAxNiwxNS4xMSAxNiwxNFY5TTEsMTJWMTRDMSwxNS4xMSAxLjg5LDE2IDMsMTZINVYxNEgzVjEySDFaIiAvPjwvc3ZnPg==",
       "name": "CameraShake",
@@ -36606,6 +36890,7 @@
       "category": "General",
       "extensionNamespace": "",
       "fullName": "Array tools",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPGxpbmUgY2xhc3M9InN0MCIgeDE9IjExIiB5MT0iNyIgeDI9IjI5IiB5Mj0iNyIvPg0KPGxpbmUgY2xhc3M9InN0MCIgeDE9IjExIiB5MT0iMTYiIHgyPSIyMiIgeTI9IjE2Ii8+DQo8bGluZSBjbGFzcz0ic3QwIiB4MT0iMTEiIHkxPSIyNSIgeDI9IjI5IiB5Mj0iMjUiLz4NCjxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjUiIGN5PSI3IiByPSIyIi8+DQo8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSI1IiBjeT0iMTYiIHI9IjIiLz4NCjxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjUiIGN5PSIyNSIgcj0iMiIvPg0KPC9zdmc+DQo=",
       "name": "ArrayTools",
@@ -41021,6 +41306,7 @@
       "category": "User interface",
       "extensionNamespace": "",
       "fullName": "Cursor type",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWN1cnNvci1kZWZhdWx0LW91dGxpbmUiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAuMDcsMTQuMjdDMTAuNTcsMTQuMDMgMTEuMTYsMTQuMjUgMTEuNCwxNC43NUwxMy43LDE5Ljc0TDE1LjUsMTguODlMMTMuMTksMTMuOTFDMTIuOTUsMTMuNDEgMTMuMTcsMTIuODEgMTMuNjcsMTIuNThMMTMuOTUsMTIuNUwxNi4yNSwxMi4wNUw4LDUuMTJWMTUuOUw5LjgyLDE0LjQzTDEwLjA3LDE0LjI3TTEzLjY0LDIxLjk3QzEzLjE0LDIyLjIxIDEyLjU0LDIyIDEyLjMxLDIxLjVMMTAuMTMsMTYuNzZMNy42MiwxOC43OEM3LjQ1LDE4LjkyIDcuMjQsMTkgNywxOUExLDEgMCAwLDEgNiwxOFYzQTEsMSAwIDAsMSA3LDJDNy4yNCwyIDcuNDcsMi4wOSA3LjY0LDIuMjNMNy42NSwyLjIyTDE5LjE0LDExLjg2QzE5LjU3LDEyLjIyIDE5LjYyLDEyLjg1IDE5LjI3LDEzLjI3QzE5LjEyLDEzLjQ1IDE4LjkxLDEzLjU3IDE4LjcsMTMuNjFMMTUuNTQsMTQuMjNMMTcuNzQsMTguOTZDMTgsMTkuNDYgMTcuNzYsMjAuMDUgMTcuMjYsMjAuMjhMMTMuNjQsMjEuOTdaIiAvPjwvc3ZnPg==",
       "name": "CursorType",
@@ -41348,6 +41634,7 @@
       "category": "",
       "extensionNamespace": "",
       "fullName": "",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "",
       "name": "BarplotExtension",
@@ -41713,6 +42000,7 @@
       "category": "Movement",
       "extensionNamespace": "",
       "fullName": "Curved movement",
+      "gdevelopVersion": "",
       "helpPath": "/extensions/curved-movement/details/",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQoJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO30NCgkuc3Qye2ZpbGw6bm9uZTtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLWRhc2hhcnJheTo2LDY7fQ0KCS5zdDN7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtZGFzaGFycmF5OjQsNDt9DQoJLnN0NHtmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7fQ0KCS5zdDV7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1kYXNoYXJyYXk6My4xMDgxLDMuMTA4MTt9DQoJDQoJCS5zdDZ7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDtzdHJva2UtZGFzaGFycmF5OjQsMzt9DQo8L3N0eWxlPg0KPHJlY3QgeD0iMyIgeT0iMjUiIGNsYXNzPSJzdDAiIHdpZHRoPSI0IiBoZWlnaHQ9IjQiLz4NCjxyZWN0IHg9IjI1IiB5PSIzIiBjbGFzcz0ic3QwIiB3aWR0aD0iNCIgaGVpZ2h0PSI0Ii8+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjUsNUwyNSw1QzE0LDUsNSwxNCw1LDI1djAiLz4NCjwvc3ZnPg0K",
       "name": "CurvedMovement",
@@ -49660,6 +49948,7 @@
       "category": "Input",
       "extensionNamespace": "",
       "fullName": "Multitouch joystick and buttons (sprite)",
+      "gdevelopVersion": "",
       "helpPath": "/objects/multitouch-joystick",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPGNpcmNsZSBjbGFzcz0ic3QwIiBjeD0iMTYiIGN5PSIxNiIgcj0iMTMiLz4NCjxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjI4LjQsMTIgMjAsMTIgMjAsMy42ICIvPg0KPHBvbHlsaW5lIGNsYXNzPSJzdDAiIHBvaW50cz0iMjAsMjguNCAyMCwyMCAyOC40LDIwICIvPg0KPHBvbHlsaW5lIGNsYXNzPSJzdDAiIHBvaW50cz0iMy42LDIwIDEyLDIwIDEyLDI4LjQgIi8+DQo8cG9seWxpbmUgY2xhc3M9InN0MCIgcG9pbnRzPSIxMiwzLjYgMTIsMTIgMy42LDEyICIvPg0KPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIxNiw2IDE2LjcsNyAxNS4zLDcgIi8+DQo8cG9seWdvbiBjbGFzcz0ic3QwIiBwb2ludHM9IjE2LDI2IDE1LjMsMjUgMTYuNywyNSAiLz4NCjxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iNiwxNiA3LDE1LjMgNywxNi43ICIvPg0KPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIyNiwxNiAyNSwxNi43IDI1LDE1LjMgIi8+DQo8L3N2Zz4NCg==",
       "name": "SpriteMultitouchJoystick",
@@ -54466,6 +54755,7 @@
       "category": "User interface",
       "extensionNamespace": "",
       "fullName": "Resource bar (continuous)",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBkPSJNMjgsMTJIMTRINGMtMi4yLDAtNCwxLjgtNCw0czEuOCw0LDQsNGgxMGgxNGMyLjIsMCw0LTEuOCw0LTRTMzAuMiwxMiwyOCwxMnogTTQsMThjLTEuMSwwLTItMC45LTItMnMwLjktMiwyLTJoMTANCgljMS4xLDAsMiwwLjksMiwycy0wLjksMi0yLDJINHoiLz4NCjwvc3ZnPg0K",
       "name": "PanelSpriteContinuousBar",
@@ -57032,6 +57322,7 @@
       "category": "",
       "extensionNamespace": "",
       "fullName": "Flash object",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWZsYXNoLW91dGxpbmUiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNNywySDE3TDEzLjUsOUgxN0wxMCwyMlYxNEg3VjJNOSw0VjEySDEyVjE0LjY2TDE0LDExSDEwLjI0TDEzLjc2LDRIOVoiIC8+PC9zdmc+",
       "name": "Flash",
@@ -59721,6 +60012,7 @@
       "category": "Game mechanic",
       "extensionNamespace": "",
       "fullName": "Health points and damage",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWhlYXJ0LWhhbGYtZnVsbCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNi41LDVDMTUsNSAxMy41OCw1LjkxIDEzLDcuMlYxNy43NEMxNy4yNSwxMy44NyAyMCwxMS4yIDIwLDguNUMyMCw2LjUgMTguNSw1IDE2LjUsNU0xNi41LDNDMTkuNTgsMyAyMiw1LjQxIDIyLDguNUMyMiwxMi4yNyAxOC42LDE1LjM2IDEzLjQ1LDIwLjAzTDEyLDIxLjM1TDEwLjU1LDIwLjAzQzUuNCwxNS4zNiAyLDEyLjI3IDIsOC41QzIsNS40MSA0LjQyLDMgNy41LDNDOS4yNCwzIDEwLjkxLDMuODEgMTIsNS4wOEMxMy4wOSwzLjgxIDE0Ljc2LDMgMTYuNSwzWiIgLz48L3N2Zz4=",
       "name": "Health",
@@ -64635,6 +64927,7 @@
       "category": "Visual effect",
       "extensionNamespace": "",
       "fullName": "Flash and transition painter",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLW1vdmllLWZpbHRlciIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xOCA0TDIwIDdIMTdMMTUgNEgxM0wxNSA3SDEyTDEwIDRIOEwxMCA3SDdMNSA0SDRDMi45IDQgMiA0LjkgMiA2TDIgMThDMiAxOS4xIDIuOSAyMCA0IDIwSDIwQzIxLjEgMjAgMjIgMTkuMSAyMiAxOFY0SDE4TTExLjI1IDE1LjI1TDEwIDE4TDguNzUgMTUuMjVMNiAxNEw4Ljc1IDEyLjc1TDEwIDEwTDExLjI1IDEyLjc1TDE0IDE0TDExLjI1IDE1LjI1TTE2Ljk0IDExLjk0TDE2IDE0TDE1LjA2IDExLjk0TDEzIDExTDE1LjA2IDEwLjA2TDE2IDhMMTYuOTQgMTAuMDZMMTkgMTFMMTYuOTQgMTEuOTRaIiAvPjwvc3ZnPg==",
       "name": "FlashTransitionPainter",
@@ -66270,6 +66563,7 @@
       "category": "User interface",
       "extensionNamespace": "",
       "fullName": "Panel sprite button",
+      "gdevelopVersion": "",
       "helpPath": "/objects/button",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTI5LDIzSDNjLTEuMSwwLTItMC45LTItMlYxMWMwLTEuMSwwLjktMiwyLTJoMjZjMS4xLDAsMiwwLjksMiwydjEwQzMxLDIyLjEsMzAuMSwyMywyOSwyM3oiLz4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMywxOUwxMywxOWMtMS4xLDAtMi0wLjktMi0ydi0yYzAtMS4xLDAuOS0yLDItMmgwYzEuMSwwLDIsMC45LDIsMnYyQzE1LDE4LjEsMTQuMSwxOSwxMywxOXoiLz4NCjxsaW5lIGNsYXNzPSJzdDAiIHgxPSIxOCIgeTE9IjEzIiB4Mj0iMTgiIHkyPSIxOSIvPg0KPGxpbmUgY2xhc3M9InN0MCIgeDE9IjIxIiB5MT0iMTMiIHgyPSIxOCIgeTI9IjE3Ii8+DQo8bGluZSBjbGFzcz0ic3QwIiB4MT0iMjEiIHkxPSIxOSIgeDI9IjE5IiB5Mj0iMTYiLz4NCjwvc3ZnPg0K",
       "name": "PanelSpriteButton",
@@ -69022,6 +69316,7 @@
       "category": "Visual effect",
       "extensionNamespace": "",
       "fullName": "Shake object",
+      "gdevelopVersion": "",
       "helpPath": "https://victrisgames.itch.io/gdevelop-camera-shake-example",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWFycm93LWFsbCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xMywxMUgxOEwxNi41LDkuNUwxNy45Miw4LjA4TDIxLjg0LDEyTDE3LjkyLDE1LjkyTDE2LjUsMTQuNUwxOCwxM0gxM1YxOEwxNC41LDE2LjVMMTUuOTIsMTcuOTJMMTIsMjEuODRMOC4wOCwxNy45Mkw5LjUsMTYuNUwxMSwxOFYxM0g2TDcuNSwxNC41TDYuMDgsMTUuOTJMMi4xNiwxMkw2LjA4LDguMDhMNy41LDkuNUw2LDExSDExVjZMOS41LDcuNUw4LjA4LDYuMDhMMTIsMi4xNkwxNS45Miw2LjA4TDE0LjUsNy41TDEzLDZWMTFaIiAvPjwvc3ZnPg==",
       "name": "ShakeObject",
@@ -73426,6 +73721,7 @@
       "category": "Camera",
       "extensionNamespace": "",
       "fullName": "Smooth Camera",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQoJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30NCjwvc3R5bGU+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjQsMTNoLTZjLTEuMSwwLTItMC45LTItMlY1YzAtMS4xLDAuOS0yLDItMmg2YzEuMSwwLDIsMC45LDIsMnY2QzI2LDEyLjEsMjUuMSwxMywyNCwxM3oiLz4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yNiw4djEwYzAsMS4xLTAuOSwyLTIsMkg4Yy0xLjEsMC0yLTAuOS0yLTJWOGMwLTEuMSwwLjktMiwyLTJoOCIvPg0KPGNpcmNsZSBjbGFzcz0ic3QwIiBjeD0iMjEiIGN5PSI4IiByPSIyIi8+DQo8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSIxMSIgY3k9IjE2IiByPSIxIi8+DQo8cmVjdCB4PSI5IiB5PSI5IiBjbGFzcz0ic3QwIiB3aWR0aD0iNCIgaGVpZ2h0PSIzIi8+DQo8cG9seWxpbmUgY2xhc3M9InN0MCIgcG9pbnRzPSIyMSwyOSAyMSwyOSAxMSwyOSAxMSwyOSAiLz4NCjxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjE4LDIwIDE4LDI5IDE0LDI5IDE0LDIwICIvPg0KPHJlY3QgeD0iNyIgeT0iMyIgY2xhc3M9InN0MCIgd2lkdGg9IjQiIGhlaWdodD0iMyIvPg0KPC9zdmc+DQo=",
       "name": "SmoothCamera",
@@ -78801,6 +79097,7 @@
       "category": "User interface",
       "extensionNamespace": "",
       "fullName": "Auto typing animation for text (\"typewriter\" effect)",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXR5cGV3cml0ZXIiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjAgMTNIMTZDMTYgMTQuMSAxNS4xIDE1IDE0IDE1SDEwQzguOSAxNSA4IDE0LjEgOCAxM0g0TDIgMThWMjBDMiAyMS4xIDIuOSAyMiA0IDIySDIwQzIxLjEgMjIgMjIgMjEuMSAyMiAyMFYxOE02IDIwQzUuMTEgMjAgNC42NiAxOC45MiA1LjI5IDE4LjI5QzUuOTIgMTcuNjYgNyAxOC4xMSA3IDE5QzcgMTkuNTUgNi41NSAyMCA2IDIwTTEwIDIwQzkuMTEgMjAgOC42NiAxOC45MiA5LjI5IDE4LjI5QzkuOTIgMTcuNjYgMTEgMTguMTEgMTEgMTlDMTEgMTkuNTUgMTAuNTUgMjAgMTAgMjBNMTQgMjBDMTMuMTEgMjAgMTIuNjYgMTguOTIgMTMuMjkgMTguMjlDMTMuOTIgMTcuNjYgMTUgMTguMTEgMTUgMTlDMTUgMTkuNTUgMTQuNTUgMjAgMTQgMjBNMTggMjBDMTcuMTEgMjAgMTYuNjYgMTguOTIgMTcuMjkgMTguMjlDMTcuOTIgMTcuNjYgMTkgMTguMTEgMTkgMTlDMTkgMTkuNTUgMTguNTUgMjAgMTggMjBNMTggMTBWM0g2VjEwSDNWMTJIMjFWMTBNOCA1SDE2VjZIOE04IDdIMTRWOEg4IiAvPjwvc3ZnPg==",
       "name": "AutoTyping",
@@ -81426,6 +81723,7 @@
       "category": "",
       "extensionNamespace": "",
       "fullName": "RandomGauss",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "",
       "name": "BetterRandomness",
@@ -81531,6 +81829,116 @@
               "description": "",
               "name": "sd",
               "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Download Table as File",
+          "fullName": "Download Table as File",
+          "functionType": "Action",
+          "name": "DownloadFile",
+          "sentence": "Löse einen Datei-Download aus",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "/*",
+                "// Create a Blob object with the numberTable content",
+                "let playerObject = runtimeScene.getObjects(\"Player\")[0]; // Get the first instance of Player",
+                "",
+                "let werteVar = playerObject.getVariables().get(\"gesammelte_werte\"); // Get the \"werte\" array variable",
+                "",
+                "// Convert the structure variable to a JavaScript array of numbers",
+                "let arraySize = werteVar.getChildrenCount(); // Get the number of elements",
+                "let numberArray = [];",
+                "",
+                "for (let i = 0; i < arraySize; i++) {",
+                "    let item = werteVar.getChild(i); // Access the indexed child",
+                "    numberArray.push(item.getAsNumber()); // Convert to number and store",
+                "}",
+                "",
+                "// Convert the array to a CSV string",
+                "let csvContent = numberArray.join(\",\"); // Create CSV format (comma-separated)",
+                "",
+                "// Convert CSV string to a Blob",
+                "let blob = new Blob([csvContent], { type: \"text/csv\" });",
+                "*/",
+                "//const blob = new Blob(\"1\", {tye: 'text/plain'});",
+                "",
+                "let playerObject = runtimeScene.getObjects(\"Player\")[0]; // Get the first instance of Player",
+                "",
+                "let dataTable = playerObject.getVariables().get(\"DataTable\");",
+                "let rowCount = dataTable.getChildrenCount();",
+                "let csvContent = \"ID,Name,Score\\n\";",
+                "",
+                "for (let i = 0; i < rowCount; i++) {",
+                "    let row = dataTable.getChild(i);",
+                "    let id = i+1; //row.getChild(\"ID\").getAsNumber();",
+                "    let name = row.getChild(\"Name\").getAsString();",
+                "    let score = row.getChild(\"Score\").getAsNumber();",
+                "",
+                "    csvContent += `${id},${name},${score}\\n`;",
+                "}",
+                "",
+                "// Convert CSV string to a Blob",
+                "let blob = new Blob([csvContent], { type: \"text/csv\" });",
+                "",
+                "// -------- DOWNLOAD LINK ------",
+                "",
+                "// Create an invisible download link",
+                "const link = document.createElement('a');",
+                "link.href = URL.createObjectURL(blob);",
+                "link.download = 'numbers.txt'; // File name for the downloaded file",
+                "link.click(); // Simulate a click to start the download"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "fullName": "Add row to Player's data table",
+          "functionType": "Action",
+          "name": "AddRow",
+          "sentence": "AddRow mit Werten _PARAM1_ ",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "runtimeScene.setBackgroundColor(100,100,240);",
+                "",
+                "let playerObject = runtimeScene.getObjects(\"Player\")[0]; // Get the first instance of Player",
+                "",
+                "let dataTable = playerObject.getVariables().get(\"DataTable\"); // Get the data table variable",
+                "",
+                "// Create a new structure (row)",
+                "let newRow = new gdjs.Variable();",
+                "newRow.getChild(\"ID\").setNumber(1);",
+                "newRow.getChild(\"Name\").setString(eventsFunctionContext.getArgument(\"Name\") );",
+                "newRow.getChild(\"Score\").setNumber( eventsFunctionContext.getArgument(\"score\") );",
+                "",
+                "// Append to the data table (array)",
+                "dataTable.pushVariableCopy(newRow);"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "",
+              "name": "score",
+              "type": "expression"
+            },
+            {
+              "description": "",
+              "name": "Name",
+              "type": "string"
             }
           ],
           "objectGroups": []
@@ -81694,6 +82102,5 @@
       ]
     }
   ],
-  "externalLayouts": [],
-  "externalSourceFiles": []
+  "externalLayouts": []
 }
