@@ -16,3 +16,10 @@ Set in a **classic top-down RPG-style world**, you play as a student exploring t
 Traditional statistics courses can be dry and theoretical, but *StatsQuest* makes learning hands-on and engaging. Whether you're a beginner or need a refresher, this game will help you develop **practical statistical skills** while having fun!  
 
 Join us in the world of *StatsQuest* and level up your statistics skills! 🚀
+
+## Authors
+
+StatsQuest was designed and written by 
+- Andreas Brandmaier (game play, programming, & design)
+- Anke Schneider (design & game play)
+
