@@ -1671,18 +1671,18 @@
         "userAdded": false
       },
       {
-        "file": "npc4.png",
+        "file": "NPC_4.png",
         "kind": "image",
         "metadata": "",
-        "name": "npc4.png",
+        "name": "NPC_4.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "npc2.png",
+        "file": "NPC_2.png",
         "kind": "image",
         "metadata": "",
-        "name": "npc2.png",
+        "name": "NPC_2.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -1750,18 +1750,18 @@
         }
       },
       {
-        "file": "npc5.png",
+        "file": "NPC_5.png",
         "kind": "image",
         "metadata": "",
-        "name": "npc5.png",
+        "name": "NPC_5.png",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "npc6.png",
+        "file": "NPC_6.png",
         "kind": "image",
         "metadata": "",
-        "name": "npc6.png",
+        "name": "NPC_6.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -1910,6 +1910,22 @@
         "kind": "image",
         "metadata": "",
         "name": "NPC_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Bierflasche_gross.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bierflasche_gross.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Bierflasche_klein.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bierflasche_klein.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -9686,57 +9702,6 @@
           "depth": 0,
           "height": 64,
           "keepRatio": true,
-          "layer": "",
-          "name": "BluePotion",
-          "persistentUuid": "0c354fa1-971e-4843-8db0-6be62376b207",
-          "width": 64,
-          "x": -740,
-          "y": -30,
-          "zOrder": 2219,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BluePotion",
-          "persistentUuid": "ebbaeb83-b160-4f34-b6bf-f01e8f2d5387",
-          "width": 64,
-          "x": -740,
-          "y": 29,
-          "zOrder": 2219,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 58,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BluePotion",
-          "persistentUuid": "969a46b7-2b7e-424d-b4d5-fc11a3c739c6",
-          "width": 64,
-          "x": -743,
-          "y": 103,
-          "zOrder": 2219,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 64,
-          "keepRatio": true,
           "layer": "Background",
           "name": "NPC",
           "persistentUuid": "07cedfd7-8a07-4849-b659-308a64a77632",
@@ -9974,6 +9939,23 @@
           "x": -1331,
           "y": 136,
           "zOrder": 2225,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 108,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FlunkiBall",
+          "persistentUuid": "91954578-d33f-4fb4-9eba-293a194b4a7f",
+          "width": 96,
+          "x": -866,
+          "y": -1,
+          "zOrder": 2226,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10893,7 +10875,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "npc2.png",
+                      "image": "NPC_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10941,7 +10923,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "npc5.png",
+                      "image": "NPC_5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10989,7 +10971,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "npc6.png",
+                      "image": "NPC_6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13866,246 +13848,6 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "fd002c6889e88dedcf2805df5b5521c337795f211e886ceda98108a25ddf6784",
-          "name": "BronzeShield",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Bronze Shield.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 15
-                          },
-                          {
-                            "x": 1,
-                            "y": 15
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "99f24bec2c4ee657e116620960c158ef3ecb4ea39992c05750c595705aac8592",
-          "name": "IronGauntlets",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Iron Gauntlets.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 16
-                          },
-                          {
-                            "x": 0,
-                            "y": 16
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "60a8c78d4e776c0a69bc8caf4fafbbf771dc5eccd2869ec432a578290ef838b6",
-          "name": "IronHelmet",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Iron Helmet.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 2
-                          },
-                          {
-                            "x": 13,
-                            "y": 2
-                          },
-                          {
-                            "x": 13,
-                            "y": 14
-                          },
-                          {
-                            "x": 3,
-                            "y": 14
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "7031fd7ee37e7bc0669e351ac5ebf0bca8ed4fbc7753bc934ded16564c0fdc4e",
-          "name": "IronBoots",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Iron Boots.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 2
-                          },
-                          {
-                            "x": 16,
-                            "y": 2
-                          },
-                          {
-                            "x": 16,
-                            "y": 14
-                          },
-                          {
-                            "x": 0,
-                            "y": 14
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "eaa4a978b8920bc56bfbf28ef221453de3ad8e1d3a6dbb23394dc8d64972915a",
           "name": "IronChestplate",
           "type": "Sprite",
@@ -14154,126 +13896,6 @@
                           {
                             "x": 1,
                             "y": 15
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "2d231a9ce9955894fcb53e453f81958dbe35aeeabbcd0dc506b67b2de21fc567",
-          "name": "IronLeggings",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Iron Leggings.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 15
-                          },
-                          {
-                            "x": 1,
-                            "y": 15
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "8eced7f69c63d75b38c4a61da3463a6baa22ba8178eb2d601d98e644783e553f",
-          "name": "LeatherBoots",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Leather Boots.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 2
-                          },
-                          {
-                            "x": 16,
-                            "y": 2
-                          },
-                          {
-                            "x": 16,
-                            "y": 14
-                          },
-                          {
-                            "x": 0,
-                            "y": 14
                           }
                         ]
                       ]
@@ -14346,66 +13968,6 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "d25d07f7843a84c00b72a1830b615e5bc66d5a7d485cf3b1c5c0292ef66b79c8",
-          "name": "LeatherHelmet",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Leather Helmet.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 2
-                          },
-                          {
-                            "x": 13,
-                            "y": 2
-                          },
-                          {
-                            "x": 13,
-                            "y": 14
-                          },
-                          {
-                            "x": 3,
-                            "y": 14
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "0856a2172d97719dae769e94e5813e2530b9c95b421cf14c70eedf1bf48377e7",
           "name": "LeatherGauntlets",
           "type": "Sprite",
@@ -14454,66 +14016,6 @@
                           {
                             "x": 0,
                             "y": 16
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "15732e08f97d3b508f1f05e6dcfdd40a5ac78fc921f857eb74ee2b2bc902baba",
-          "name": "LeatherLeggings",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Leather Leggings.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 15
-                          },
-                          {
-                            "x": 1,
-                            "y": 15
                           }
                         ]
                       ]
@@ -14586,186 +14088,6 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "001eac874dd10e78e7db7c2ab144734df05023e62d015b7406c636ed620416b4",
-          "name": "BluePotion",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Blue Potion.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 1
-                          },
-                          {
-                            "x": 13,
-                            "y": 1
-                          },
-                          {
-                            "x": 13,
-                            "y": 14
-                          },
-                          {
-                            "x": 3,
-                            "y": 14
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "86652a0d28930c69873015fcfbb101c168716450db2adff51eb4f68317b6c041",
-          "name": "Bone",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Bone.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 15
-                          },
-                          {
-                            "x": 1,
-                            "y": 15
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "0d22d5d409684a61a606aae9c49997922dd4f67731994a5fad23acaa43f38b41",
-          "name": "BronzeCoin",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Bronze Coin.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 2
-                          },
-                          {
-                            "x": 14,
-                            "y": 2
-                          },
-                          {
-                            "x": 14,
-                            "y": 14
-                          },
-                          {
-                            "x": 2,
-                            "y": 14
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "c32da3c89e1bb2824b02fcf1431a23009bda163874d04abd6d76722ca8fdaecf",
           "name": "CoinSack",
           "type": "Sprite",
@@ -14814,66 +14136,6 @@
                           {
                             "x": 1,
                             "y": 15
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "acebdd0b7065d90ded78ba3f72e89d6ccb75f41fa936dbbff3dcf21c810976d6",
-          "name": "EmeraldGem",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Emerald Gem.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 2
-                          },
-                          {
-                            "x": 12,
-                            "y": 2
-                          },
-                          {
-                            "x": 12,
-                            "y": 14
-                          },
-                          {
-                            "x": 4,
-                            "y": 14
                           }
                         ]
                       ]
@@ -15607,12 +14869,17 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "5ae5d16cd70fce3f9ec4f8bdf9e7f6340af1227d68ae11de7de3fe944d64be1a",
-          "name": "SilverCoin",
+          "name": "FlunkiBall",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -16151,66 +15418,6 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "9d6b0e35ded840bb95c3910fc59758bfaa5571840f2493597f539721ab61ed67",
-          "name": "Leamon",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Leamon.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 3
-                          },
-                          {
-                            "x": 15,
-                            "y": 3
-                          },
-                          {
-                            "x": 15,
-                            "y": 14
-                          },
-                          {
-                            "x": 1,
-                            "y": 14
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "c03a1cc4db62e12387b37cde4829bf642728e3f278b1e1c70ee0f0a1d1916e3d",
           "name": "Strawberry",
           "type": "Sprite",
@@ -16290,126 +15497,6 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Bronze Pickaxe.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 15
-                          },
-                          {
-                            "x": 1,
-                            "y": 15
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "ec0f9ed76b3678ed43f12f2861d166b67e4ca357c79912751bd4f831d27bf912",
-          "name": "BronzeShovel",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Bronze Shovel.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 15
-                          },
-                          {
-                            "x": 1,
-                            "y": 15
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "28317bbdc0addc57b425238067e4c1fa51e9c72cdcd4c4e3a8a872869487138d",
-          "name": "TurkeyLeg",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Turkey Leg.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17051,66 +16138,6 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "e828d72701fab63ff832096f7a12d7afad808c310702ac6b525f6b2f86de88e6",
-          "name": "BattleAxe",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Battle Axe.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 16,
-                            "y": 0
-                          },
-                          {
-                            "x": 16,
-                            "y": 16
-                          },
-                          {
-                            "x": 0,
-                            "y": 16
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "5c5a7123bd8a3eb17ce682df7c1c331acef8519a5de189a48ff55585e899da66",
           "name": "BronzeDagger",
           "type": "Sprite",
@@ -17219,66 +16246,6 @@
                           {
                             "x": 0,
                             "y": 16
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "1010c7fb27a10a8296213894921faf279993d5c42d825ed2886ea9e035c09f3e",
-          "name": "Dagger",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dagger.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 2
-                          },
-                          {
-                            "x": 14,
-                            "y": 2
-                          },
-                          {
-                            "x": 14,
-                            "y": 14
-                          },
-                          {
-                            "x": 2,
-                            "y": 14
                           }
                         ]
                       ]
@@ -17574,126 +16541,6 @@
                           },
                           {
                             "x": 16,
-                            "y": 15
-                          },
-                          {
-                            "x": 1,
-                            "y": 15
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "9ac194a100fb1f24d54c0f218f3c38836f6a2766577309235412efc381676af6",
-          "name": "Sword",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Sword.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 16,
-                            "y": 0
-                          },
-                          {
-                            "x": 16,
-                            "y": 16
-                          },
-                          {
-                            "x": 0,
-                            "y": 16
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "04cefab61cca886a88186b79f601d40e556055d4f61ec32fbea33ee06c519b8c",
-          "name": "WoodenCrossbow",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wooden Crossbow.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 2
-                          },
-                          {
-                            "x": 14,
-                            "y": 2
-                          },
-                          {
-                            "x": 14,
                             "y": 15
                           },
                           {
@@ -19273,55 +18120,19 @@
             "objectName": "barplot"
           },
           {
-            "objectName": "BronzeShield"
-          },
-          {
-            "objectName": "IronGauntlets"
-          },
-          {
-            "objectName": "IronHelmet"
-          },
-          {
-            "objectName": "IronBoots"
-          },
-          {
             "objectName": "IronChestplate"
-          },
-          {
-            "objectName": "IronLeggings"
-          },
-          {
-            "objectName": "LeatherBoots"
           },
           {
             "objectName": "LeatherChestplate"
           },
           {
-            "objectName": "LeatherHelmet"
-          },
-          {
             "objectName": "LeatherGauntlets"
-          },
-          {
-            "objectName": "LeatherLeggings"
           },
           {
             "objectName": "MetalShield"
           },
           {
-            "objectName": "BluePotion"
-          },
-          {
-            "objectName": "Bone"
-          },
-          {
-            "objectName": "BronzeCoin"
-          },
-          {
             "objectName": "CoinSack"
-          },
-          {
-            "objectName": "EmeraldGem"
           },
           {
             "objectName": "FlintAndSteel"
@@ -19360,7 +18171,7 @@
             "objectName": "SilverKey"
           },
           {
-            "objectName": "SilverCoin"
+            "objectName": "FlunkiBall"
           },
           {
             "objectName": "YellowPotion"
@@ -19387,19 +18198,10 @@
             "objectName": "GreenApple"
           },
           {
-            "objectName": "Leamon"
-          },
-          {
             "objectName": "Strawberry"
           },
           {
             "objectName": "BronzePickaxe"
-          },
-          {
-            "objectName": "BronzeShovel"
-          },
-          {
-            "objectName": "TurkeyLeg"
           },
           {
             "objectName": "Anvil"
@@ -19432,16 +18234,10 @@
             "objectName": "BronzeBattleAxe"
           },
           {
-            "objectName": "BattleAxe"
-          },
-          {
             "objectName": "BronzeDagger"
           },
           {
             "objectName": "BronzeSword"
-          },
-          {
-            "objectName": "Dagger"
           },
           {
             "objectName": "Crossbow"
@@ -19457,12 +18253,6 @@
           },
           {
             "objectName": "MetalBow"
-          },
-          {
-            "objectName": "Sword"
-          },
-          {
-            "objectName": "WoodenCrossbow"
           },
           {
             "objectName": "GreenApple2"
@@ -19488,6 +18278,29 @@
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": ""
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -19547,6 +18360,31 @@
               "parameters": [
                 "Player",
                 "\"Inaktiv\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "FlunkiBall",
+                "Tween",
+                "\"flunki_part1\"",
+                "100",
+                "200",
+                "\"easeInOutQuad\"",
+                "5",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::ResumeTween"
+              },
+              "parameters": [
+                "FlunkiBall",
+                "Tween",
+                "\"flunki_part1\""
               ]
             }
           ],
@@ -21482,6 +20320,8 @@
                 "",
                 "npc_antwort",
                 "NPC.Name",
+                "NPC.Handedness",
+                "NPC.Age",
                 ""
               ]
             }
@@ -21626,6 +20466,50 @@
               "parameters": [
                 "",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Flunki Ball moves"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "FlunkiBall",
+                "Tween",
+                "\"flunki_part1\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::ResumeTween"
+              },
+              "parameters": [
+                "FlunkiBall",
+                "Tween",
+                "\"flunki_part1\""
               ]
             }
           ]
@@ -21806,6 +20690,39 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Bigpad",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Clipboard",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -81870,15 +80787,17 @@
                 "",
                 "let dataTable = playerObject.getVariables().get(\"DataTable\");",
                 "let rowCount = dataTable.getChildrenCount();",
-                "let csvContent = \"ID,Name,Score\\n\";",
+                "let csvContent = \"ID,Name,Score,Handedness,Age\\n\";",
                 "",
                 "for (let i = 0; i < rowCount; i++) {",
                 "    let row = dataTable.getChild(i);",
                 "    let id = i+1; //row.getChild(\"ID\").getAsNumber();",
                 "    let name = row.getChild(\"Name\").getAsString();",
                 "    let score = row.getChild(\"Score\").getAsNumber();",
+                "    let handedness = row.getChild(\"Handedness\").getAsNumber();",
+                "    let age = row.getChild(\"Age\").getAsNumber();",
                 "",
-                "    csvContent += `${id},${name},${score}\\n`;",
+                "    csvContent += `${id},${name},${score},${handedness},${age}\\n`;",
                 "}",
                 "",
                 "// Convert CSV string to a Blob",
@@ -81920,6 +80839,8 @@
                 "newRow.getChild(\"ID\").setNumber(1);",
                 "newRow.getChild(\"Name\").setString(eventsFunctionContext.getArgument(\"Name\") );",
                 "newRow.getChild(\"Score\").setNumber( eventsFunctionContext.getArgument(\"score\") );",
+                "newRow.getChild(\"Handedness\").setNumber( eventsFunctionContext.getArgument(\"Handedness\") );",
+                "newRow.getChild(\"Age\").setNumber( eventsFunctionContext.getArgument(\"Age\") );",
                 "",
                 "// Append to the data table (array)",
                 "dataTable.pushVariableCopy(newRow);"
@@ -81939,6 +80860,16 @@
               "description": "",
               "name": "Name",
               "type": "string"
+            },
+            {
+              "description": "",
+              "name": "Handedness",
+              "type": "expression"
+            },
+            {
+              "description": "",
+              "name": "Age",
+              "type": "expression"
             }
           ],
           "objectGroups": []
@@ -82060,6 +80991,80 @@
           "fullName": "",
           "isUsingLegacyInstancesRenderer": true,
           "name": "VariableHolder",
+          "eventsFunctions": [],
+          "propertyDescriptors": [],
+          "objects": [],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT"
+          },
+          "objectsGroups": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ],
+          "instances": []
+        }
+      ]
+    },
+    {
+      "author": "",
+      "category": "",
+      "extensionNamespace": "",
+      "fullName": "",
+      "gdevelopVersion": "",
+      "helpPath": "",
+      "iconUrl": "",
+      "name": "Clipboard",
+      "previewIconUrl": "",
+      "shortDescription": "",
+      "version": "",
+      "description": "",
+      "tags": [],
+      "authorIds": [],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": [
+        {
+          "areaMaxX": 64,
+          "areaMaxY": 64,
+          "areaMaxZ": 64,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
+          "defaultName": "",
+          "description": "",
+          "fullName": "Clipboard um Daten zu zeigen",
+          "isUsingLegacyInstancesRenderer": false,
+          "name": "MyObject",
           "eventsFunctions": [],
           "propertyDescriptors": [],
           "objects": [],
