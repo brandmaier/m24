@@ -1944,6 +1944,30 @@
         "name": "Klemmbrett.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Point.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Point.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/e75f02ffb5796a124fe04ea8594f63e031a42cfe6d46e697d8f05bdbb0673b7e_Point.png",
+          "name": "Point.png"
+        }
+      },
+      {
+        "file": "assets/LightGlow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LightGlow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/GDevelop/c17e2d500015e598624b763f4942b26e3aac96efca094cd20257a61e15b27fcb_LightGlow.png",
+          "name": "LightGlow.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -18588,7 +18612,7 @@
                     "NPC",
                     "Happiness",
                     "=",
-                    "roundTo(BetterRandomness::RandomNormal(50,5)+(NPC.Age-17),2)"
+                    "roundTo(BetterRandomness::RandomNormal(50,5)+(NPC.Age-25),2)*2"
                   ]
                 },
                 {
@@ -18627,81 +18651,6 @@
                     ""
                   ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "pathfinding_wait",
-                "=",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "pathfinding_wait",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "NPC2",
-                "Pathfinding",
-                "",
-                "pathfinding_point.X()",
-                "pathfinding_point.Y()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "AddForceVersPos"
-              },
-              "parameters": [
-                "Skelet",
-                "Player.X()",
-                "Player.Y()",
-                "25",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Skelet",
-                "CollisionDetect",
-                ""
               ]
             }
           ]
@@ -19108,7 +19057,7 @@
           "colorR": 74,
           "creationTime": 0,
           "folded": true,
-          "name": "Dialogue",
+          "name": "Things to do every frame",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -19485,72 +19434,28 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "e"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SpriteMultitouchJoystick::IsButtonPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "1",
-                    "\"A\"",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Player",
-                "NPC",
-                "20",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "NPC",
-                "Name",
-                "=",
-                "\"Paul\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
+          "conditions": [],
           "actions": [
             {
               "type": {
-                "value": "ShowLayer"
+                "value": "AddForceVersPos"
               },
               "parameters": [
-                "",
-                "\"Dialogue2\""
+                "Skelet",
+                "Player.X()",
+                "Player.Y()",
+                "25",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Skelet",
+                "CollisionDetect",
+                ""
               ]
             }
           ]
@@ -19560,32 +19465,57 @@
           "conditions": [
             {
               "type": {
-                "value": "LayerVisible"
+                "value": "BooleanVariable"
               },
               "parameters": [
-                "",
-                "\"Dialogue2\""
+                "pathfinding_wait",
+                "=",
+                ""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "ActivateBehavior"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "Dialogue2",
-                "BitmapText_AutoTyping",
-                "yes"
+                "pathfinding_wait",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "NPC2",
+                "Pathfinding",
+                "",
+                "pathfinding_point.X()",
+                "pathfinding_point.Y()"
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -20709,13 +20639,12 @@
             },
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "Distance"
               },
               "parameters": [
                 "Player",
                 "Prof",
-                "",
-                "",
+                "20",
                 ""
               ]
             },
@@ -20735,6 +20664,15 @@
                 "",
                 "\"Quiz\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Quiz\""
               ]
             }
           ]
@@ -25090,6 +25028,10 @@
                 {
                   "type": "string",
                   "value": "k-1"
+                },
+                {
+                  "type": "number",
+                  "value": 1
                 }
               ]
             },
@@ -25115,10 +25057,19 @@
                 {
                   "type": "string",
                   "value": "Multiples Testproblem"
+                },
+                {
+                  "type": "number",
+                  "value": 1
                 }
               ]
             }
           ]
+        },
+        {
+          "name": "answer_correct",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -25264,6 +25215,54 @@
           "x": 615,
           "y": 427,
           "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Feedback",
+          "name": "FeedbackText",
+          "persistentUuid": "5762b991-71ba-4348-922b-f1fb87f55302",
+          "width": 0,
+          "x": 624,
+          "y": 280,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Feedback",
+          "name": "BlueExplosion",
+          "persistentUuid": "c04e1131-b0ee-4845-93a4-25149324c4d5",
+          "width": 0,
+          "x": 662,
+          "y": 295,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TextD",
+          "persistentUuid": "36ee8c8d-3508-41e3-8952-929c46482604",
+          "width": 0,
+          "x": 616,
+          "y": 536,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25833,6 +25832,156 @@
             "characterSize": 35,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "FeedbackText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Sway",
+              "type": "Sway::Sway",
+              "Scale": "Scale",
+              "TweenBehavior": "Tween",
+              "AngleLeft": -5,
+              "AngleRight": 5,
+              "AngleTimeMin": 1,
+              "AngleTimeMax": 3,
+              "YScaleMin": 1,
+              "YScaleMax": 1.2,
+              "YScaleTimeMin": 1,
+              "YScaleTimeMax": 3
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Richtig!",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Richtig!",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "additive": true,
+          "assetStoreId": "ce6caabbc8bee5296428f4e756868114a785fac84bbb6b22d4910a63e421c5df",
+          "destroyWhenNoParticles": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 360,
+          "emitterForceMax": 140,
+          "emitterForceMin": 80,
+          "flow": 400,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 400,
+          "name": "BlueExplosion",
+          "particleAlpha1": 255,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 255,
+          "particleBlue2": 255,
+          "particleColor1": "64;255;255",
+          "particleColor2": "128;0;255",
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGreen1": 255,
+          "particleGreen2": 0,
+          "particleLifeTimeMax": 1.2,
+          "particleLifeTimeMin": 0.6,
+          "particleRed1": 64,
+          "particleRed2": 128,
+          "particleSize1": 50,
+          "particleSize2": 200,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 0,
+          "rendererParam2": 0,
+          "rendererType": "Quad",
+          "tank": 100,
+          "textureParticleName": "LightGlow.png",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 0,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextD",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 35,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 35,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -25864,6 +26013,15 @@
           },
           {
             "objectName": "TextC"
+          },
+          {
+            "objectName": "TextD"
+          },
+          {
+            "objectName": "FeedbackText"
+          },
+          {
+            "objectName": "BlueExplosion"
           }
         ]
       },
@@ -25934,6 +26092,193 @@
                 "=",
                 "Questions[0][3]"
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TextD",
+                "Text",
+                "=",
+                "Questions[0][4]"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "ButtonA",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Questions[0][5]",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "answer_correct",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "ButtonD",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Questions[0][5]",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "answer_correct",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "ButtonC",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Questions[0][5]",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "answer_correct",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "ButtonB",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Questions[0][5]",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "answer_correct",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -25985,15 +26330,74 @@
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Hauptgebaeude\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "answer_correct",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "FeedbackText",
+                    "Text",
+                    "=",
+                    "\"Falsch!\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PopScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Feedback\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                }
               ]
             }
           ]
@@ -26043,6 +26447,39 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Feedback",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -26075,8 +26512,16 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "Sway",
+          "type": "Sway::Sway"
+        },
+        {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     }
@@ -81703,6 +82148,732 @@
           "instances": []
         }
       ]
+    },
+    {
+      "author": "",
+      "category": "Visual effect",
+      "extensionNamespace": "",
+      "fullName": "Sway",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXN3YXAtaG9yaXpvbnRhbC12YXJpYW50IiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTQsNkw4LDEwVjdIMTZBMiwyIDAgMCwxIDE4LDlBMiwyIDAgMCwxIDE2LDExSDhBNCw0IDAgMCwwIDQsMTVBNCw0IDAgMCwwIDgsMTlIMTZWMjJMMjAsMThMMTYsMTRWMTdIOEEyLDIgMCAwLDEgNiwxNUEyLDIgMCAwLDEgOCwxM0gxNkE0LDQgMCAwLDAgMjAsOUE0LDQgMCAwLDAgMTYsNUg4VjJMNCw2WiIgLz48L3N2Zz4=",
+      "name": "Sway",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/swap-horizontal-variant.svg",
+      "shortDescription": "Sway objects like grass in the wind.",
+      "version": "1.1.0",
+      "description": [
+        "This extension makes objects sway at different times.",
+        "",
+        "It can be used to:",
+        "- Simulate grass and plant movement swaying in the wind",
+        "- Animate seaweed in an underwater environment",
+        "- Give flames a flickering look ",
+        "",
+        "Set *Center* and *Origin* points to the center base of the object for best results.",
+        "",
+        "Check out [this demo](https://gd.games/bubble/swayexamples) to see what this extension can do.",
+        ""
+      ],
+      "origin": {
+        "identifier": "Sway",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "tween",
+        "sway",
+        "wobble",
+        "shake",
+        "grass",
+        "plant",
+        "snake",
+        "flame",
+        "fire",
+        "candle"
+      ],
+      "authorIds": [
+        "d3W2ZbWOpKRw2rXfBTscZztY7GH2"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Sway multiple instances of an object at different times - useful for random grass swaying.",
+          "fullName": "Sway",
+          "name": "Sway",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 102,
+                    "g": 210,
+                    "r": 233,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Start the tweens"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Angle the object to the right"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Increase the y scale of the object"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectScaleYTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"YScaleMax\"",
+                        "YScaleMax",
+                        "\"easeInOutSine\"",
+                        "RandomInRange(YScaleMin * 1000,YScaleTimeMax * 1000)",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectAngleTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"AngleRight\"",
+                        "AngleRight",
+                        "\"easeInOutSine\"",
+                        "RandomInRange(AngleTimeMin * 1000,AngleTimeMax * 1000)",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Sway::Sway",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Angle the object to the left"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::HasFinished"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"AngleRight\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"AngleRight\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectAngleTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"AngleLeft\"",
+                        "AngleLeft",
+                        "\"easeInOutSine\"",
+                        "RandomInRange(AngleTimeMin * 1000,AngleTimeMax * 1000)",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Angle the object to the right"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::HasFinished"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"AngleLeft\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"AngleLeft\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectAngleTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"AngleRight\"",
+                        "AngleRight",
+                        "\"easeInOutSine\"",
+                        "RandomInRange(AngleTimeMin * 1000,AngleTimeMax * 1000)",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Decrease the y scale of the object"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::HasFinished"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"YScaleMax\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"YScaleMax\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectScaleYTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"YScaleMin\"",
+                        "YScaleMin",
+                        "\"easeInOutSine\"",
+                        "RandomInRange(YScaleTimeMin * 1000,YScaleTimeMax * 1000)",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Increase the y scale of the object"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::HasFinished"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"YScaleMin\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"YScaleMin\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectScaleYTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"YScaleMax\"",
+                        "YScaleMax",
+                        "\"easeInOutSine\"",
+                        "RandomInRange(YScaleTimeMin * 1000,YScaleTimeMax * 1000)",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Sway::Sway",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set sway angle left and right.",
+              "fullName": "Set sway angle left and right",
+              "functionType": "Action",
+              "group": "Sway angle",
+              "name": "ChangeSwayAngle",
+              "sentence": "Sway the angle of _PARAM0_ to _PARAM2_° to the left and to _PARAM3_° to the right",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "AngleLeft",
+                        "=",
+                        "AngleLeftChanged"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "AngleRight",
+                        "=",
+                        "AngleRightChanged"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Sway::Sway",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Angle to the left (degrees) - Use negative number",
+                  "name": "AngleLeftChanged",
+                  "type": "expression"
+                },
+                {
+                  "description": "Angle to the right (degrees) - Use positive number",
+                  "name": "AngleRightChanged",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set sway angle time range.",
+              "fullName": "Set sway angle time range",
+              "functionType": "Action",
+              "group": "Sway angle",
+              "name": "ChangeSwayAngleTime",
+              "sentence": "Tween angle time range for _PARAM0_, set minimum to _PARAM2_ seconds and maximum to _PARAM3_ seconds",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "AngleTimeMin",
+                        "=",
+                        "AngleTimeMinChanged"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "AngleTimeMax",
+                        "=",
+                        "AngleTimeMaxChanged"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Sway::Sway",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Angle tween time minimum (seconds)",
+                  "name": "AngleTimeMinChanged",
+                  "type": "expression"
+                },
+                {
+                  "description": "Angle tween time maximum (seconds)",
+                  "name": "AngleTimeMaxChanged",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set sway Y scale mininum and maximum.",
+              "fullName": "Set sway Y scale mininum and maximum",
+              "functionType": "Action",
+              "group": "Sway Y scale",
+              "name": "ChangeSwayYScale",
+              "sentence": "Sway the Y scale of _PARAM0_ from _PARAM2_ to _PARAM3_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "YScaleMin",
+                        "=",
+                        "YScaleMinChanged"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "YScaleMax",
+                        "=",
+                        "YScaleMaxChanged"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Sway::Sway",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Minimum Y scale",
+                  "name": "YScaleMinChanged",
+                  "type": "expression"
+                },
+                {
+                  "description": "Maximum Y scale",
+                  "name": "YScaleMaxChanged",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set Y scale time range.",
+              "fullName": "Set sway Y scale time range",
+              "functionType": "Action",
+              "group": "Sway Y scale",
+              "name": "ChangeSwayYScaleTime",
+              "sentence": "Tween Y scale time range for _PARAM0_, set minimum to _PARAM2_ seconds and maximum to _PARAM3_ seconds",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "YScaleTimeMax",
+                        "=",
+                        "YScaleTimeMaxChanged"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "YScaleTimeMin",
+                        "=",
+                        "YScaleTimeMinChanged"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Sway::Sway",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Y scale tween time minimum (seconds)",
+                  "name": "YScaleTimeMinChanged",
+                  "type": "expression"
+                },
+                {
+                  "description": "Y scale tween time maximum (seconds)",
+                  "name": "YScaleTimeMaxChanged",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Scalable capability",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "ScalableCapability::ScalableBehavior"
+              ],
+              "name": "Scale"
+            },
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Sway uses the tween behavior",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "Tween::TweenBehavior"
+              ],
+              "name": "TweenBehavior"
+            },
+            {
+              "value": "-5",
+              "type": "Number",
+              "label": "Maximum angle to the left (in degrees) - Use a negative number",
+              "description": "",
+              "group": "Angle",
+              "extraInformation": [],
+              "name": "AngleLeft"
+            },
+            {
+              "value": "5",
+              "type": "Number",
+              "label": "Maximum angle to the right (in degrees) - Use a positive number",
+              "description": "",
+              "group": "Angle",
+              "extraInformation": [],
+              "name": "AngleRight"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Mininum value for random tween time range for angle (seconds)",
+              "description": "",
+              "group": "Angle",
+              "extraInformation": [],
+              "name": "AngleTimeMin"
+            },
+            {
+              "value": "3",
+              "type": "Number",
+              "label": "Maximum value for random tween time range for angle (seconds)",
+              "description": "",
+              "group": "Angle",
+              "extraInformation": [],
+              "name": "AngleTimeMax"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Minimum Y scale amount",
+              "description": "",
+              "group": "Y scale",
+              "extraInformation": [],
+              "name": "YScaleMin"
+            },
+            {
+              "value": "1.2",
+              "type": "Number",
+              "label": "Maximum Y scale amount",
+              "description": "",
+              "group": "Y scale",
+              "extraInformation": [],
+              "name": "YScaleMax"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Mininum value for random tween time range for Y scale (seconds)",
+              "description": "",
+              "group": "Y scale",
+              "extraInformation": [],
+              "name": "YScaleTimeMin"
+            },
+            {
+              "value": "3",
+              "type": "Number",
+              "label": "Maximum value for random tween time range for Y scale (seconds)",
+              "description": "",
+              "group": "Y scale",
+              "extraInformation": [],
+              "name": "YScaleTimeMax"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
     }
   ],
   "externalLayouts": []
