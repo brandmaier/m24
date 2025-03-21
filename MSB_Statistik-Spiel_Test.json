@@ -1928,6 +1928,22 @@
         "name": "Bierflasche_klein.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "NPC_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NPC_19.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Klemmbrett.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Klemmbrett.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -9959,6 +9975,40 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 70,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Prof",
+          "persistentUuid": "9042509a-388e-451c-9eaf-17214a4f9091",
+          "width": 63,
+          "x": -1234,
+          "y": -314,
+          "zOrder": 2227,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 65,
+          "keepRatio": true,
+          "layer": "Clipboard",
+          "name": "DataClipboard",
+          "persistentUuid": "14704616-8a28-4b52-964e-161d7ffd3627",
+          "width": 65,
+          "x": 490,
+          "y": 61,
+          "zOrder": 2228,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -17907,6 +17957,75 @@
           "antialiasing": "none",
           "fillColor": "",
           "outlineColor": ""
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Prof",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NPC_19.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 16,
+                            "y": 1
+                          },
+                          {
+                            "x": 16,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "DataClipboard",
+          "type": "BarplotExtension::Clipboard",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {}
         }
       ],
       "objectsFolderStructure": {
@@ -17926,6 +18045,9 @@
           },
           {
             "objectName": "NPC2"
+          },
+          {
+            "objectName": "Prof"
           },
           {
             "objectName": "pathfinding_point"
@@ -18039,6 +18161,9 @@
               },
               {
                 "objectName": "Grass"
+              },
+              {
+                "objectName": "DataClipboard"
               },
               {
                 "objectName": "Varianz"
@@ -18291,17 +18416,6 @@
           "comment": ""
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -18386,9 +18500,29 @@
                 "Tween",
                 "\"flunki_part1\""
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "DataClipboard"
+              ]
             }
           ],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": ""
+            },
             {
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "NPC",
@@ -18443,7 +18577,7 @@
                     "NPC",
                     "Age",
                     "=",
-                    "RandomInRange(17,30)"
+                    "roundTo(RandomInRange(17,30),1)"
                   ]
                 },
                 {
@@ -18454,7 +18588,7 @@
                     "NPC",
                     "Happiness",
                     "=",
-                    "BetterRandomness::RandomNormal(50,5)"
+                    "roundTo(BetterRandomness::RandomNormal(50,5)+(NPC.Age-17),2)"
                   ]
                 },
                 {
@@ -19971,6 +20105,18 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": ""
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -20057,7 +20203,7 @@
               "parameters": [
                 "npc_antwort",
                 "=",
-                "RandomInRange(1,100)"
+                "roundTo(BetterRandomness::RandomNormal(50,15),2)"
               ]
             },
             {
@@ -20067,7 +20213,7 @@
               "parameters": [
                 "npc_antwort",
                 "=",
-                "roundTo(BetterRandomness::RandomNormal(50,15),2)"
+                "NPC.Happiness"
               ]
             },
             {
@@ -20513,6 +20659,204 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Interaktion mit Prof"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "Befragen_knopf_Q_oder_E_",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Prof",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Quiz\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"a\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "DataClipboard"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "DataClipboard",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Done",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "DataClipboard"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Done",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "DataClipboard"
+                  ]
+                }
+              ]
+            }
+          ],
+          "variables": [
+            {
+              "name": "Done",
+              "type": "boolean",
+              "value": false
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"a\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": []
         }
       ],
       "layers": [
@@ -40904,6 +41248,285 @@
               "x": -100,
               "y": 46,
               "zOrder": 2204,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            }
+          ]
+        },
+        {
+          "areaMaxX": 64,
+          "areaMaxY": 64,
+          "areaMaxZ": 64,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
+          "defaultName": "",
+          "description": "",
+          "fullName": "",
+          "isUsingLegacyInstancesRenderer": false,
+          "name": "Clipboard",
+          "eventsFunctions": [],
+          "propertyDescriptors": [],
+          "objects": [
+            {
+              "adaptCollisionMaskAutomatically": true,
+              "assetStoreId": "",
+              "name": "NewSprite",
+              "type": "Sprite",
+              "updateIfNotVisible": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "animations": [
+                {
+                  "name": "",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "Klemmbrett.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 8,
+                                "y": 7
+                              },
+                              {
+                                "x": 83,
+                                "y": 7
+                              },
+                              {
+                                "x": 83,
+                                "y": 86
+                              },
+                              {
+                                "x": 8,
+                                "y": 86
+                              }
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "bold": false,
+              "italic": false,
+              "name": "Title",
+              "smoothed": true,
+              "type": "TextObject::Text",
+              "underlined": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "string": "Meine Studie",
+              "font": "CantoraOne-Regular.ttf",
+              "textAlignment": "left",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Meine Studie",
+                "font": "CantoraOne-Regular.ttf",
+                "textAlignment": "left",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            {
+              "assetStoreId": "",
+              "name": "NewBBText",
+              "type": "BBText::BBText",
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "content": {
+                "text": "[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font\n[spacing=12]spaced out[/spacing]\n[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] ",
+                "opacity": 255,
+                "fontSize": 20,
+                "visible": true,
+                "color": "0;0;0",
+                "fontFamily": "Arial",
+                "align": "left",
+                "wordWrap": true
+              }
+            },
+            {
+              "assetStoreId": "",
+              "bold": false,
+              "italic": false,
+              "name": "DataText",
+              "smoothed": true,
+              "type": "TextObject::Text",
+              "underlined": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "string": "xxx",
+              "font": "",
+              "textAlignment": "left",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "xxx",
+                "font": "",
+                "textAlignment": "left",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            }
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "NewSprite"
+              },
+              {
+                "objectName": "Title"
+              },
+              {
+                "objectName": "NewBBText"
+              },
+              {
+                "objectName": "DataText"
+              }
+            ]
+          },
+          "objectsGroups": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ],
+          "instances": [
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 5,
+              "height": 491,
+              "keepRatio": true,
+              "layer": "",
+              "name": "NewSprite",
+              "persistentUuid": "573c826d-9158-480a-b0a9-fb3d3b00b91c",
+              "width": 491,
+              "x": -44,
+              "y": -78,
+              "zOrder": 1,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": false,
+              "height": 0,
+              "keepRatio": true,
+              "layer": "",
+              "name": "Title",
+              "persistentUuid": "54e07e84-2e1d-44f7-9a75-c0d99c87b50d",
+              "width": 0,
+              "x": 94,
+              "y": 47,
+              "zOrder": 2,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 219,
+              "keepRatio": true,
+              "layer": "",
+              "name": "DataText",
+              "persistentUuid": "3ca3f075-6e80-4cbd-81a4-c216dd0b4ee5",
+              "width": 239,
+              "x": 35,
+              "y": 80,
+              "zOrder": 3,
               "numberProperties": [],
               "stringProperties": [],
               "initialVariables": []
@@ -80820,6 +81443,55 @@
           "objectGroups": []
         },
         {
+          "description": "NPC Werte",
+          "fullName": "NPC Werte würfeln",
+          "functionType": "Action",
+          "name": "sampleFromPopulation",
+          "sentence": "NPC Werte würfeln",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "",
+                "/** @type {gdjs.RuntimeObject} */",
+                "let npc = eventsFunctionContext.getArgument(\"NPC\");",
+                "",
+                "npc.getVariables().get(\"age\").setValue(100);",
+                "",
+                ""
+              ],
+              "parameterObjects": "NPC",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
+          "parameters": [
+            {
+              "description": "",
+              "name": "NPC",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
           "fullName": "Add row to Player's data table",
           "functionType": "Action",
           "name": "AddRow",
@@ -80991,80 +81663,6 @@
           "fullName": "",
           "isUsingLegacyInstancesRenderer": true,
           "name": "VariableHolder",
-          "eventsFunctions": [],
-          "propertyDescriptors": [],
-          "objects": [],
-          "objectsFolderStructure": {
-            "folderName": "__ROOT"
-          },
-          "objectsGroups": [],
-          "layers": [
-            {
-              "ambientLightColorB": 200,
-              "ambientLightColorG": 200,
-              "ambientLightColorR": 200,
-              "camera3DFarPlaneDistance": 10000,
-              "camera3DFieldOfView": 45,
-              "camera3DNearPlaneDistance": 3,
-              "cameraType": "",
-              "followBaseLayerCamera": false,
-              "isLightingLayer": false,
-              "isLocked": false,
-              "name": "",
-              "renderingType": "",
-              "visibility": true,
-              "cameras": [
-                {
-                  "defaultSize": true,
-                  "defaultViewport": true,
-                  "height": 0,
-                  "viewportBottom": 1,
-                  "viewportLeft": 0,
-                  "viewportRight": 1,
-                  "viewportTop": 0,
-                  "width": 0
-                }
-              ],
-              "effects": []
-            }
-          ],
-          "instances": []
-        }
-      ]
-    },
-    {
-      "author": "",
-      "category": "",
-      "extensionNamespace": "",
-      "fullName": "",
-      "gdevelopVersion": "",
-      "helpPath": "",
-      "iconUrl": "",
-      "name": "Clipboard",
-      "previewIconUrl": "",
-      "shortDescription": "",
-      "version": "",
-      "description": "",
-      "tags": [],
-      "authorIds": [],
-      "dependencies": [],
-      "globalVariables": [],
-      "sceneVariables": [],
-      "eventsFunctions": [],
-      "eventsBasedBehaviors": [],
-      "eventsBasedObjects": [
-        {
-          "areaMaxX": 64,
-          "areaMaxY": 64,
-          "areaMaxZ": 64,
-          "areaMinX": 0,
-          "areaMinY": 0,
-          "areaMinZ": 0,
-          "defaultName": "",
-          "description": "",
-          "fullName": "Clipboard um Daten zu zeigen",
-          "isUsingLegacyInstancesRenderer": false,
-          "name": "MyObject",
           "eventsFunctions": [],
           "propertyDescriptors": [],
           "objects": [],
