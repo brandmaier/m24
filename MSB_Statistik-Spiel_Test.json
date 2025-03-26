@@ -1675,7 +1675,7 @@
         "kind": "image",
         "metadata": "",
         "name": "NPC_4.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1683,7 +1683,7 @@
         "kind": "image",
         "metadata": "",
         "name": "NPC_2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1754,7 +1754,7 @@
         "kind": "image",
         "metadata": "",
         "name": "NPC_5.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1762,7 +1762,7 @@
         "kind": "image",
         "metadata": "",
         "name": "NPC_6.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1918,7 +1918,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Bierflasche_gross.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1926,7 +1926,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Bierflasche_klein.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1934,7 +1934,7 @@
         "kind": "image",
         "metadata": "",
         "name": "NPC_19.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1942,7 +1942,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Klemmbrett.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1968,6 +1968,502 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/GDevelop/c17e2d500015e598624b763f4942b26e3aac96efca094cd20257a61e15b27fcb_LightGlow.png",
           "name": "LightGlow.png"
         }
+      },
+      {
+        "file": "Tina_Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tina_Down_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tina_Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tina_Down_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tina_Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tina_Down_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tina_Down_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tina_Down_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tina_Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tina_Right_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tina_Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tina_Right_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tina_Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tina_Right_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tina_Right_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tina_Right_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tina_Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tina_Left_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tina_Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tina_Left_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tina_Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tina_Left_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tina_Left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tina_Left_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tina_Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tina_Up_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tina_Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tina_Up_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tina_Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tina_Up_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tina_Up_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tina_Up_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Peter_Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peter_Down_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Peter_Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peter_Down_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Peter_Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peter_Down_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Peter_Down_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peter_Down_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Peter_Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peter_Right_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Peter_Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peter_Right_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Peter_Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peter_Right_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Peter_Right_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peter_Right_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Peter_Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peter_Left_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Peter_Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peter_Left_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Peter_Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peter_Left_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Peter_Left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peter_Left_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Peter_Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peter_Up_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Peter_Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peter_Up_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Peter_Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peter_Up_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Peter_Up_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Peter_Up_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Down_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Down_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Down_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Down_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Down_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Right_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Right_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Right_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Right_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Right_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Left_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Left_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Left_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Left_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Up_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Up_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Up_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dog_Up_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Up_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NPC_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NPC_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NPC_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NPC_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NPC_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NPC_7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NPC_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NPC_8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NPC_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NPC_9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NPC_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NPC_10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NPC_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NPC_11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NPC_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NPC_12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NPC_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NPC_13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NPC_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NPC_14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NPC_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NPC_15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NPC_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NPC_16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NPC_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NPC_17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NPC_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NPC_18.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2214,7 +2710,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 0.3340374048598129,
+        "zoomFactor": 0.5617817126145408,
         "windowMask": false
       },
       "objectsGroups": [
@@ -8974,7 +9470,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 1
+              "value": 11
             }
           ],
           "stringProperties": [],
@@ -8997,13 +9493,13 @@
           "name": "NPC",
           "persistentUuid": "c365b1af-f9b8-4b6d-8b1e-f87b8c9367e3",
           "width": 64,
-          "x": -2414,
-          "y": 306,
+          "x": -2388,
+          "y": 356,
           "zOrder": 2208,
           "numberProperties": [
             {
               "name": "animation",
-              "value": 2
+              "value": 5
             }
           ],
           "stringProperties": [],
@@ -9029,7 +9525,12 @@
           "x": -1681,
           "y": 667,
           "zOrder": 2208,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 12
+            }
+          ],
           "stringProperties": [],
           "initialVariables": [
             {
@@ -9056,7 +9557,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 2
+              "value": 14
             }
           ],
           "stringProperties": [],
@@ -9085,7 +9586,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 1
+              "value": 16
             }
           ],
           "stringProperties": [],
@@ -9114,7 +9615,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 2
+              "value": 9
             }
           ],
           "stringProperties": [],
@@ -9172,7 +9673,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 3
+              "value": 17
             }
           ],
           "stringProperties": [],
@@ -9201,7 +9702,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 4
+              "value": 15
             }
           ],
           "stringProperties": [],
@@ -9230,7 +9731,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 3
+              "value": 8
             }
           ],
           "stringProperties": [],
@@ -9259,7 +9760,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 1
+              "value": 6
             }
           ],
           "stringProperties": [],
@@ -9288,7 +9789,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 2
+              "value": 14
             }
           ],
           "stringProperties": [],
@@ -9317,7 +9818,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 2
+              "value": 11
             }
           ],
           "stringProperties": [],
@@ -9346,7 +9847,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 3
+              "value": 12
             }
           ],
           "stringProperties": [],
@@ -9375,7 +9876,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 1
+              "value": 13
             }
           ],
           "stringProperties": [],
@@ -9433,7 +9934,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 1
+              "value": 3
             }
           ],
           "stringProperties": [],
@@ -9520,7 +10021,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 3
+              "value": 13
             }
           ],
           "stringProperties": [],
@@ -9549,7 +10050,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 2
+              "value": 7
             }
           ],
           "stringProperties": [],
@@ -9578,7 +10079,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 2
+              "value": 10
             }
           ],
           "stringProperties": [],
@@ -9607,7 +10108,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 1
+              "value": 0
             }
           ],
           "stringProperties": [],
@@ -9636,7 +10137,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 2
+              "value": 17
             }
           ],
           "stringProperties": [],
@@ -9665,7 +10166,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 5
+              "value": 16
             }
           ],
           "stringProperties": [],
@@ -9752,7 +10253,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 4
+              "value": 10
             }
           ],
           "stringProperties": [],
@@ -9849,7 +10350,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 5
+              "value": 2
             }
           ],
           "stringProperties": [],
@@ -9907,7 +10408,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 1
+              "value": 0
             }
           ],
           "stringProperties": [],
@@ -9973,7 +10474,7 @@
           "height": 64,
           "keepRatio": true,
           "layer": "Background",
-          "name": "Skelet",
+          "name": "Hund",
           "persistentUuid": "d1178f3b-f8ee-4faf-b27f-a524a6e95849",
           "width": 64,
           "x": -1331,
@@ -10013,7 +10514,12 @@
           "x": -1234,
           "y": -314,
           "zOrder": 2227,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 15
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -10146,7 +10652,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharDown1.png",
+                      "image": "Tina_Down_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10182,7 +10688,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharDown2.png",
+                      "image": "Tina_Down_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10218,7 +10724,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharDown3.png",
+                      "image": "Tina_Down_3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10254,7 +10760,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharDown4.png",
+                      "image": "Tina_Down_4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10302,7 +10808,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACgarRight1.png",
+                      "image": "Tina_Right_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10338,7 +10844,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACgarRight2.png",
+                      "image": "Tina_Right_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10374,7 +10880,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACgarRight3.png",
+                      "image": "Tina_Right_3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10410,7 +10916,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACgarRight4.png",
+                      "image": "Tina_Right_4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10458,7 +10964,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharLeft1.png",
+                      "image": "Tina_Left_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10494,7 +11000,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharLeft2.png",
+                      "image": "Tina_Left_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10530,7 +11036,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharLeft3.png",
+                      "image": "Tina_Left_3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10566,7 +11072,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharLeft4.png",
+                      "image": "Tina_Left_4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10614,7 +11120,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharUp1.png",
+                      "image": "Tina_Up_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10650,7 +11156,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharUp2.png",
+                      "image": "Tina_Up_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10686,7 +11192,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharUp3.png",
+                      "image": "Tina_Up_3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10722,7 +11228,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharUp4.png",
+                      "image": "Tina_Up_4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10853,7 +11359,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharDown1.png",
+                      "image": "NPC_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10897,7 +11403,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -10945,11 +11451,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NPC_2.png",
+                      "image": "NPC_3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10993,7 +11499,55 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NPC_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 7.927276611328125,
+                        "y": 15.236364364624023
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 20
+                          },
+                          {
+                            "x": 9,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -11041,7 +11595,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -11089,11 +11643,539 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "npc7.png",
+                      "image": "NPC_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 7.927276611328125,
+                        "y": 15.236364364624023
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 20
+                          },
+                          {
+                            "x": 9,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NPC_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 7.927276611328125,
+                        "y": 15.236364364624023
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 20
+                          },
+                          {
+                            "x": 9,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NPC_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 7.927276611328125,
+                        "y": 15.236364364624023
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 20
+                          },
+                          {
+                            "x": 9,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NPC_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 7.927276611328125,
+                        "y": 15.236364364624023
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 20
+                          },
+                          {
+                            "x": 9,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NPC_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 7.927276611328125,
+                        "y": 15.236364364624023
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 20
+                          },
+                          {
+                            "x": 9,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NPC_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 7.927276611328125,
+                        "y": 15.236364364624023
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 20
+                          },
+                          {
+                            "x": 9,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NPC_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 7.927276611328125,
+                        "y": 15.236364364624023
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 20
+                          },
+                          {
+                            "x": 9,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NPC_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 7.927276611328125,
+                        "y": 15.236364364624023
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 20
+                          },
+                          {
+                            "x": 9,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NPC_15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 7.927276611328125,
+                        "y": 15.236364364624023
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 20
+                          },
+                          {
+                            "x": 9,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NPC_16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 7.927276611328125,
+                        "y": 15.236364364624023
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 20
+                          },
+                          {
+                            "x": 9,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NPC_17.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 7.927276611328125,
+                        "y": 15.236364364624023
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 15,
+                            "y": 20
+                          },
+                          {
+                            "x": 9,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NPC_18.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13304,7 +14386,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharDown1.png",
+                      "image": "Peter_Down_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13340,7 +14422,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharDown2.png",
+                      "image": "Peter_Down_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13376,7 +14458,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharDown3.png",
+                      "image": "Peter_Down_3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13412,7 +14494,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharDown4.png",
+                      "image": "Peter_Down_4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13460,7 +14542,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACgarRight1.png",
+                      "image": "Peter_Right_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13496,7 +14578,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACgarRight2.png",
+                      "image": "Peter_Right_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13532,7 +14614,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACgarRight3.png",
+                      "image": "Peter_Right_3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13568,7 +14650,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACgarRight4.png",
+                      "image": "Peter_Right_4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13616,7 +14698,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharLeft1.png",
+                      "image": "Peter_Left_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13652,7 +14734,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharLeft2.png",
+                      "image": "Peter_Left_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13688,7 +14770,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharLeft3.png",
+                      "image": "Peter_Left_3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13724,7 +14806,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharLeft4.png",
+                      "image": "Peter_Left_4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13772,7 +14854,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharUp1.png",
+                      "image": "Peter_Up_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13808,7 +14890,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharUp2.png",
+                      "image": "Peter_Up_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13844,7 +14926,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharUp3.png",
+                      "image": "Peter_Up_3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13880,7 +14962,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ACharUp4.png",
+                      "image": "Peter_Up_4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17636,7 +18718,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "2623fae11c209b25cb7829abf7292278eda166ee7f5c65b25cae4a237aebdca4",
-          "name": "Skelet",
+          "name": "Hund",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -17653,162 +18735,6 @@
           ],
           "animations": [
             {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.125,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Skelet_Idle_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 2
-                          },
-                          {
-                            "x": 13,
-                            "y": 2
-                          },
-                          {
-                            "x": 13,
-                            "y": 16
-                          },
-                          {
-                            "x": 3,
-                            "y": 16
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Skelet_Idle_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 2
-                          },
-                          {
-                            "x": 13,
-                            "y": 2
-                          },
-                          {
-                            "x": 13,
-                            "y": 16
-                          },
-                          {
-                            "x": 3,
-                            "y": 16
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Skelet_Idle_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 2
-                          },
-                          {
-                            "x": 13,
-                            "y": 2
-                          },
-                          {
-                            "x": 13,
-                            "y": 16
-                          },
-                          {
-                            "x": 3,
-                            "y": 16
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Skelet_Idle_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 2
-                          },
-                          {
-                            "x": 13,
-                            "y": 2
-                          },
-                          {
-                            "x": 13,
-                            "y": 16
-                          },
-                          {
-                            "x": 3,
-                            "y": 16
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "name": "Run",
               "useMultipleDirections": false,
               "directions": [
@@ -17818,7 +18744,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Skelet_Run_1.png",
+                      "image": "Dog_Down_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17835,26 +18761,26 @@
                         [
                           {
                             "x": 3,
-                            "y": 2
+                            "y": 4
                           },
                           {
-                            "x": 13,
-                            "y": 2
+                            "x": 12,
+                            "y": 4
                           },
                           {
-                            "x": 13,
-                            "y": 16
+                            "x": 12,
+                            "y": 14
                           },
                           {
                             "x": 3,
-                            "y": 16
+                            "y": 14
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Skelet_Run_2.png",
+                      "image": "Dog_Down_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17871,26 +18797,26 @@
                         [
                           {
                             "x": 3,
-                            "y": 2
+                            "y": 4
                           },
                           {
-                            "x": 13,
-                            "y": 2
+                            "x": 12,
+                            "y": 4
                           },
                           {
-                            "x": 13,
-                            "y": 16
+                            "x": 12,
+                            "y": 14
                           },
                           {
                             "x": 3,
-                            "y": 16
+                            "y": 14
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Skelet_Run_3.png",
+                      "image": "Dog_Down_3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17907,26 +18833,26 @@
                         [
                           {
                             "x": 3,
-                            "y": 2
+                            "y": 4
                           },
                           {
-                            "x": 13,
-                            "y": 2
+                            "x": 12,
+                            "y": 4
                           },
                           {
-                            "x": 13,
-                            "y": 16
+                            "x": 12,
+                            "y": 14
                           },
                           {
                             "x": 3,
-                            "y": 16
+                            "y": 14
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Skelet_Run_4.png",
+                      "image": "Dog_Down_4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17943,19 +18869,175 @@
                         [
                           {
                             "x": 3,
-                            "y": 2
+                            "y": 4
                           },
                           {
-                            "x": 13,
-                            "y": 2
+                            "x": 12,
+                            "y": 4
                           },
                           {
-                            "x": 13,
-                            "y": 16
+                            "x": 12,
+                            "y": 14
                           },
                           {
                             "x": 3,
-                            "y": 16
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Right_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 12,
+                            "y": 4
+                          },
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 3,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Right_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 12,
+                            "y": 4
+                          },
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 3,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Right_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 12,
+                            "y": 4
+                          },
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 3,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dog_Right_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 12,
+                            "y": 4
+                          },
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 3,
+                            "y": 14
                           }
                         ]
                       ]
@@ -18072,6 +19154,9 @@
           },
           {
             "objectName": "Prof"
+          },
+          {
+            "objectName": "Hund"
           },
           {
             "objectName": "pathfinding_point"
@@ -18417,9 +19502,6 @@
           },
           {
             "objectName": "ShadedDarkJoystick2"
-          },
-          {
-            "objectName": "Skelet"
           },
           {
             "objectName": "NPCShapePainter"
@@ -19441,7 +20523,7 @@
                 "value": "AddForceVersPos"
               },
               "parameters": [
-                "Skelet",
+                "Hund",
                 "Player.X()",
                 "Player.Y()",
                 "25",
@@ -19453,7 +20535,7 @@
                 "value": "SeparateFromObjects"
               },
               "parameters": [
-                "Skelet",
+                "Hund",
                 "CollisionDetect",
                 ""
               ]
@@ -81909,7 +82991,6 @@
             {
               "type": "BuiltinCommonInstructions::JsCode",
               "inlineCode": [
-                "",
                 "/** @type {gdjs.RuntimeObject} */",
                 "let npc = eventsFunctionContext.getArgument(\"NPC\");",
                 "",
