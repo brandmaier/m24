@@ -2552,6 +2552,38 @@
         "name": "Waschbecken_2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Treppe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Treppe.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Treppe2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Treppe2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Treppe_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Treppe_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Treppe_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Treppe_3.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2798,7 +2830,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 0.33403740485981287,
+        "zoomFactor": 1.0303122037319572,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3126,8 +3158,8 @@
           "name": "Grass",
           "persistentUuid": "7f1276eb-6125-4cca-8f4e-b3d48ca9c730",
           "width": 5222,
-          "x": -2817,
-          "y": -1476,
+          "x": -3302,
+          "y": -1313,
           "zOrder": 2050,
           "numberProperties": [],
           "stringProperties": [],
@@ -14548,6 +14580,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 113,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Treppe_2",
+          "persistentUuid": "78e77d25-e6c4-42e8-93ce-23d90691e207",
+          "width": 471,
+          "x": -2083,
+          "y": 148,
+          "zOrder": 2282,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -23563,6 +23612,28 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 28,
+          "name": "Treppe",
+          "texture": "Treppe_2.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 28,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 28,
+          "name": "Treppe_2",
+          "texture": "Treppe_3.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 28,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -23749,6 +23820,12 @@
               },
               {
                 "objectName": "RoadEdge1"
+              },
+              {
+                "objectName": "Treppe"
+              },
+              {
+                "objectName": "Treppe_2"
               }
             ]
           },
