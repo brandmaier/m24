@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 226,
+    "build": 228,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -2830,7 +2830,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 1.0303122037319572,
+        "zoomFactor": 0.21659645967758936,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3055,7 +3055,7 @@
           "layer": "Background",
           "name": "Steinboden2",
           "persistentUuid": "f3a6a73c-5690-40be-b035-409b93d0d558",
-          "width": 4318,
+          "width": 4392,
           "x": -2013,
           "y": 450,
           "zOrder": 2060,
@@ -3158,7 +3158,7 @@
           "name": "Grass",
           "persistentUuid": "7f1276eb-6125-4cca-8f4e-b3d48ca9c730",
           "width": 5222,
-          "x": -3302,
+          "x": -2740,
           "y": -1313,
           "zOrder": 2050,
           "numberProperties": [],
@@ -14594,6 +14594,22 @@
           "x": -2083,
           "y": 148,
           "zOrder": 2282,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "10d5e4c0-bd86-4e1f-85e1-9ce509808059",
+          "width": 0,
+          "x": 621,
+          "y": 380,
+          "zOrder": 2283,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
