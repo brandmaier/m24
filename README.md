@@ -1,3 +1,5 @@
+![](title_screen.png)
+
 # 📊🎲  **StatsQuest: The Inferential Statistics Adventure** 🎲📊  
 
 **Welcome to *StatsQuest: The Inferential Statistics Adventure*!** This is a serious game designed to help students grasp the fundamentals of **sampling** and **inference statistics** in a fun and engaging way.  
