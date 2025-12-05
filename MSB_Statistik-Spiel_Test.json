@@ -21405,7 +21405,12 @@
           "variant": "",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "content": {}
         },
         {
@@ -22878,6 +22883,18 @@
               "parameters": [
                 "DataClipboard"
               ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "DataClipboard",
+                "=",
+                "-500",
+                "=",
+                "100"
+              ]
             }
           ],
           "events": [
@@ -23969,7 +23986,7 @@
                       },
                       "parameters": [
                         "",
-                        "e"
+                        "Space"
                       ]
                     },
                     {
@@ -24081,7 +24098,7 @@
                   },
                   "parameters": [
                     "",
-                    "e"
+                    "Space"
                   ]
                 },
                 {
@@ -24222,7 +24239,7 @@
                   },
                   "parameters": [
                     "",
-                    "e"
+                    "Space"
                   ]
                 },
                 {
@@ -24416,7 +24433,7 @@
                   },
                   "parameters": [
                     "",
-                    "e"
+                    "Space"
                   ]
                 },
                 {
@@ -24802,7 +24819,7 @@
                       },
                       "parameters": [
                         "",
-                        "e"
+                        "Space"
                       ]
                     },
                     {
@@ -24948,6 +24965,18 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Wenn Spieler mehr als drei Minuten inaktiv sind, geht es zurück zum Titelbildschirm"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -24958,11 +24987,22 @@
                 "Player",
                 "\"Inaktiv\"",
                 ">=",
-                "120"
+                "180"
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"TitleScreen\"",
+                ""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -25076,7 +25116,7 @@
                   },
                   "parameters": [
                     "",
-                    "e"
+                    "Space"
                   ]
                 },
                 {
@@ -25205,6 +25245,21 @@
                     "Player.gesammelte_werte_txt",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "DataClipboard",
+                    "Tween",
+                    "\"ZeigDich\"",
+                    "300",
+                    "100",
+                    "\"easeInOutCubic\"",
+                    "1",
+                    ""
+                  ]
                 }
               ]
             },
@@ -25233,10 +25288,17 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Cache"
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                   },
                   "parameters": [
-                    "DataClipboard"
+                    "DataClipboard",
+                    "Tween",
+                    "\"VersteckDich\"",
+                    "-500",
+                    "100",
+                    "\"easeInOutCubic\"",
+                    "1",
+                    ""
                   ]
                 }
               ]
@@ -25255,11 +25317,12 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "Tween::HasFinished"
               },
               "parameters": [
-                "",
-                "\"a\""
+                "DataClipboard",
+                "Tween",
+                "\"VersteckDich\""
               ]
             },
             {
@@ -25269,7 +25332,54 @@
               "parameters": []
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "DataClipboard"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "n",
+                "=",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Overview\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -47837,7 +47947,7 @@
             "gridColor": 10401023,
             "gridAlpha": 0.8,
             "snap": false,
-            "zoomFactor": 10.9375,
+            "zoomFactor": 6.020922394364914,
             "windowMask": false,
             "selectedLayer": ""
           },
