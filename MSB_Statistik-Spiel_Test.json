@@ -2724,6 +2724,7 @@
       "value": "0"
     },
     {
+      "folded": true,
       "name": "x",
       "type": "array",
       "children": [
@@ -2738,6 +2739,7 @@
       ]
     },
     {
+      "folded": true,
       "name": "NameList",
       "type": "array",
       "children": [
@@ -2864,6 +2866,11 @@
       ]
     },
     {
+      "name": "History",
+      "type": "array",
+      "children": []
+    },
+    {
       "name": "TempName",
       "type": "string",
       "value": "Unbenannt"
@@ -2964,6 +2971,11 @@
         },
         {
           "name": "n",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Overview",
           "type": "number",
           "value": 0
         }
@@ -25359,16 +25371,42 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "n",
-                "=",
-                "10"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"b\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "n",
+                    "=",
+                    "10"
+                  ]
+                }
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PushNumber"
+              },
+              "parameters": [
+                "History",
+                "mittelwert"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -27909,7 +27947,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3216911764705888,
+        "zoomFactor": 0.478934188453525,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -31616,7 +31654,13 @@
         "selectedLayer": ""
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "gesammelte_werte_txt",
+          "type": "string",
+          "value": "<EMPTY>"
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -31630,6 +31674,39 @@
           "x": 378,
           "y": 48,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 155,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WerteText",
+          "persistentUuid": "525f5f98-c7cd-4a94-a14c-89ed05f8125f",
+          "width": 433,
+          "x": 425,
+          "y": 169,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PurpleButtonWithStoneFrame",
+          "persistentUuid": "0bfe8d4f-fd72-472a-a395-fccfc9be0fc6",
+          "width": 0,
+          "x": 860,
+          "y": 581,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31721,6 +31798,92 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "3699f3a9dbcacb430dfb90834c239c60a0324b631635c6658396cd524c7adb0a",
+          "name": "PurpleButtonWithStoneFrame",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 2,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 102,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Purple Button With Stone Frame_Hovered.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 348
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 102,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Purple Button With Stone Frame_Idle.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 348
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Spiel starten",
+              "font": "Roboto-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 40,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Spiel starten",
+                "font": "Roboto-Regular.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 40,
+                "lineHeight": 0,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 102,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Purple Button With Stone Frame_Pressed.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 348
+            }
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -31731,10 +31894,73 @@
           },
           {
             "objectName": "WerteText"
+          },
+          {
+            "objectName": "PurpleButtonWithStoneFrame"
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VariableChildCount"
+              },
+              "parameters": [
+                "History",
+                ">",
+                "5"
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "let array = runtimeScene.getGame().getVariables().get(\"History\")",
+            "",
+            "let txt = \"Mittlere Meinung:\\n\\n\";",
+            "for (let i=0; i < array.getChildrenCount(); i++) { ",
+            "    if(i>0) { txt = txt + \" \"}",
+            "    txt = txt + \"Spieler \"+ i + \": \"+ ( array.getChild(i).getAsString())+\"\\n\" ; ",
+            "}",
+            "",
+            "runtimeScene.getVariables().get(\"gesammelte_werte_txt\").setString(txt);",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "WerteText",
+                "Text",
+                "=",
+                "gesammelte_werte_txt"
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
