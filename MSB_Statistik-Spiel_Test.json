@@ -29600,7 +29600,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Los geht's!",
+              "string": "Weiter!",
               "font": "Kenney Mini Square.ttf",
               "textAlignment": "center",
               "characterSize": 45,
@@ -29623,7 +29623,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Los geht's!",
+                "text": "Weiter!",
                 "font": "Kenney Mini Square.ttf",
                 "textAlignment": "center",
                 "verticalTextAlignment": "top",
@@ -30053,38 +30053,11 @@
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-              },
-              "parameters": [
-                "ProfBrandmaier",
-                "Animation"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "IntroText2"
-              ]
-            },
-            {
-              "type": {
                 "value": "Montre"
               },
               "parameters": [
-                "IntroText3",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AutoTyping::Text_AutoTyping::StartAtBeginning"
-              },
-              "parameters": [
-                "IntroText3",
-                "Text_AutoTyping",
-                ""
+                "StartButton",
+                "StartButton"
               ]
             }
           ]
@@ -30112,6 +30085,15 @@
           "actions": [
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+              },
+              "parameters": [
+                "ProfBrandmaier",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
                 "value": "Montre"
               },
               "parameters": [
@@ -30137,6 +30119,16 @@
                 "StartButton",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "current_text",
+                "=",
+                "2"
+              ]
             }
           ],
           "actions": [
@@ -30148,6 +30140,69 @@
                 "",
                 "\"Hauptgebaeude\"",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "StartButton",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "current_text",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "IntroText2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "IntroText3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AutoTyping::Text_AutoTyping::StartAtBeginning"
+              },
+              "parameters": [
+                "IntroText3",
+                "Text_AutoTyping",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "current_text",
+                "=",
+                "2"
               ]
             }
           ]
