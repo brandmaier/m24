@@ -2645,6 +2645,40 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "MenusBox_34x34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MenusBox_34x34.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "TopPatternPanel_01_33x15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TopPatternPanel_01_33x15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "RectangleBox_96x96.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RectangleBox_96x96.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "sfx/Dog_Bark.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sfx\\Dog_Bark.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -2899,9 +2933,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 0.39428512132204696,
+        "zoomFactor": 1.1023136214533626,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "UI"
       },
       "objectsGroups": [
         {
@@ -9443,8 +9477,8 @@
           "name": "bild",
           "persistentUuid": "8d2b25f0-e31d-4fa5-aacb-0129786e4346",
           "width": 226,
-          "x": 31,
-          "y": 71,
+          "x": 35,
+          "y": 87,
           "zOrder": 2211,
           "numberProperties": [],
           "stringProperties": [],
@@ -9527,8 +9561,8 @@
           "name": "Meinungsbild",
           "persistentUuid": "97af4abd-e97e-4a30-854f-93ab7cd6eea1",
           "width": 0,
-          "x": 27,
-          "y": 45,
+          "x": 63,
+          "y": 41,
           "zOrder": 2213,
           "numberProperties": [],
           "stringProperties": [],
@@ -9544,8 +9578,8 @@
           "name": "Varianz",
           "persistentUuid": "f3dc6dc1-171b-4f42-a499-61dd6eb0ce37",
           "width": 177,
-          "x": 57,
-          "y": 176,
+          "x": 55,
+          "y": 179,
           "zOrder": 2214,
           "numberProperties": [],
           "stringProperties": [],
@@ -14842,8 +14876,8 @@
           "name": "Samplesize",
           "persistentUuid": "e398c326-7597-424a-b073-9b9746cab664",
           "width": 0,
-          "x": 234,
-          "y": 41,
+          "x": 133,
+          "y": 62,
           "zOrder": 2289,
           "numberProperties": [],
           "stringProperties": [],
@@ -14879,6 +14913,55 @@
           "x": 22,
           "y": 18,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Box",
+          "persistentUuid": "4a553f31-8ee6-4c87-b3e4-e68644dc24ee",
+          "width": 0,
+          "x": 56,
+          "y": 71,
+          "zOrder": 2290,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 223,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Box",
+          "persistentUuid": "f74a064f-e84c-4a87-9c35-932219305a57",
+          "width": 264,
+          "x": 24,
+          "y": 16,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "VarianzLabel",
+          "persistentUuid": "5f3ef5ea-bd57-4bce-b3ca-f38457218c57",
+          "width": 0,
+          "x": 117,
+          "y": 162,
+          "zOrder": 2291,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20415,11 +20498,11 @@
           "string": "??",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 90,
+          "characterSize": 75,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 206,
+            "g": 206,
+            "r": 206
           },
           "content": {
             "bold": false,
@@ -20439,9 +20522,9 @@
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 90,
+            "characterSize": 75,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "206;206;206"
           }
         },
         {
@@ -20537,16 +20620,16 @@
           "textAlignment": "left",
           "characterSize": 18,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 223,
+            "g": 223,
+            "r": 223
           },
           "content": {
             "bold": false,
             "isOutlineEnabled": false,
             "isShadowEnabled": false,
             "italic": false,
-            "outlineColor": "255;255;255",
+            "outlineColor": "218;218;218",
             "outlineThickness": 2,
             "shadowAngle": 90,
             "shadowBlurRadius": 2,
@@ -20561,7 +20644,7 @@
             "verticalTextAlignment": "top",
             "characterSize": 18,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "223;223;223"
           }
         },
         {
@@ -20580,9 +20663,9 @@
           "textAlignment": "center",
           "characterSize": 30,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 211,
+            "g": 211,
+            "r": 211
           },
           "content": {
             "bold": false,
@@ -20604,7 +20687,7 @@
             "verticalTextAlignment": "top",
             "characterSize": 30,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "211;211;211"
           }
         },
         {
@@ -22436,9 +22519,9 @@
           "textAlignment": "left",
           "characterSize": 20,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 230,
+            "g": 230,
+            "r": 230
           },
           "content": {
             "bold": false,
@@ -22460,7 +22543,7 @@
             "verticalTextAlignment": "top",
             "characterSize": 20,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "230;230;230"
           }
         },
         {
@@ -22473,6 +22556,109 @@
           "effects": [],
           "behaviors": [],
           "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Box",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RectangleBox_96x96.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 96,
+                            "y": 0
+                          },
+                          {
+                            "x": 96,
+                            "y": 96
+                          },
+                          {
+                            "x": 0,
+                            "y": 96
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "VarianzLabel",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Varianz:",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 15,
+          "color": {
+            "b": 197,
+            "g": 197,
+            "r": 197
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Varianz:",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 15,
+            "lineHeight": 0,
+            "color": "197;197;197"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -22519,6 +22705,12 @@
           },
           {
             "objectName": "Meinungsbild"
+          },
+          {
+            "objectName": "VarianzLabel"
+          },
+          {
+            "objectName": "Box"
           },
           {
             "objectName": "Bigpad_large2"
@@ -25098,8 +25290,66 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "Befragen_knopf_Q_oder_E_",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Hund",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "sfx\\Dog_Bark.wav",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -25395,9 +25645,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "mittelwert",
+                "=",
+                "roundTo(mittelwert,2)"
+              ]
+            },
+            {
+              "type": {
+                "value": "BarplotExtension::Clipboard::Function"
+              },
+              "parameters": [
+                "DataClipboard",
+                "Player.gesammelte_werte_txt",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "PushNumber"
@@ -25405,6 +25681,38 @@
               "parameters": [
                 "History",
                 "mittelwert"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "DataClipboard",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "DataClipboard",
+                "Tween",
+                "\"ZeigDichUndBeende\"",
+                "300",
+                "100",
+                "\"easeInOutCubic\"",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "5"
               ]
             },
             {
@@ -25418,6 +25726,16 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -31628,15 +31946,15 @@
       ]
     },
     {
-      "b": 209,
+      "b": 254,
       "disableInputWhenNotFocused": true,
       "mangledName": "Overview",
       "name": "Overview",
-      "r": 209,
+      "r": 255,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 215,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -31664,15 +31982,16 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 100,
           "keepRatio": true,
           "layer": "",
           "name": "NewText",
           "persistentUuid": "bfc96a5d-8162-4a3b-af70-7b66e8b62de7",
-          "width": 0,
-          "x": 378,
-          "y": 48,
+          "width": 584,
+          "x": 63,
+          "y": 42,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -31682,14 +32001,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 155,
+          "height": 660,
           "keepRatio": true,
           "layer": "",
           "name": "WerteText",
           "persistentUuid": "525f5f98-c7cd-4a94-a14c-89ed05f8125f",
-          "width": 433,
-          "x": 425,
-          "y": 169,
+          "width": 544,
+          "x": 658,
+          "y": 34,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -31697,16 +32016,34 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 102,
           "keepRatio": true,
           "layer": "",
           "name": "PurpleButtonWithStoneFrame",
           "persistentUuid": "0bfe8d4f-fd72-472a-a395-fccfc9be0fc6",
-          "width": 0,
-          "x": 860,
-          "y": 581,
+          "width": 464,
+          "x": 118,
+          "y": 596,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 74,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText2",
+          "persistentUuid": "eb43003d-a80a-49a4-b2b3-33af71bdb850",
+          "width": 472,
+          "x": 106,
+          "y": 412,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31725,9 +32062,9 @@
           "effects": [],
           "behaviors": [],
           "string": "Diese Werte haben die letzten Besucher:innen gesammelt:",
-          "font": "",
+          "font": "Roboto-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 48,
           "color": {
             "b": 0,
             "g": 0,
@@ -31748,10 +32085,10 @@
             "smoothed": true,
             "underlined": false,
             "text": "Diese Werte haben die letzten Besucher:innen gesammelt:",
-            "font": "",
+            "font": "Roboto-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 48,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -31770,7 +32107,7 @@
           "string": "Text",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 40,
           "color": {
             "b": 0,
             "g": 0,
@@ -31794,7 +32131,7 @@
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 40,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -31841,7 +32178,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Spiel starten",
+              "string": "Neue Runde starten",
               "font": "Roboto-Regular.ttf",
               "textAlignment": "center",
               "characterSize": 40,
@@ -31864,7 +32201,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Spiel starten",
+                "text": "Neue Runde starten",
                 "font": "Roboto-Regular.ttf",
                 "textAlignment": "center",
                 "verticalTextAlignment": "top",
@@ -31884,6 +32221,120 @@
               "width": 348
             }
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "MenuBox",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "TopPatternPanel_01_33x15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 67,
+                            "y": 0
+                          },
+                          {
+                            "x": 67,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Warum sind diese Werte unterschiedlich? Welchem Ergebnis sollten wir vertrauen?",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Warum sind diese Werte unterschiedlich? Welchem Ergebnis sollten wir vertrauen?",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -31893,10 +32344,19 @@
             "objectName": "NewText"
           },
           {
+            "objectName": "NewText2"
+          },
+          {
             "objectName": "WerteText"
           },
           {
             "objectName": "PurpleButtonWithStoneFrame"
+          },
+          {
+            "objectName": "MenuBox"
+          },
+          {
+            "objectName": "NewTiledSprite"
           }
         ]
       },
@@ -31956,6 +32416,32 @@
                 "Text",
                 "=",
                 "gesammelte_werte_txt"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "PurpleButtonWithStoneFrame",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Hauptgebaeude\"",
+                ""
               ]
             }
           ]
@@ -32029,6 +32515,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
         {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
