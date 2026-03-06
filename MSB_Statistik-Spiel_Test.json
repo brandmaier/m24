@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 249,
+    "build": 261,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -12,7 +12,7 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "landscape",
-    "packageName": "com.msb.m24",
+    "packageName": "com.brandmaier.m24",
     "pixelsRounding": false,
     "projectUuid": "d9b3e6ff-f32f-45e3-b06a-14d29c31e817",
     "scaleMode": "linear",
@@ -21,7 +21,7 @@
     "version": "0.0.1",
     "name": "MSB - Statistikspiel",
     "description": "Statistik M24 Gamification",
-    "author": "MSB Medical School Berlin ",
+    "author": "Andreas Brandmaier",
     "windowWidth": 1280,
     "windowHeight": 720,
     "latestCompilationDirectory": "C:\\Users\\andreas.brandmaier\\Downloads",
@@ -85,6 +85,7 @@
     ],
     "playableDevices": [
       "keyboard",
+      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -2679,6 +2680,37 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Scoresheet_button_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Scoresheet_button_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Scoresheet_Hund.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Scoresheet_Hund.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Scoresheet_Klemmbrett_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Scoresheet_Klemmbrett_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "PressStart2P-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "PressStart2P-Regular.ttf",
+        "userAdded": false
       }
     ]
   },
@@ -2933,9 +2965,10 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 1.1023136214533626,
+        "zoomFactor": 0.5493396731566703,
         "windowMask": false,
-        "selectedLayer": "UI"
+        "selectedLayer": "UI",
+        "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [
         {
@@ -3426,7 +3459,7 @@
           "persistentUuid": "4d84390a-096b-4e85-bd7c-080318207a88",
           "width": 3599,
           "x": -1972,
-          "y": 882,
+          "y": 880,
           "zOrder": 2080,
           "numberProperties": [],
           "stringProperties": [],
@@ -6744,13 +6777,13 @@
         {
           "angle": 90,
           "customSize": true,
-          "depth": 1,
-          "height": 414,
+          "depth": 0.05797101449275362,
+          "height": 24,
           "keepRatio": true,
           "layer": "Background",
           "name": "Wandelement_32x32",
           "persistentUuid": "bd8903ec-a065-4779-a410-52219ae5db68",
-          "width": 32,
+          "width": 1.8550724637681157,
           "x": -1493,
           "y": 795,
           "zOrder": 2089,
@@ -6983,8 +7016,7 @@
           "angle": 90,
           "customSize": true,
           "depth": 1,
-          "height": 126,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Background",
           "name": "Wandelement_32x32",
           "persistentUuid": "8c89c651-120d-4423-87bb-a3ff34e00625",
@@ -7187,8 +7219,7 @@
           "angle": 90,
           "customSize": true,
           "depth": 1,
-          "height": 294,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Background",
           "name": "Wandelement_32x32",
           "persistentUuid": "373115bf-2580-4fc4-a03f-4e4de7256a3e",
@@ -7272,13 +7303,12 @@
           "angle": 90,
           "customSize": true,
           "depth": 1,
-          "height": 160,
-          "keepRatio": true,
+          "height": 159,
           "layer": "Background",
           "name": "Wandelement_32x32",
           "persistentUuid": "1e7d6c80-0647-4a1d-98d9-308d283672a4",
           "width": 32,
-          "x": -821,
+          "x": -809,
           "y": 796,
           "zOrder": 2089,
           "numberProperties": [],
@@ -7850,8 +7880,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 32,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "1fb61b9c-c93f-4d68-8414-5355f994e8fe",
@@ -7867,8 +7896,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "dcc14564-ca87-4f94-ad30-78bf6d0317fe",
@@ -7884,8 +7912,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 32,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "4878b6e7-59c4-4b76-8230-cf961dc3b1ed",
@@ -7901,8 +7928,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "383a1ab5-2744-410f-b3c0-66583b5b5aba",
@@ -7918,8 +7944,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "50106460-9e3b-43b0-a087-ebb0added7ba",
@@ -8020,8 +8045,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "35faedc1-8632-49f2-955a-fd30602b64b9",
@@ -8037,8 +8061,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "1961d380-1a54-4d81-8135-1d66a7d32551",
@@ -8054,8 +8077,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "73db1e12-dcce-4010-b68f-84c739883118",
@@ -8105,8 +8127,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "11b364b9-6c44-4390-af7e-44f71a08e121",
@@ -8122,8 +8143,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "9cb8fd97-2e6b-48da-b53b-40f317bb225c",
@@ -8139,8 +8159,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "8e60884c-e00a-47c4-8ac6-e9f8dc29e3bc",
@@ -8173,8 +8192,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "fd71c340-2395-4233-a1c8-1d0cca0ca574",
@@ -8276,11 +8294,10 @@
           "customSize": true,
           "depth": 1,
           "height": 926,
-          "keepRatio": true,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "ca17ede6-82e7-4001-a0f8-cae7edfd6402",
-          "width": 16,
+          "width": 24,
           "x": 2365,
           "y": 457,
           "zOrder": 2138,
@@ -8361,11 +8378,10 @@
           "customSize": true,
           "depth": 1,
           "height": 373,
-          "keepRatio": true,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "5753da88-c314-4bd9-8f71-561863cb8944",
-          "width": 16,
+          "width": 24,
           "x": 1591,
           "y": 994,
           "zOrder": 2143,
@@ -8377,8 +8393,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "1405de5c-93e2-456f-9e4e-b27ba7459704",
@@ -8394,8 +8409,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "e9ac58ce-f751-4654-8c91-e5198edcd86d",
@@ -8411,8 +8425,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "eb05741b-f63a-458c-8c74-4876a3b3f3f1",
@@ -8428,8 +8441,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "1f6ed548-6743-40b5-b516-dd50baa31d85",
@@ -8462,8 +8474,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "a9c6496f-c892-4fd4-91a3-9129d75eca5d",
@@ -8479,8 +8490,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "c3fedba8-f721-492b-9526-2b4c9c629ff3",
@@ -8496,8 +8506,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "b6eaf781-a7eb-443b-8874-ea1d6e7bc616",
@@ -8547,8 +8556,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "aac19024-0b07-4e98-be60-ecad83989a50",
@@ -8563,13 +8571,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 16,
+          "depth": 2,
+          "height": 24,
           "keepRatio": true,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "f5abd45f-bab9-4896-a368-d3a7ad6545e5",
-          "width": 161,
+          "width": 157,
           "x": -886,
           "y": 994,
           "zOrder": 2155,
@@ -8649,8 +8657,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 24,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "de538f78-d574-4ebc-b2a4-fbb05517c88f",
@@ -8665,13 +8672,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 16,
+          "depth": 2,
+          "height": 24,
           "keepRatio": true,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "446b5778-5991-4c48-a802-7d0de644dcba",
-          "width": 127,
+          "width": 108,
           "x": -1918,
           "y": 995,
           "zOrder": 2161,
@@ -8735,11 +8742,10 @@
           "customSize": true,
           "depth": 1,
           "height": 842,
-          "keepRatio": true,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "a971fd09-d6cf-467f-b37b-f9475bcccff9",
-          "width": 16,
+          "width": 32,
           "x": -1920,
           "y": 1011,
           "zOrder": 2165,
@@ -8784,13 +8790,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 16,
+          "depth": 2,
+          "height": 24,
           "keepRatio": true,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "ac0b8ed0-c25e-4adb-9125-933e8a136d26",
-          "width": 56,
+          "width": 38,
           "x": -2093,
           "y": 1329,
           "zOrder": 2169,
@@ -8801,13 +8807,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 16,
+          "depth": 2,
+          "height": 24,
           "keepRatio": true,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "9804dbd4-4a60-476e-b98b-de9207c2535c",
-          "width": 74,
+          "width": 70,
           "x": -1989,
           "y": 1331,
           "zOrder": 2170,
@@ -8818,13 +8824,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 16,
+          "depth": 2,
+          "height": 24,
           "keepRatio": true,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "4d243c71-d699-4b02-97cc-a80049d45362",
-          "width": 125,
+          "width": 131,
           "x": -2224,
           "y": 1081,
           "zOrder": 2171,
@@ -8837,11 +8843,10 @@
           "customSize": true,
           "depth": 1,
           "height": 749,
-          "keepRatio": true,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "71b9b3be-d969-4669-ac7b-46642cfe2b8e",
-          "width": 16,
+          "width": 32,
           "x": -2225,
           "y": 1096,
           "zOrder": 2172,
@@ -8870,8 +8875,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 32,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "6c9c21f1-1daf-4014-9ab7-3aae034526ba",
@@ -8887,7 +8891,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
+          "height": 26,
           "keepRatio": true,
           "layer": "Collision",
           "name": "CollisionDetect",
@@ -8941,6 +8945,7 @@
           "height": 179,
           "keepRatio": true,
           "layer": "Collision",
+          "locked": true,
           "name": "CollisionDetect",
           "persistentUuid": "2f20d2b6-ead7-49af-8cfe-b076885dd2ce",
           "width": 207,
@@ -8972,14 +8977,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
+          "height": 26,
           "keepRatio": true,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "3112f226-b36a-4624-9033-3cf0587572ca",
           "width": 546,
           "x": -2636,
-          "y": 237,
+          "y": 227,
           "zOrder": 2180,
           "numberProperties": [],
           "stringProperties": [],
@@ -8992,6 +8997,7 @@
           "height": 406,
           "keepRatio": true,
           "layer": "Collision",
+          "locked": true,
           "name": "CollisionDetect",
           "persistentUuid": "6dac87c7-edba-4ccf-b9c4-f82c09baa01c",
           "width": 33,
@@ -9006,14 +9012,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 32,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "f0a55df8-ab60-4711-aa15-5d67ffd5f99b",
           "width": 440,
           "x": -1894,
-          "y": -47,
+          "y": -60,
           "zOrder": 2182,
           "numberProperties": [],
           "stringProperties": [],
@@ -9040,7 +9045,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
+          "height": 9,
           "keepRatio": true,
           "layer": "Collision",
           "name": "CollisionDetect",
@@ -9125,8 +9130,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 32,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "9ce0f616-57e4-42a5-9de5-af1cd3c614c5",
@@ -9142,8 +9146,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
+          "height": 32,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "698955a2-67f6-4a67-81b9-7f9dfd0e3d9e",
@@ -9379,23 +9382,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 82,
-          "keepRatio": true,
-          "layer": "Background",
-          "name": "Player2",
-          "persistentUuid": "9924b42a-9343-42f0-ba95-0fa3c6d0b7fb",
-          "width": 76,
-          "x": -1959,
-          "y": 1181,
-          "zOrder": 2204,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 0,
           "height": 64,
           "keepRatio": true,
@@ -9598,22 +9584,6 @@
           "x": -2073,
           "y": 683,
           "zOrder": 2215,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Bigpad",
-          "name": "PersonenText",
-          "persistentUuid": "afc90927-cf89-4f24-9b91-684efdab66cd",
-          "width": 0,
-          "x": 1207,
-          "y": 67,
-          "zOrder": 2216,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10385,8 +10355,8 @@
           "name": "NPC",
           "persistentUuid": "9d42d0eb-c3b5-4068-b5b4-6ef0c4a4bdf1",
           "width": 64,
-          "x": -615,
-          "y": 34,
+          "x": -608,
+          "y": 27,
           "zOrder": 2208,
           "numberProperties": [
             {
@@ -10675,24 +10645,7 @@
           "width": 64,
           "x": -1331,
           "y": 136,
-          "zOrder": 2225,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 108,
-          "keepRatio": true,
-          "layer": "",
-          "name": "FlunkiBall",
-          "persistentUuid": "91954578-d33f-4fb4-9eba-293a194b4a7f",
-          "width": 96,
-          "x": -866,
-          "y": -1,
-          "zOrder": 2226,
+          "zOrder": 3000,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10707,8 +10660,8 @@
           "name": "Prof",
           "persistentUuid": "9042509a-388e-451c-9eaf-17214a4f9091",
           "width": 63,
-          "x": -1234,
-          "y": -314,
+          "x": -2999,
+          "y": -374,
           "zOrder": 2227,
           "numberProperties": [
             {
@@ -11817,7 +11770,7 @@
           "name": "Tisch_Stuhl_down",
           "persistentUuid": "dad183f3-2076-4226-bece-7dcd772c0013",
           "width": 107,
-          "x": -2225,
+          "x": -2254,
           "y": -449,
           "zOrder": 2229,
           "numberProperties": [],
@@ -11834,7 +11787,7 @@
           "name": "Tisch_Stuhl_down",
           "persistentUuid": "59f7b1ba-0ec8-440c-9372-d06d7e668854",
           "width": 107,
-          "x": -2298,
+          "x": -2327,
           "y": -449,
           "zOrder": 2229,
           "numberProperties": [],
@@ -11885,7 +11838,7 @@
           "name": "Tisch_Stuhl_down",
           "persistentUuid": "44f04837-9a4e-423f-97db-78504045f58f",
           "width": 107,
-          "x": -2225,
+          "x": -2254,
           "y": -571,
           "zOrder": 2229,
           "numberProperties": [],
@@ -11902,7 +11855,7 @@
           "name": "Tisch_Stuhl_down",
           "persistentUuid": "0b0c6e5c-77f0-4c72-afc6-c8bea6f4d20a",
           "width": 107,
-          "x": -2225,
+          "x": -2254,
           "y": -691,
           "zOrder": 2229,
           "numberProperties": [],
@@ -11919,7 +11872,7 @@
           "name": "Tisch_Stuhl_down",
           "persistentUuid": "b9074fd2-1c81-494c-873b-d931591c56dd",
           "width": 107,
-          "x": -2225,
+          "x": -2254,
           "y": -807,
           "zOrder": 2229,
           "numberProperties": [],
@@ -11936,7 +11889,7 @@
           "name": "Tisch_Stuhl_down",
           "persistentUuid": "15535cfd-4e9d-420f-8a50-ce07c4934071",
           "width": 107,
-          "x": -2298,
+          "x": -2327,
           "y": -807,
           "zOrder": 2229,
           "numberProperties": [],
@@ -12021,7 +11974,7 @@
           "name": "Tisch_Stuhl_down",
           "persistentUuid": "9a30f6fe-c423-4228-af07-0030e39cbf67",
           "width": 107,
-          "x": -2298,
+          "x": -2327,
           "y": -691,
           "zOrder": 2229,
           "numberProperties": [],
@@ -12038,7 +11991,7 @@
           "name": "Tisch_Stuhl_down",
           "persistentUuid": "14c3f860-1329-4856-9052-aa9ff821d227",
           "width": 107,
-          "x": -2298,
+          "x": -2327,
           "y": -571,
           "zOrder": 2229,
           "numberProperties": [],
@@ -12106,7 +12059,7 @@
           "name": "Tisch_Stuhl_down",
           "persistentUuid": "ea6ba44d-1e3f-4baa-8673-9a9611dec4c6",
           "width": 107,
-          "x": -2298,
+          "x": -2327,
           "y": -927,
           "zOrder": 2229,
           "numberProperties": [],
@@ -12123,7 +12076,7 @@
           "name": "Tisch_Stuhl_down",
           "persistentUuid": "278208da-aae7-4e4a-a8ce-666df7990f80",
           "width": 107,
-          "x": -2225,
+          "x": -2254,
           "y": -927,
           "zOrder": 2229,
           "numberProperties": [],
@@ -12191,7 +12144,7 @@
           "name": "Tisch_Stuhl_down",
           "persistentUuid": "ddfa5db8-7a89-4588-a48d-d73961237ee3",
           "width": 107,
-          "x": -2297,
+          "x": -2326,
           "y": -211,
           "zOrder": 2229,
           "numberProperties": [],
@@ -12208,7 +12161,7 @@
           "name": "Tisch_Stuhl_down",
           "persistentUuid": "f1782e6c-69a0-4742-9612-46cca66e6875",
           "width": 107,
-          "x": -2224,
+          "x": -2253,
           "y": -211,
           "zOrder": 2229,
           "numberProperties": [],
@@ -12276,7 +12229,7 @@
           "name": "Tisch_Stuhl_down",
           "persistentUuid": "4ca4dfe8-7789-4908-8fcd-e1b77cba4828",
           "width": 107,
-          "x": -2297,
+          "x": -2326,
           "y": -331,
           "zOrder": 2229,
           "numberProperties": [],
@@ -12293,7 +12246,7 @@
           "name": "Tisch_Stuhl_down",
           "persistentUuid": "166dbc43-62fa-4528-bed4-c0de38e9a836",
           "width": 107,
-          "x": -2224,
+          "x": -2253,
           "y": -331,
           "zOrder": 2229,
           "numberProperties": [],
@@ -14622,8 +14575,8 @@
           "name": "CollisionDetect",
           "persistentUuid": "40f3eb1d-9116-4674-9be8-4b0b8d0df6da",
           "width": 139,
-          "x": -2280,
-          "y": -926,
+          "x": -2315,
+          "y": -925,
           "zOrder": 2278,
           "numberProperties": [],
           "stringProperties": [],
@@ -14791,9 +14744,9 @@
           "layer": "Background",
           "name": "Treppe_2",
           "persistentUuid": "8d9218c4-0dc6-4308-8b2f-a255e4693f9b",
-          "width": 171,
-          "x": 126,
-          "y": 288,
+          "width": 295,
+          "x": 64,
+          "y": 226,
           "zOrder": 2282,
           "numberProperties": [],
           "stringProperties": [],
@@ -14959,9 +14912,541 @@
           "name": "VarianzLabel",
           "persistentUuid": "5f3ef5ea-bd57-4bce-b3ca-f38457218c57",
           "width": 0,
-          "x": 117,
-          "y": 162,
+          "x": 79,
+          "y": 164,
           "zOrder": 2291,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 91,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Busch",
+          "persistentUuid": "e33cd085-bd23-4acb-a665-33bc50f93fda",
+          "width": 91,
+          "x": 1869,
+          "y": -115,
+          "zOrder": 2065,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 260,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Baum_2",
+          "persistentUuid": "3e0882e6-714c-4599-ab3c-48f2c8c45c6b",
+          "width": 169,
+          "x": 1755,
+          "y": -987,
+          "zOrder": 2064,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 161,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Busch",
+          "persistentUuid": "22415788-c19f-4047-8177-23a830d2e94c",
+          "width": 161,
+          "x": 1697,
+          "y": -301,
+          "zOrder": 2066,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 91,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Busch",
+          "persistentUuid": "41ccfec2-b46c-4aac-b1b7-96e1fa78fe6d",
+          "width": 91,
+          "x": 1487,
+          "y": -521,
+          "zOrder": 2065,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 260,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Baum_2",
+          "persistentUuid": "62425ac7-a293-4a43-94e6-8f61ef9d696e",
+          "width": 169,
+          "x": 1381,
+          "y": -922,
+          "zOrder": 2064,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 161,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Busch",
+          "persistentUuid": "f513a40b-2867-4778-8346-0eb700863a20",
+          "width": 161,
+          "x": 1615,
+          "y": -506,
+          "zOrder": 2066,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 161,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Baum_1",
+          "persistentUuid": "4d7f26f2-6e6c-4fc6-a1ec-b25d0cc0d330",
+          "width": 161,
+          "x": -443,
+          "y": -28,
+          "zOrder": 2071,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 161,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Baum_1",
+          "persistentUuid": "d186d488-f082-4707-a954-cd05437fe8c3",
+          "width": 161,
+          "x": -348,
+          "y": -327,
+          "zOrder": 2071,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 260,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Baum_2",
+          "persistentUuid": "d14b7976-85d6-48b7-86c0-187dda8f43a1",
+          "width": 169,
+          "x": 470,
+          "y": -136,
+          "zOrder": 2064,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "584afaf9-ce0d-4c57-97ac-49c8914662e9",
+          "width": 64,
+          "x": 1247,
+          "y": -1,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "5ebb3fc6-c7b7-448c-bca3-9083f912bbf1",
+          "width": 64,
+          "x": 934,
+          "y": -154,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 14
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 2820,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "0a0002ce-94a0-4ca3-94ab-bf7e3663a9af",
+          "width": 24,
+          "x": 2412,
+          "y": -1312,
+          "zOrder": 2138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 44,
+          "keepRatio": true,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "7cbdadab-c983-4005-8b45-7a231dc1a036",
+          "width": 5182,
+          "x": -2755,
+          "y": -1305,
+          "zOrder": 2142,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 2950,
+          "keepRatio": true,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "1aa6ecd0-9809-40df-9d4c-f5d78637e7ea",
+          "width": 17,
+          "x": -2670,
+          "y": -1286,
+          "zOrder": 2173,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "b4e9f5ce-c575-4f1e-b8c4-8595b2aeb768",
+          "width": 64,
+          "x": 2070,
+          "y": 947,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 10
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "749c44c9-dd29-4853-a965-90872cb36328",
+          "width": 64,
+          "x": 1826,
+          "y": 832,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 12
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "0ad137f9-ffdf-4141-8c04-16870b096ad8",
+          "width": 64,
+          "x": 1018,
+          "y": 712,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 12
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "e7ec7645-832d-4b27-aa22-10b2aef74b65",
+          "width": 64,
+          "x": 1014,
+          "y": 805,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 11
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "af2ffe86-ca48-4fc7-ba8c-6604ffbddfe5",
+          "width": 64,
+          "x": 2145,
+          "y": 1217,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 12
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "537718ae-a408-4e8e-9475-6493092245a9",
+          "width": 64,
+          "x": 1517,
+          "y": 249,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 12
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "NPC",
+          "persistentUuid": "c3c67035-13aa-49ac-abd5-32724bc14ae6",
+          "width": 64,
+          "x": 2025,
+          "y": 666,
+          "zOrder": 2208,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Name",
+              "type": "string",
+              "value": "Paul"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 260,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Baum_2",
+          "persistentUuid": "b0290ce7-40b3-4d2c-aaab-e5a2bb792a35",
+          "width": 169,
+          "x": 606,
+          "y": -272,
+          "zOrder": 2064,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 260,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Baum_2",
+          "persistentUuid": "175c3a21-8aa6-4114-9c65-220468a637fe",
+          "width": 169,
+          "x": 906,
+          "y": -7,
+          "zOrder": 2064,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Wandelement_32x32",
+          "persistentUuid": "ce75f6bf-dfd7-4a16-8258-42ef79d5a013",
+          "width": 32,
+          "x": -117,
+          "y": 794,
+          "zOrder": 2089,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 381,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "Wandelement_32x32",
+          "persistentUuid": "4b15d043-b3b4-477a-8590-f0e1928b0b47",
+          "width": 32,
+          "x": -1499,
+          "y": 812,
+          "zOrder": 2089,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14982,6 +15467,7 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Player",
+          "persistentUuid": "763a431d-5903-4c14-ad26-16e902b27f32",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -15704,6 +16190,7 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NPC",
+          "persistentUuid": "27ed1c66-bbef-4401-b971-3a8230551776",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -16774,6 +17261,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "Grass",
+          "persistentUuid": "5ec420cc-b22f-4a32-bac1-645fac992be3",
           "texture": "Grass1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -16978,6 +17466,7 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "CollisionDetect",
+          "persistentUuid": "f26ee7e1-09f7-441a-86c4-b41d339ccd55",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -17533,6 +18022,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "roterTeppich",
+          "persistentUuid": "2231544e-3db8-46bf-b46c-744266837120",
           "texture": "roter_Teppich_Test7.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -17581,6 +18071,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "Steinboden2",
+          "persistentUuid": "b8baec96-1a29-42a2-a628-9ebd69dbc8e1",
           "texture": "Steinboden2.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -17685,6 +18176,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Baum_2",
+          "persistentUuid": "c48f58c5-0627-455d-b3c3-9209d27d2626",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -17745,6 +18237,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Baum_1",
+          "persistentUuid": "8a15a808-7de3-4758-83c7-260cdcc5a581",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -17985,6 +18478,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Busch",
+          "persistentUuid": "781f0f04-7d26-4c0d-9a78-761ddd3d5c7c",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -18558,6 +19052,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "Wandelement_32x32",
+          "persistentUuid": "ac5bec67-1653-4bc8-a209-48b51b5b51fd",
           "texture": "Wandelement_32x34.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -19475,6 +19970,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "5ae5d16cd70fce3f9ec4f8bdf9e7f6340af1227d68ae11de7de3fe944d64be1a",
           "name": "FlunkiBall",
+          "persistentUuid": "446600a9-fccf-48f8-a29f-fa2fbe9c382b",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -21496,6 +21992,7 @@
         {
           "assetStoreId": "",
           "name": "DataClipboard",
+          "persistentUuid": "6dab5b1a-700e-4f21-8f35-7aea1f6c8eb7",
           "type": "BarplotExtension::Clipboard",
           "variant": "",
           "variables": [],
@@ -21692,6 +22189,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Bigpad_up",
+          "persistentUuid": "4fd14351-dfaf-48ca-b4a4-0f4b248bfd1b",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -22183,6 +22681,7 @@
           "assetStoreId": "",
           "height": 28,
           "name": "Treppe_2",
+          "persistentUuid": "a7ceaa51-d9c9-4fcb-83d9-40dd88ea34ce",
           "texture": "Treppe_3.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 28,
@@ -22628,7 +23127,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Varianz:",
+          "string": "Standardabweichung:",
           "font": "",
           "textAlignment": "left",
           "characterSize": 15,
@@ -22651,7 +23150,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Varianz:",
+            "text": "Standardabweichung:",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -23099,6 +23598,15 @@
                 "=",
                 "100"
               ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"Inaktiv\""
+              ]
             }
           ],
           "events": [
@@ -23188,9 +23696,31 @@
                   },
                   "parameters": [
                     "NPC",
+                    "Happiness",
+                    "=",
+                    "roundTo(BetterRandomness::RandomNormal(70,5)-(NPC.X()/3000*20),1)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "NPC",
                     "Handedness",
                     "=",
                     "RandomInRange(0,1)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "Happiness",
+                    "=",
+                    "min(max(NPC.Happiness,0),100)"
                   ]
                 }
               ]
@@ -23228,6 +23758,11 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
         },
@@ -23623,6 +24158,82 @@
                 "",
                 "",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "If inactivate, then return to main screen"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"Inaktiv\"",
+                ">=",
+                "300"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Escape\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnyKeyPressed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"TitleScreen\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"TitleScreen\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Player",
+                "\"Inaktiv\""
               ]
             }
           ]
@@ -24620,7 +25231,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": ""
+          "comment": "NPC befragen"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -24700,16 +25311,6 @@
                 "warten",
                 "True",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "npc_antwort",
-                "=",
-                "roundTo(BetterRandomness::RandomNormal(50,15),2)"
               ]
             },
             {
@@ -24914,17 +25515,6 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "PersonenText",
-                "Text",
-                "=",
-                "ToString(Player.VariableChildCount(gesammelte_werte))"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
                 "bild",
                 "Text",
                 "=",
@@ -24989,6 +25579,16 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -25617,6 +26217,18 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Beenden nach 10 Datenpunkten oder Taste \"b\""
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -25654,6 +26266,16 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement",
+                "yes"
+              ]
+            },
             {
               "type": {
                 "value": "SetNumberVariable"
@@ -25870,7 +26492,7 @@
           "isLocked": false,
           "name": "Collision",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -26125,13 +26747,17 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
         "zoomFactor": 0.7294011173167864,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [
         {
@@ -28267,7 +28893,8 @@
         "snap": false,
         "zoomFactor": 0.478934188453525,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
       "variables": [
@@ -32024,7 +32651,8 @@
         "snap": false,
         "zoomFactor": 0.546875,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
       "variables": [
@@ -32039,14 +32667,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 100,
+          "height": 116,
           "keepRatio": true,
           "layer": "",
           "name": "NewText",
           "persistentUuid": "bfc96a5d-8162-4a3b-af70-7b66e8b62de7",
-          "width": 584,
-          "x": 63,
-          "y": 42,
+          "width": 415,
+          "x": 89,
+          "y": 86,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -32056,14 +32684,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 660,
+          "height": 325,
           "keepRatio": true,
           "layer": "",
           "name": "WerteText",
           "persistentUuid": "525f5f98-c7cd-4a94-a14c-89ed05f8125f",
-          "width": 544,
-          "x": 658,
-          "y": 34,
+          "width": 419,
+          "x": 84,
+          "y": 201,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -32079,8 +32707,8 @@
           "name": "PurpleButtonWithStoneFrame",
           "persistentUuid": "0bfe8d4f-fd72-472a-a395-fccfc9be0fc6",
           "width": 464,
-          "x": 118,
-          "y": 596,
+          "x": 617,
+          "y": 605,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -32090,15 +32718,64 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 74,
+          "height": 71,
           "keepRatio": true,
           "layer": "",
           "name": "NewText2",
           "persistentUuid": "eb43003d-a80a-49a4-b2b3-33af71bdb850",
-          "width": 472,
-          "x": 106,
-          "y": 412,
+          "width": 659,
+          "x": 606,
+          "y": 37,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "bfeba0e0-f90f-4add-8719-05b14b38d2ed",
+          "width": 0,
+          "x": 877,
+          "y": 42,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1017,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "acd1ceaa-df7a-478f-a52c-7d6058d6d6b6",
+          "width": 672,
+          "x": -35,
+          "y": -150,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "QuestionMarks",
+          "persistentUuid": "a773d13f-b270-4ba8-9596-dc6c1b60036d",
+          "width": 0,
+          "x": 750,
+          "y": 324,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32117,9 +32794,9 @@
           "effects": [],
           "behaviors": [],
           "string": "Diese Werte haben die letzten Besucher:innen gesammelt:",
-          "font": "Roboto-Regular.ttf",
+          "font": "PressStart2P-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 48,
+          "characterSize": 22,
           "color": {
             "b": 0,
             "g": 0,
@@ -32140,10 +32817,10 @@
             "smoothed": true,
             "underlined": false,
             "text": "Diese Werte haben die letzten Besucher:innen gesammelt:",
-            "font": "Roboto-Regular.ttf",
+            "font": "PressStart2P-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 48,
+            "characterSize": 22,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -32160,9 +32837,9 @@
           "effects": [],
           "behaviors": [],
           "string": "Text",
-          "font": "",
+          "font": "PressStart2P-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 40,
+          "characterSize": 20,
           "color": {
             "b": 0,
             "g": 0,
@@ -32183,10 +32860,10 @@
             "smoothed": true,
             "underlined": false,
             "text": "Text",
-            "font": "",
+            "font": "PressStart2P-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 40,
+            "characterSize": 20,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -32359,10 +33036,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Warum sind diese Werte unterschiedlich? Welchem Ergebnis sollten wir vertrauen?",
-          "font": "",
+          "string": "Warum sind diese Werte unterschiedlich? \n\nWelchem Ergebnis sollten wir vertrauen?",
+          "font": "PressStart2P-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 32,
           "color": {
             "b": 0,
             "g": 0,
@@ -32382,11 +33059,187 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Warum sind diese Werte unterschiedlich? Welchem Ergebnis sollten wir vertrauen?",
-            "font": "",
+            "text": "Warum sind diese Werte unterschiedlich? \n\nWelchem Ergebnis sollten wir vertrauen?",
+            "font": "PressStart2P-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 32,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "ColorReplace",
+              "name": "Effect",
+              "doubleParameters": {
+                "epsilon": 0.4
+              },
+              "stringParameters": {
+                "newColor": "255;255;255",
+                "originalColor": "252;3;65"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Scoresheet_Hund.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 165
+                          },
+                          {
+                            "x": 587,
+                            "y": 165
+                          },
+                          {
+                            "x": 587,
+                            "y": 610
+                          },
+                          {
+                            "x": 65,
+                            "y": 610
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Scoresheet_Klemmbrett_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 79
+                          },
+                          {
+                            "x": 454,
+                            "y": 79
+                          },
+                          {
+                            "x": 454,
+                            "y": 635
+                          },
+                          {
+                            "x": 45,
+                            "y": 635
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "QuestionMarks",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "???",
+          "font": "PressStart2P-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "???",
+            "font": "PressStart2P-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 50,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -32397,6 +33250,9 @@
         "children": [
           {
             "objectName": "NewText"
+          },
+          {
+            "objectName": "QuestionMarks"
           },
           {
             "objectName": "NewText2"
@@ -32412,10 +33268,28 @@
           },
           {
             "objectName": "NewTiledSprite"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "NewSprite2"
           }
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "If there are more than five players in the history, remove the first ones"
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -32441,14 +33315,28 @@
           "actions": []
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Dynamically create score board from variable \"History\" from main game environment"
+        },
+        {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
             "let array = runtimeScene.getGame().getVariables().get(\"History\")",
             "",
-            "let txt = \"Mittlere Meinung:\\n\\n\";",
-            "for (let i=0; i < array.getChildrenCount(); i++) { ",
+            "let txt = \"Mittlere Meinung:\\n\\n \";",
+            "let start = Math.max(array.getChildrenCount()-8,0);",
+            "let end = array.getChildrenCount();",
+            "for (let i=start; i < end; i++) { ",
             "    if(i>0) { txt = txt + \" \"}",
-            "    txt = txt + \"Spieler \"+ i + \": \"+ ( array.getChild(i).getAsString())+\"\\n\" ; ",
+            "    txt = txt + \"Spieler:in \"+ (i+1) + \": \"+ ( array.getChild(i).getAsString())+\"\\n\" ; ",
             "}",
             "",
             "runtimeScene.getVariables().get(\"gesammelte_werte_txt\").setString(txt);",
@@ -32474,6 +33362,18 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Inputs / Key pressed"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -32610,6 +33510,7 @@
     {
       "author": "Entropy",
       "category": "Advanced",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Pathfinding painter",
       "gdevelopVersion": "",
@@ -32940,7 +33841,20 @@
               "name": "CorrectionY"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "LoopIndex"
+              },
+              {
+                "propertyName": "CorrectionX"
+              },
+              {
+                "propertyName": "CorrectionY"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -32948,6 +33862,7 @@
     {
       "author": "",
       "category": "User interface",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Button states and effects",
       "gdevelopVersion": "",
@@ -34161,7 +35076,29 @@
               "name": "Index"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ShouldCheckHovering"
+              },
+              {
+                "propertyName": "State"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIsInside"
+              },
+              {
+                "propertyName": "MouseIsInside"
+              },
+              {
+                "propertyName": "Index"
+              }
+            ]
+          }
         },
         {
           "description": "Enable effects on buttons based on their state.",
@@ -34708,7 +35645,31 @@
               "name": "PressedEffect"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "propertyName": "Effect"
+              },
+              {
+                "folderName": "Effects",
+                "children": [
+                  {
+                    "propertyName": "IdleEffect"
+                  },
+                  {
+                    "propertyName": "FocusedEffect"
+                  },
+                  {
+                    "propertyName": "PressedEffect"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Change the animation of buttons according to their state.",
@@ -35161,7 +36122,31 @@
               "name": "PressedAnimationName"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Animation"
+              },
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "folderName": "Animation",
+                "children": [
+                  {
+                    "propertyName": "IdleAnimationName"
+                  },
+                  {
+                    "propertyName": "FocusedAnimationName"
+                  },
+                  {
+                    "propertyName": "PressedAnimationName"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Smoothly change an effect on buttons according to their state.",
@@ -36982,7 +37967,77 @@
               "name": "EffectValue"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "propertyName": "Effect"
+              },
+              {
+                "folderName": "Effect",
+                "children": [
+                  {
+                    "propertyName": "EffectName"
+                  },
+                  {
+                    "propertyName": "EffectProperty"
+                  }
+                ]
+              },
+              {
+                "folderName": "Value",
+                "children": [
+                  {
+                    "propertyName": "IdleValue"
+                  },
+                  {
+                    "propertyName": "FocusedValue"
+                  },
+                  {
+                    "propertyName": "PressedValue"
+                  }
+                ]
+              },
+              {
+                "folderName": "Speed",
+                "children": [
+                  {
+                    "propertyName": "FadeInEasing"
+                  },
+                  {
+                    "propertyName": "FadeOutEasing"
+                  },
+                  {
+                    "propertyName": "FadeInDuration"
+                  },
+                  {
+                    "propertyName": "FadeOutDuration"
+                  }
+                ]
+              },
+              {
+                "propertyName": "PreviousState"
+              },
+              {
+                "propertyName": "TweenInitialValue"
+              },
+              {
+                "propertyName": "TweenTargetedValue"
+              },
+              {
+                "propertyName": "TweenTime"
+              },
+              {
+                "propertyName": "TweenState"
+              },
+              {
+                "propertyName": "EffectValue"
+              }
+            ]
+          }
         },
         {
           "description": "Smoothly resize buttons according to their state.",
@@ -38307,7 +39362,54 @@
               "name": "PreviousState"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Scale"
+              },
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "propertyName": "Tween"
+              },
+              {
+                "folderName": "Size",
+                "children": [
+                  {
+                    "propertyName": "IdleScale"
+                  },
+                  {
+                    "propertyName": "FocusedScale"
+                  },
+                  {
+                    "propertyName": "PressedScale"
+                  }
+                ]
+              },
+              {
+                "folderName": "Speed",
+                "children": [
+                  {
+                    "propertyName": "FadeInDuration"
+                  },
+                  {
+                    "propertyName": "FadeOutDuration"
+                  },
+                  {
+                    "propertyName": "FadeInEasing"
+                  },
+                  {
+                    "propertyName": "FadeOutEasing"
+                  }
+                ]
+              },
+              {
+                "propertyName": "PreviousState"
+              }
+            ]
+          }
         },
         {
           "description": "Smoothly change the color tint of buttons according to their state.",
@@ -39633,7 +40735,51 @@
               "name": "PreviousState"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ButtonFSM"
+              },
+              {
+                "propertyName": "Tween"
+              },
+              {
+                "folderName": "Color",
+                "children": [
+                  {
+                    "propertyName": "IdleColorTint"
+                  },
+                  {
+                    "propertyName": "FocusedColorTint"
+                  },
+                  {
+                    "propertyName": "PressedColorTint"
+                  }
+                ]
+              },
+              {
+                "folderName": "Speed",
+                "children": [
+                  {
+                    "propertyName": "FadeInDuration"
+                  },
+                  {
+                    "propertyName": "FadeOutDuration"
+                  },
+                  {
+                    "propertyName": "FadeInEasing"
+                  },
+                  {
+                    "propertyName": "FadeOutEasing"
+                  }
+                ]
+              },
+              {
+                "propertyName": "PreviousState"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -39641,6 +40787,7 @@
     {
       "author": "westboy31, Tristan Rhodes (https://victrisgames.itch.io/)",
       "category": "Camera",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Camera shake",
       "gdevelopVersion": "",
@@ -43216,18 +44363,17 @@
     {
       "author": "Arthur Pacaud (arthuro555)",
       "category": "General",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Array tools",
-      "gdevelopVersion": "",
+      "gdevelopVersion": ">=5.5.222",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPGxpbmUgY2xhc3M9InN0MCIgeDE9IjExIiB5MT0iNyIgeDI9IjI5IiB5Mj0iNyIvPg0KPGxpbmUgY2xhc3M9InN0MCIgeDE9IjExIiB5MT0iMTYiIHgyPSIyMiIgeTI9IjE2Ii8+DQo8bGluZSBjbGFzcz0ic3QwIiB4MT0iMTEiIHkxPSIyNSIgeDI9IjI5IiB5Mj0iMjUiLz4NCjxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjUiIGN5PSI3IiByPSIyIi8+DQo8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSI1IiBjeT0iMTYiIHI9IjIiLz4NCjxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjUiIGN5PSIyNSIgcj0iMiIvPg0KPC9zdmc+DQo=",
       "name": "ArrayTools",
       "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Text Editing/9bfb52500e68d0fd164b1e30bc696e40566187245b80c345848379f40bb6fad7_Text Editing_bullet_points_list.svg",
-      "shortDescription": "A collection of utilities and tools for working with arrays.",
-      "version": "2.0.1",
+      "shortDescription": "Array utilities: search, sort, shuffle, slice, concat, reverse, pop, random element access.",
+      "version": "3.0.1",
       "description": [
-        "> Note: The v2.0.0 is not compatible with v1.0.0. If you update, you wil have to update ALL USAGES of the extension.",
-        "",
         "This extension adds features like:",
         "- Combining arrays (concatenate into new array, append all children to another array)",
         "- Finding a value in an array (find index expression, contains condition)",
@@ -43264,9 +44410,21 @@
       "authorIds": [
         "ZgrsWuRTAkXgeuPV9bo0zuEcA2w1"
       ],
+      "changelog": [
+        {
+          "version": "3.0.0",
+          "breaking": "- Variables have to be declared"
+        }
+      ],
       "dependencies": [],
       "globalVariables": [],
-      "sceneVariables": [],
+      "sceneVariables": [
+        {
+          "name": "Temp",
+          "type": "array",
+          "children": []
+        }
+      ],
       "eventsFunctions": [
         {
           "description": "The index of the first variable that equals to a specific number in an array.",
@@ -43299,7 +44457,7 @@
             {
               "description": "Array to search the value in",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             },
             {
               "description": "Number to search in the array",
@@ -43340,7 +44498,7 @@
             {
               "description": "Array to search the value in",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             },
             {
               "description": "String to search in the array",
@@ -43381,7 +44539,7 @@
             {
               "description": "Array to search the value in",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             },
             {
               "description": "Number to search in the array",
@@ -43422,7 +44580,7 @@
             {
               "description": "Array to search the value in",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             },
             {
               "description": "String to search in the array",
@@ -43464,7 +44622,7 @@
             {
               "description": "Array to get a number from",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -43501,7 +44659,7 @@
             {
               "description": "Array to get a string from",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -43538,7 +44696,7 @@
             {
               "description": "Array to pop a child from",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -43575,7 +44733,7 @@
             {
               "description": "Array to pop a child from",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -43612,7 +44770,7 @@
             {
               "description": "Array to shift a child from",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -43649,7 +44807,7 @@
             {
               "description": "Array to shift a child from",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -43668,11 +44826,11 @@
               "actions": [
                 {
                   "type": {
-                    "value": "CopyArgumentToVariable"
+                    "value": "CopyArgumentToVariable2"
                   },
                   "parameters": [
                     "\"Array\"",
-                    "__ArrayTools.Temp"
+                    "Temp"
                   ]
                 }
               ]
@@ -43682,10 +44840,10 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "Egal"
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
                   },
                   "parameters": [
-                    "ArrayTools::IndexOf(__ArrayTools.Temp, Value)",
+                    "ArrayTools::IndexOf(Temp, Value)",
                     "!=",
                     "-1"
                   ]
@@ -43707,7 +44865,7 @@
             {
               "description": "Array to search the value in",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             },
             {
               "description": "The number to search",
@@ -43731,11 +44889,11 @@
               "actions": [
                 {
                   "type": {
-                    "value": "CopyArgumentToVariable"
+                    "value": "CopyArgumentToVariable2"
                   },
                   "parameters": [
                     "\"Array\"",
-                    "__ArrayTools.Temp"
+                    "Temp"
                   ]
                 }
               ]
@@ -43745,10 +44903,10 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "Egal"
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
                   },
                   "parameters": [
-                    "ArrayTools::IndexOfStr(__ArrayTools.Temp, Value)",
+                    "ArrayTools::IndexOfStr(Temp, Value)",
                     "!=",
                     "-1"
                   ]
@@ -43770,7 +44928,7 @@
             {
               "description": "Array to search the value in",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             },
             {
               "description": "The text to search",
@@ -43826,12 +44984,12 @@
             {
               "description": "The array to take a slice from",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             },
             {
               "description": "The array to store the slice into",
               "name": "Target",
-              "type": "scenevar"
+              "type": "variable"
             },
             {
               "description": "The index to start the slice from",
@@ -43883,7 +45041,7 @@
             {
               "description": "The array to remove items from",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             },
             {
               "description": "The index to start removing from",
@@ -43939,17 +45097,17 @@
             {
               "description": "The first array",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             },
             {
               "description": "The second array",
               "name": "OtherArray",
-              "type": "scenevar"
+              "type": "variable"
             },
             {
               "description": "The variable to store the new array in",
               "name": "Target",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -43984,12 +45142,12 @@
             {
               "description": "The array to get the variables from",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             },
             {
               "description": "The variable to append the variables in",
               "name": "Target",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -44023,7 +45181,7 @@
             {
               "description": "The array to reverse",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -44065,7 +45223,7 @@
             {
               "description": "The array to fill",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             },
             {
               "description": "The number to fill",
@@ -44115,7 +45273,7 @@
             {
               "description": "The array to shuffle",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -44165,7 +45323,7 @@
             {
               "description": "The array to flatten",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             },
             {
               "description": "Deeply flatten",
@@ -44207,12 +45365,12 @@
             {
               "description": "The array to pop a child from",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             },
             {
               "description": "The variable to store the popped value into",
               "name": "Target",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -44248,12 +45406,12 @@
             {
               "description": "The array to shift a child from",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             },
             {
               "description": "The variable to store the shifted value into",
               "name": "Target",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -44291,7 +45449,7 @@
             {
               "description": "The array to insert a variable in",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             },
             {
               "description": "The index to insert the variable at",
@@ -44301,7 +45459,7 @@
             {
               "description": "The name of the variable to insert",
               "name": "Target",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -44350,7 +45508,7 @@
             {
               "description": "Array where to store the results",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -44389,7 +45547,7 @@
             {
               "description": "The name of the array to join into a string",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             },
             {
               "description": "Optional separator text between each element",
@@ -44428,7 +45586,7 @@
             {
               "description": "The array",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -44480,7 +45638,7 @@
             {
               "description": "The array",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -44532,7 +45690,7 @@
             {
               "description": "The array",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -44569,7 +45727,7 @@
             {
               "description": "The array",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -44613,7 +45771,7 @@
             {
               "description": "The array",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -44652,7 +45810,7 @@
             {
               "description": "The array to sort",
               "name": "Array",
-              "type": "scenevar"
+              "type": "variable"
             }
           ],
           "objectGroups": []
@@ -44663,6 +45821,7 @@
           "functionType": "ExpressionAndCondition",
           "group": "Global variables/Array search",
           "name": "GlobalIndexOf",
+          "private": true,
           "sentence": "The first index where _PARAM2_ can be found in _PARAM1_",
           "events": [
             {
@@ -44704,6 +45863,7 @@
           "functionType": "ExpressionAndCondition",
           "group": "Global variables/Array search",
           "name": "GlobalIndexOfStr",
+          "private": true,
           "sentence": "The first index where _PARAM2_ can be found in _PARAM1_",
           "events": [
             {
@@ -44745,6 +45905,7 @@
           "functionType": "ExpressionAndCondition",
           "group": "Global variables/Array search",
           "name": "GlobalLastIndexOf",
+          "private": true,
           "sentence": "The last index where _PARAM2_ can be found in _PARAM1_",
           "events": [
             {
@@ -44786,6 +45947,7 @@
           "functionType": "ExpressionAndCondition",
           "group": "Global variables/Array search",
           "name": "GlobalLastIndexOfStr",
+          "private": true,
           "sentence": "The last index where _PARAM2_ can be found in _PARAM1_",
           "events": [
             {
@@ -44827,6 +45989,7 @@
           "functionType": "ExpressionAndCondition",
           "group": "Global variables/Array access",
           "name": "GlobalRandomNumberInArray",
+          "private": true,
           "sentence": "A randomly picked number of _PARAM1_",
           "events": [
             {
@@ -44864,6 +46027,7 @@
           "functionType": "ExpressionAndCondition",
           "group": "Global variables/Array access",
           "name": "GlobalRandomStringInArray",
+          "private": true,
           "sentence": "A randomly picked string of _PARAM1_",
           "events": [
             {
@@ -44901,6 +46065,7 @@
           "functionType": "ExpressionAndCondition",
           "group": "Global variables/Array access",
           "name": "GlobalPopNumber",
+          "private": true,
           "sentence": "Remove last child of _PARAM1_ and store it in _PARAM2_",
           "events": [
             {
@@ -44938,6 +46103,7 @@
           "functionType": "StringExpression",
           "group": "Global variables/Array access",
           "name": "GlobalPopString",
+          "private": true,
           "sentence": "Remove last child of _PARAM1_ and store it in _PARAM2_",
           "events": [
             {
@@ -44975,6 +46141,7 @@
           "functionType": "Expression",
           "group": "Global variables/Array access",
           "name": "GlobalShiftNumber",
+          "private": true,
           "sentence": "Remove last child of _PARAM1_ and store it in _PARAM2_",
           "events": [
             {
@@ -45012,6 +46179,7 @@
           "functionType": "StringExpression",
           "group": "Global variables/Array access",
           "name": "GlobalShiftString",
+          "private": true,
           "sentence": "Remove last child of _PARAM1_ and store it in _PARAM2_",
           "events": [
             {
@@ -45049,6 +46217,7 @@
           "functionType": "Condition",
           "group": "Global variables/Array search",
           "name": "GlobalHasNumber",
+          "private": true,
           "sentence": "Array _PARAM1_ has number _PARAM2_",
           "events": [
             {
@@ -45057,11 +46226,11 @@
               "actions": [
                 {
                   "type": {
-                    "value": "CopyArgumentToVariable"
+                    "value": "CopyArgumentToVariable2"
                   },
                   "parameters": [
                     "\"Array\"",
-                    "__ArrayTools.Temp"
+                    "Temp"
                   ]
                 }
               ]
@@ -45074,7 +46243,7 @@
                     "value": "Egal"
                   },
                   "parameters": [
-                    "ArrayTools::IndexOf(__ArrayTools.Temp, Value)",
+                    "ArrayTools::IndexOf(Temp, Value)",
                     "!=",
                     "-1"
                   ]
@@ -45112,6 +46281,7 @@
           "functionType": "Condition",
           "group": "Global variables/Array search",
           "name": "GlobalHasString",
+          "private": true,
           "sentence": "Array _PARAM1_ has string _PARAM2_",
           "events": [
             {
@@ -45120,11 +46290,11 @@
               "actions": [
                 {
                   "type": {
-                    "value": "CopyArgumentToVariable"
+                    "value": "CopyArgumentToVariable2"
                   },
                   "parameters": [
                     "\"Array\"",
-                    "__ArrayTools.Temp"
+                    "Temp"
                   ]
                 }
               ]
@@ -45137,7 +46307,7 @@
                     "value": "Egal"
                   },
                   "parameters": [
-                    "ArrayTools::IndexOfStr(__ArrayTools.Temp, Value)",
+                    "ArrayTools::IndexOfStr(Temp, Value)",
                     "!=",
                     "-1"
                   ]
@@ -45175,6 +46345,7 @@
           "functionType": "Action",
           "group": "Global variables/Array creation",
           "name": "GlobalSlice",
+          "private": true,
           "sentence": "Slice array _PARAM1_ from indices _PARAM3_ to _PARAM4_ into _PARAM2_",
           "events": [
             {
@@ -45242,6 +46413,7 @@
           "functionType": "Action",
           "group": "Global variables/Array manipulation",
           "name": "GlobalSplice",
+          "private": true,
           "sentence": "Remove _PARAM3_ items from array _PARAM1_ starting from index _PARAM2_",
           "events": [
             {
@@ -45295,6 +46467,7 @@
           "functionType": "Action",
           "group": "Global variables/Array creation",
           "name": "GlobalConcatenate",
+          "private": true,
           "sentence": "Combine array _PARAM1_ and _PARAM2_ into _PARAM3_",
           "events": [
             {
@@ -45349,6 +46522,7 @@
           "functionType": "Action",
           "group": "Global variables/Array manipulation",
           "name": "GlobalAppendAll",
+          "private": true,
           "sentence": "Append all elements from array _PARAM1_ into _PARAM2_",
           "events": [
             {
@@ -45389,6 +46563,7 @@
           "functionType": "Action",
           "group": "Global variables/Array manipulation",
           "name": "GlobalReverse",
+          "private": true,
           "sentence": "Reverse array _PARAM1_",
           "events": [
             {
@@ -45423,6 +46598,7 @@
           "functionType": "Action",
           "group": "Global variables/Array creation",
           "name": "GlobalFillNumber",
+          "private": true,
           "sentence": "Fill array _PARAM1_ with _PARAM2_ from index _PARAM3_ to index _PARAM4_",
           "events": [
             {
@@ -45481,6 +46657,7 @@
           "functionType": "Action",
           "group": "Global variables/Array manipulation",
           "name": "GlobalShuffle",
+          "private": true,
           "sentence": "Shuffle array _PARAM1_",
           "events": [
             {
@@ -45515,6 +46692,7 @@
           "functionType": "Action",
           "group": "Global variables/Array manipulation",
           "name": "GlobalFlatten",
+          "private": true,
           "sentence": "Flatten array _PARAM1_ (Deeply flatten: _PARAM2_)",
           "events": [
             {
@@ -45571,6 +46749,7 @@
           "functionType": "Action",
           "group": "Global variables/Array access",
           "name": "GlobalPop",
+          "private": true,
           "sentence": "Remove last child of _PARAM1_ and store it in _PARAM2_",
           "events": [
             {
@@ -45612,6 +46791,7 @@
           "functionType": "Action",
           "group": "Global variables/Array access",
           "name": "GlobalShift",
+          "private": true,
           "sentence": "Remove first child of _PARAM1_ and store it in _PARAM2_",
           "events": [
             {
@@ -45653,6 +46833,7 @@
           "functionType": "Action",
           "group": "Global variables/Array manipulation",
           "name": "GlobalInsertAt",
+          "private": true,
           "sentence": "Insert variable _PARAM3_ in _PARAM1_ at index _PARAM2_",
           "events": [
             {
@@ -45701,6 +46882,7 @@
           "functionType": "Action",
           "group": "Global variables/Array creation",
           "name": "GlobalSplitString",
+          "private": true,
           "sentence": "Split string _PARAM1_ via separator _PARAM2_ into array _PARAM3_",
           "events": [
             {
@@ -45750,6 +46932,7 @@
           "functionType": "StringExpression",
           "group": "Global variables/String arrays",
           "name": "GlobalJoin",
+          "private": true,
           "sentence": "",
           "events": [
             {
@@ -45794,6 +46977,7 @@
           "functionType": "Expression",
           "group": "Global variables/Number arrays",
           "name": "GlobalSum",
+          "private": true,
           "sentence": "",
           "events": [
             {
@@ -45828,6 +47012,7 @@
           "functionType": "Expression",
           "group": "Global variables/Number arrays",
           "name": "GlobalMin",
+          "private": true,
           "sentence": "",
           "events": [
             {
@@ -45880,6 +47065,7 @@
           "functionType": "Expression",
           "group": "Global variables/Number arrays",
           "name": "GlobalMax",
+          "private": true,
           "sentence": "",
           "events": [
             {
@@ -45932,6 +47118,7 @@
           "functionType": "Expression",
           "group": "Global variables/Number arrays",
           "name": "GlobalMean",
+          "private": true,
           "sentence": "",
           "events": [
             {
@@ -45969,6 +47156,7 @@
           "functionType": "Expression",
           "group": "Global variables/Number arrays",
           "name": "GlobalMedian",
+          "private": true,
           "sentence": "",
           "events": [
             {
@@ -46013,6 +47201,7 @@
           "functionType": "Action",
           "group": "Global variables/Number arrays",
           "name": "GlobalSort",
+          "private": true,
           "sentence": "Sort array _PARAM1_",
           "events": [
             {
@@ -46496,11 +47685,11 @@
               "actions": [
                 {
                   "type": {
-                    "value": "CopyArgumentToVariable"
+                    "value": "CopyArgumentToVariable2"
                   },
                   "parameters": [
                     "\"Array\"",
-                    "__ArrayTools.Temp"
+                    "Temp"
                   ]
                 }
               ]
@@ -46513,7 +47702,7 @@
                     "value": "Egal"
                   },
                   "parameters": [
-                    "ArrayTools::IndexOf(__ArrayTools.Temp, Value)",
+                    "ArrayTools::IndexOf(Temp, Value)",
                     "!=",
                     "-1"
                   ]
@@ -46564,11 +47753,11 @@
               "actions": [
                 {
                   "type": {
-                    "value": "CopyArgumentToVariable"
+                    "value": "CopyArgumentToVariable2"
                   },
                   "parameters": [
                     "\"Array\"",
-                    "__ArrayTools.Temp"
+                    "Temp"
                   ]
                 }
               ]
@@ -46581,7 +47770,7 @@
                     "value": "Egal"
                   },
                   "parameters": [
-                    "ArrayTools::IndexOfStr(__ArrayTools.Temp, Value)",
+                    "ArrayTools::IndexOfStr(Temp, Value)",
                     "!=",
                     "-1"
                   ]
@@ -47632,6 +48821,7 @@
     {
       "author": "@Bouh, @arthuro555",
       "category": "User interface",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Cursor type",
       "gdevelopVersion": "",
@@ -48056,7 +49246,14 @@
               "name": "CursorType"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "CursorType"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -48064,6 +49261,7 @@
     {
       "author": "",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "",
       "gdevelopVersion": "",
@@ -48424,6 +49622,14 @@
               "name": "Property"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Property"
+              }
+            ]
+          },
           "variants": []
         },
         {
@@ -48720,7 +49926,8 @@
             "snap": false,
             "zoomFactor": 6.020922394364914,
             "windowMask": false,
-            "selectedLayer": ""
+            "selectedLayer": "",
+            "gameEditorMode": "instances-editor"
           },
           "eventsFunctions": [
             {
@@ -48765,6 +49972,9 @@
             }
           ],
           "propertyDescriptors": [],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT"
+          },
           "variants": []
         }
       ]
@@ -48772,6 +49982,7 @@
     {
       "author": "",
       "category": "Movement",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Curved movement",
       "gdevelopVersion": "",
@@ -53795,7 +55006,92 @@
               "name": "Viewpoint"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Rotation"
+              },
+              {
+                "propertyName": "RotationOffset"
+              },
+              {
+                "propertyName": "FlipXToGoBack"
+              },
+              {
+                "propertyName": "FlipYToGoBack"
+              },
+              {
+                "propertyName": "SpeedScale"
+              },
+              {
+                "propertyName": "PathOriginX"
+              },
+              {
+                "propertyName": "PathOriginY"
+              },
+              {
+                "propertyName": "Target"
+              },
+              {
+                "propertyName": "Origin"
+              },
+              {
+                "propertyName": "PathName"
+              },
+              {
+                "propertyName": "Duration"
+              },
+              {
+                "propertyName": "Easing"
+              },
+              {
+                "propertyName": "DrawingElementIndex"
+              },
+              {
+                "propertyName": "X"
+              },
+              {
+                "propertyName": "Y"
+              },
+              {
+                "propertyName": "PathAngle"
+              },
+              {
+                "propertyName": "PathScale"
+              },
+              {
+                "propertyName": "RepetitionCount"
+              },
+              {
+                "propertyName": "ShouldGoBack"
+              },
+              {
+                "propertyName": "ShouldLoop"
+              },
+              {
+                "propertyName": "RepetitionDoneCount"
+              },
+              {
+                "propertyName": "IsGoingBack"
+              },
+              {
+                "propertyName": "PauseDurationBeforeGoingBack"
+              },
+              {
+                "propertyName": "DrawingPathOriginX"
+              },
+              {
+                "propertyName": "DrawingPathOriginY"
+              },
+              {
+                "propertyName": "DebugLineStrokeWidth"
+              },
+              {
+                "propertyName": "Viewpoint"
+              }
+            ]
+          }
         },
         {
           "description": "Move objects on curved paths at a given speed.",
@@ -56581,7 +57877,82 @@
               "name": "Viewpoint"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "folderName": "Rotation",
+                "children": [
+                  {
+                    "propertyName": "Rotation"
+                  },
+                  {
+                    "propertyName": "RotationOffset"
+                  }
+                ]
+              },
+              {
+                "propertyName": "Speed"
+              },
+              {
+                "propertyName": "PathOriginX"
+              },
+              {
+                "propertyName": "PathOriginY"
+              },
+              {
+                "propertyName": "PathName"
+              },
+              {
+                "propertyName": "TargetedSpeed"
+              },
+              {
+                "propertyName": "Acceleration"
+              },
+              {
+                "propertyName": "DrawingElementIndex"
+              },
+              {
+                "propertyName": "X"
+              },
+              {
+                "propertyName": "Y"
+              },
+              {
+                "propertyName": "PathAngle"
+              },
+              {
+                "propertyName": "PathScale"
+              },
+              {
+                "propertyName": "RepetitionCount"
+              },
+              {
+                "propertyName": "ShouldLoop"
+              },
+              {
+                "propertyName": "DrawingPathOriginX"
+              },
+              {
+                "propertyName": "DrawingPathOriginY"
+              },
+              {
+                "propertyName": "DebugLineStrokeWidth"
+              },
+              {
+                "propertyName": "PreviousSpeed"
+              },
+              {
+                "propertyName": "CurrentLength"
+              },
+              {
+                "propertyName": "IsLookingBack"
+              },
+              {
+                "propertyName": "Viewpoint"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -56589,6 +57960,7 @@
     {
       "author": "",
       "category": "Input",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Multitouch joystick and buttons (sprite)",
       "gdevelopVersion": "",
@@ -59084,7 +60456,32 @@
               "name": "TouchIndex"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "propertyName": "DeadZoneRadius"
+              },
+              {
+                "propertyName": "JoystickAngle"
+              },
+              {
+                "propertyName": "JoystickForce"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIndex"
+              }
+            ]
+          }
         },
         {
           "description": "Detect button presses made on a touchscreen.",
@@ -59492,7 +60889,26 @@
               "name": "IsReleased"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "ButtonIdentifier"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIndex"
+              },
+              {
+                "propertyName": "IsReleased"
+              }
+            ]
+          }
         },
         {
           "description": "Control a platformer character with a multitouch controller.",
@@ -59713,7 +61129,28 @@
               "name": "JumpButton"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Property"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "JoystickIdentifier"
+                  },
+                  {
+                    "propertyName": "JumpButton"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "description": "Control a top-down character with a multitouch controller.",
@@ -60283,7 +61720,28 @@
               "name": "StickMode"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "TopDownMovement"
+              },
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "folderName": "Controls",
+                "children": [
+                  {
+                    "propertyName": "StickMode"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": [
@@ -61359,6 +62817,32 @@
               "name": "ParentOrigin"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ControllerIdentifier"
+              },
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "propertyName": "DeadZoneRadius"
+              },
+              {
+                "propertyName": "ThumbAnchorOrigin"
+              },
+              {
+                "propertyName": "ThumbAnchorTarget"
+              },
+              {
+                "propertyName": "ThumbIsScaledProportionally"
+              },
+              {
+                "propertyName": "ParentOrigin"
+              }
+            ]
+          },
           "variants": []
         }
       ]
@@ -61366,6 +62850,7 @@
     {
       "author": "",
       "category": "User interface",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Resource bar (continuous)",
       "gdevelopVersion": "",
@@ -62034,7 +63519,23 @@
               "name": "PreviousHighValueDuration"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Value"
+              },
+              {
+                "propertyName": "MaxValue"
+              },
+              {
+                "propertyName": "PreviousHighValue"
+              },
+              {
+                "propertyName": "PreviousHighValueDuration"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": [
@@ -63905,6 +65406,60 @@
               "name": "LabelVerticalAnchorTarget"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "folderName": "Bar",
+                "children": [
+                  {
+                    "propertyName": "BarLeftPadding"
+                  },
+                  {
+                    "propertyName": "BarTopPadding"
+                  },
+                  {
+                    "propertyName": "BarRightPadding"
+                  },
+                  {
+                    "propertyName": "BarBottomPadding"
+                  }
+                ]
+              },
+              {
+                "propertyName": "MaxValue"
+              },
+              {
+                "propertyName": "InitialValue"
+              },
+              {
+                "propertyName": "PreviousInitialValue"
+              },
+              {
+                "folderName": "Animation",
+                "children": [
+                  {
+                    "propertyName": "PreviousHighValueDuration"
+                  },
+                  {
+                    "propertyName": "EasingDuration"
+                  }
+                ]
+              },
+              {
+                "propertyName": "ShowLabel"
+              },
+              {
+                "propertyName": "ShowBuffer"
+              },
+              {
+                "propertyName": "LabelVerticalAnchorOrigin"
+              },
+              {
+                "propertyName": "LabelVerticalAnchorTarget"
+              }
+            ]
+          },
           "variants": []
         }
       ]
@@ -63912,6 +65467,7 @@
     {
       "author": "@4ian, Entropy, VegeTato",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Flash object",
       "gdevelopVersion": "",
@@ -64854,7 +66410,20 @@
               "name": "FlashDuration"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              }
+            ]
+          }
         },
         {
           "description": "Make an object flash a color tint for a period of time.",
@@ -65344,7 +66913,23 @@
               "name": "TintColor"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              },
+              {
+                "propertyName": "TintColor"
+              }
+            ]
+          }
         },
         {
           "description": "Flash opacity smoothly (fade) in a repeating loop.",
@@ -65913,7 +67498,29 @@
               "name": "StartingOpacity"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "TweenBehavior"
+              },
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              },
+              {
+                "propertyName": "TargetOpacity"
+              },
+              {
+                "propertyName": "StartingOpacity"
+              }
+            ]
+          }
         },
         {
           "description": "Make the object flash an effect for a period of time.",
@@ -66551,7 +68158,23 @@
               "name": "EffectName"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              },
+              {
+                "propertyName": "EffectName"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -66559,6 +68182,7 @@
     {
       "author": "@4ian",
       "category": "Game mechanic",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Health points and damage",
       "gdevelopVersion": "",
@@ -71418,7 +73042,108 @@
               "name": "HealToBeApplied"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "folderName": "Health",
+                "children": [
+                  {
+                    "propertyName": "Health"
+                  },
+                  {
+                    "propertyName": "CurrentHealth"
+                  },
+                  {
+                    "propertyName": "MaxHealth"
+                  },
+                  {
+                    "propertyName": "DamageCooldown"
+                  },
+                  {
+                    "propertyName": "IsHealthJustDamaged"
+                  },
+                  {
+                    "propertyName": "AllowOverHealing"
+                  },
+                  {
+                    "propertyName": "HitAtLeastOnce"
+                  },
+                  {
+                    "propertyName": "ChanceToDodge"
+                  },
+                  {
+                    "propertyName": "DamageToBeApplied"
+                  }
+                ]
+              },
+              {
+                "folderName": "Health regeneration",
+                "children": [
+                  {
+                    "propertyName": "HealthRegenRate"
+                  },
+                  {
+                    "propertyName": "HealthRegenDelay"
+                  }
+                ]
+              },
+              {
+                "propertyName": "IsJustHealed"
+              },
+              {
+                "folderName": "Shield",
+                "children": [
+                  {
+                    "propertyName": "CurrentShieldPoints"
+                  },
+                  {
+                    "propertyName": "MaxShieldPoints"
+                  },
+                  {
+                    "propertyName": "ShieldDuration"
+                  },
+                  {
+                    "propertyName": "BlockExcessDamage"
+                  },
+                  {
+                    "propertyName": "IsShieldJustDamaged"
+                  }
+                ]
+              },
+              {
+                "folderName": "Shield regeneration",
+                "children": [
+                  {
+                    "propertyName": "ShieldRegenRate"
+                  },
+                  {
+                    "propertyName": "ShieldRegenDelay"
+                  }
+                ]
+              },
+              {
+                "folderName": "Armor",
+                "children": [
+                  {
+                    "propertyName": "FlatDamageReduction"
+                  },
+                  {
+                    "propertyName": "PercentDamageReduction"
+                  }
+                ]
+              },
+              {
+                "propertyName": "IsJustDodged"
+              },
+              {
+                "propertyName": "ShieldDamageTaken"
+              },
+              {
+                "propertyName": "HealToBeApplied"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -71426,6 +73151,7 @@
     {
       "author": "Westboy31",
       "category": "Visual effect",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Flash and transition painter",
       "gdevelopVersion": "",
@@ -73039,7 +74765,26 @@
               "name": "MaxOpacity"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Timer"
+              },
+              {
+                "propertyName": "Color"
+              },
+              {
+                "propertyName": "Type"
+              },
+              {
+                "propertyName": "Direction"
+              },
+              {
+                "propertyName": "MaxOpacity"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -73047,6 +74792,7 @@
     {
       "author": "",
       "category": "User interface",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Panel sprite button",
       "gdevelopVersion": "",
@@ -74250,7 +75996,29 @@
               "name": "Index"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "ShouldCheckHovering"
+              },
+              {
+                "propertyName": "State"
+              },
+              {
+                "propertyName": "TouchId"
+              },
+              {
+                "propertyName": "TouchIsInside"
+              },
+              {
+                "propertyName": "MouseIsInside"
+              },
+              {
+                "propertyName": "Index"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": [
@@ -75790,6 +77558,34 @@
               "name": "HoveredFadeOutDuration"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PressedLabelOffsetY"
+              },
+              {
+                "folderName": "Padding",
+                "children": [
+                  {
+                    "propertyName": "LeftPadding"
+                  },
+                  {
+                    "propertyName": "RightPadding"
+                  },
+                  {
+                    "propertyName": "TopPadding"
+                  },
+                  {
+                    "propertyName": "BottomPadding"
+                  }
+                ]
+              },
+              {
+                "propertyName": "HoveredFadeOutDuration"
+              }
+            ]
+          },
           "variants": []
         }
       ]
@@ -75797,6 +77593,7 @@
     {
       "author": "Tristan Rhodes (https://victrisgames.itch.io/)",
       "category": "Visual effect",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Shake object",
       "gdevelopVersion": "",
@@ -77822,7 +79619,9 @@
             }
           ],
           "propertyDescriptors": [],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT"
+          }
         },
         {
           "description": "Shake an object, using one or more ways to shake (position, angle, scale)\nThis behavior can only be used on sprite objects.",
@@ -80194,7 +81993,9 @@
             }
           ],
           "propertyDescriptors": [],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT"
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -80202,6 +82003,7 @@
     {
       "author": "",
       "category": "Camera",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Smooth Camera",
       "gdevelopVersion": "",
@@ -85070,7 +86872,175 @@
               "name": "IsCalledManually"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "folderName": "Catch-up speed",
+                "children": [
+                  {
+                    "propertyName": "LeftwardSpeed"
+                  },
+                  {
+                    "propertyName": "RightwardSpeed"
+                  },
+                  {
+                    "propertyName": "UpwardSpeed"
+                  },
+                  {
+                    "propertyName": "DownwardSpeed"
+                  }
+                ]
+              },
+              {
+                "propertyName": "FollowOnX"
+              },
+              {
+                "propertyName": "FollowOnY"
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "FollowFreeAreaLeft"
+                  },
+                  {
+                    "propertyName": "FollowFreeAreaRight"
+                  },
+                  {
+                    "propertyName": "FollowFreeAreaTop"
+                  },
+                  {
+                    "propertyName": "FollowFreeAreaBottom"
+                  },
+                  {
+                    "propertyName": "CameraOffsetX"
+                  },
+                  {
+                    "propertyName": "CameraOffsetY"
+                  }
+                ]
+              },
+              {
+                "folderName": "Timing",
+                "children": [
+                  {
+                    "propertyName": "CameraDelay"
+                  },
+                  {
+                    "propertyName": "ForecastTime"
+                  },
+                  {
+                    "propertyName": "ForecastHistoryDuration"
+                  }
+                ]
+              },
+              {
+                "propertyName": "LogLeftwardSpeed"
+              },
+              {
+                "propertyName": "LogRightwardSpeed"
+              },
+              {
+                "propertyName": "LogDownwardSpeed"
+              },
+              {
+                "propertyName": "LogUpwardSpeed"
+              },
+              {
+                "propertyName": "DelayedCenterX"
+              },
+              {
+                "propertyName": "DelayedCenterY"
+              },
+              {
+                "propertyName": "ForecastHistoryMeanX"
+              },
+              {
+                "propertyName": "ForecastHistoryMeanY"
+              },
+              {
+                "propertyName": "ForecastHistoryVarianceX"
+              },
+              {
+                "propertyName": "ForecastHistoryCovariance"
+              },
+              {
+                "propertyName": "ForecastHistoryLinearA"
+              },
+              {
+                "propertyName": "ForecastHistoryLinearB"
+              },
+              {
+                "propertyName": "ForecastedX"
+              },
+              {
+                "propertyName": "ForecastedY"
+              },
+              {
+                "propertyName": "ProjectedNewestX"
+              },
+              {
+                "propertyName": "ProjectedNewestY"
+              },
+              {
+                "propertyName": "ProjectedOldestX"
+              },
+              {
+                "propertyName": "ProjectedOldestY"
+              },
+              {
+                "propertyName": "ForecastHistoryVarianceY"
+              },
+              {
+                "propertyName": "Index"
+              },
+              {
+                "propertyName": "CameraDelayCatchUpSpeed"
+              },
+              {
+                "propertyName": "CameraExtraDelay"
+              },
+              {
+                "propertyName": "WaitingSpeedXMax"
+              },
+              {
+                "propertyName": "WaitingSpeedYMax"
+              },
+              {
+                "propertyName": "WaitingEnd"
+              },
+              {
+                "propertyName": "CameraDelayCatchUpDuration"
+              },
+              {
+                "folderName": "Maximum speed",
+                "children": [
+                  {
+                    "propertyName": "LeftwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "RightwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "UpwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "DownwardSpeedMax"
+                  }
+                ]
+              },
+              {
+                "propertyName": "OldX"
+              },
+              {
+                "propertyName": "OldY"
+              },
+              {
+                "propertyName": "IsCalledManually"
+              }
+            ]
+          }
         },
         {
           "description": "Smoothly scroll to follow a character and stabilize the camera when jumping.",
@@ -85414,7 +87384,71 @@
               "name": "FloorDownwardSpeedMax"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PlatformerCharacter"
+              },
+              {
+                "propertyName": "SmoothCamera"
+              },
+              {
+                "propertyName": "JumpOriginY"
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "AirFollowFreeAreaTop"
+                  },
+                  {
+                    "propertyName": "AirFollowFreeAreaBottom"
+                  },
+                  {
+                    "propertyName": "FloorFollowFreeAreaTop"
+                  },
+                  {
+                    "propertyName": "FloorFollowFreeAreaBottom"
+                  }
+                ]
+              },
+              {
+                "folderName": "Catch-up speed",
+                "children": [
+                  {
+                    "propertyName": "AirUpwardSpeed"
+                  },
+                  {
+                    "propertyName": "AirDownwardSpeed"
+                  },
+                  {
+                    "propertyName": "FloorUpwardSpeed"
+                  },
+                  {
+                    "propertyName": "FloorDownwardSpeed"
+                  }
+                ]
+              },
+              {
+                "folderName": "Maximum speed",
+                "children": [
+                  {
+                    "propertyName": "AirUpwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "AirDownwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "FloorUpwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "FloorDownwardSpeedMax"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -85422,6 +87456,7 @@
     {
       "author": "westboy, daliyoucefmedakram@gmail.com, @bouh",
       "category": "User interface",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Auto typing animation for text (\"typewriter\" effect)",
       "gdevelopVersion": "",
@@ -86315,7 +88350,20 @@
               "name": "CurrentCharacter"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Interval"
+              },
+              {
+                "propertyName": "CharacterJustAdded"
+              },
+              {
+                "propertyName": "CurrentCharacter"
+              }
+            ]
+          }
         },
         {
           "description": "Animate text to simulate it being written one character at at time (a \"typewriter\" effect).",
@@ -87164,7 +89212,20 @@
               "name": "CurrentCharacter"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Interval"
+              },
+              {
+                "propertyName": "CharacterJustAdded"
+              },
+              {
+                "propertyName": "CurrentCharacter"
+              }
+            ]
+          }
         },
         {
           "description": "Animate text to simulate it being written one character at at time (a \"typewriter\" effect).",
@@ -88013,7 +90074,20 @@
               "name": "CurrentCharacter"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Interval"
+              },
+              {
+                "propertyName": "CharacterJustAdded"
+              },
+              {
+                "propertyName": "CurrentCharacter"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -88021,6 +90095,7 @@
     {
       "author": "",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "RandomGauss",
       "gdevelopVersion": "",
@@ -88128,6 +90203,84 @@
             {
               "description": "",
               "name": "sd",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "RNG Gauss",
+          "fullName": "RNG Gauss",
+          "functionType": "Expression",
+          "name": "RNG",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                " let u = 0;",
+                " let v = 0;",
+                "  while(u == 0) u = Math.random(); // exclude 0",
+                "  while(v == 0) v = Math.random(); // exclude 0",
+                "  let number = Math.sqrt( -2.0 * Math.log(u) ) * Math.cos( 2.0 * Math.PI * v );",
+                " ",
+                " // number = number 0; //eventsFunctionContext.getArgument(\"sd\")  + eventsFunctionContext.getArgument(\"mean\");",
+                "",
+                " let mod = eventsFunctionContext.getArgument(\"mod\") ;",
+                " // number = number + ((mod+3000)/6000)*50;",
+                "",
+                "  if (number < 0) number = 0;",
+                "  if (number > 100) number = 100;",
+                "  ",
+                "  //runtimeScene.getVariables().get(\"x\").setNumber(number)",
+                "  runtimeScene.getVariablesForExtension(\"BetterRandomness\").get(\"x\").setNumber(number)",
+                " console.log(\"Set number!\");",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "",
+              "name": "mean",
+              "type": "expression"
+            },
+            {
+              "description": "",
+              "name": "sd",
+              "type": "expression"
+            },
+            {
+              "description": "",
+              "name": "mod",
               "type": "expression"
             }
           ],
@@ -88462,6 +90615,9 @@
           "editionSettings": {},
           "eventsFunctions": [],
           "propertyDescriptors": [],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT"
+          },
           "variants": []
         }
       ]
@@ -88469,6 +90625,7 @@
     {
       "author": "",
       "category": "Visual effect",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Sway",
       "gdevelopVersion": ">=5.5.222",
@@ -89169,7 +91326,51 @@
               "name": "YScaleTimeMax"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Scale"
+              },
+              {
+                "propertyName": "TweenBehavior"
+              },
+              {
+                "folderName": "Angle",
+                "children": [
+                  {
+                    "propertyName": "AngleLeft"
+                  },
+                  {
+                    "propertyName": "AngleRight"
+                  },
+                  {
+                    "propertyName": "AngleTimeMin"
+                  },
+                  {
+                    "propertyName": "AngleTimeMax"
+                  }
+                ]
+              },
+              {
+                "folderName": "Y scale",
+                "children": [
+                  {
+                    "propertyName": "YScaleMin"
+                  },
+                  {
+                    "propertyName": "YScaleMax"
+                  },
+                  {
+                    "propertyName": "YScaleTimeMin"
+                  },
+                  {
+                    "propertyName": "YScaleTimeMax"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
