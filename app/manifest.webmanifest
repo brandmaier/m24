@@ -1,0 +1,12 @@
+{
+  "name": "MSB - Statistikspiel",
+  "short_name": "MSB - Statistikspiel",
+  "id": "com.brandmaier.m24",
+  "description": "Statistik M24 Gamification",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
