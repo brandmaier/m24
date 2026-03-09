@@ -1,6 +1,6 @@
 {
-  "name": "MSB - Statistikspiel",
-  "short_name": "MSB - Statistikspiel",
+  "name": "StatsQuest",
+  "short_name": "StatsQuest",
   "id": "com.brandmaier.m24",
   "description": "Statistik M24 Gamification",
   "orientation": "landscape",

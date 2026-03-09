@@ -25,7 +25,7 @@ gdjs.OverviewCode.GDTextBorderObjects1= [];
 gdjs.OverviewCode.GDTextBorderObjects2= [];
 
 
-gdjs.OverviewCode.userFunc0x26e52d8 = function GDJSInlineCode(runtimeScene) {
+gdjs.OverviewCode.userFunc0x1195a78 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 let array = runtimeScene.getGame().getVariables().get("History")
 
@@ -61,7 +61,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.OverviewCode.userFunc0x26e52d8(runtimeScene);
+gdjs.OverviewCode.userFunc0x1195a78(runtimeScene);
 
 }
 

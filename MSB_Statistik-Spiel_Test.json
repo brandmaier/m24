@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "TitleScreen",
   "gdVersion": {
     "build": 261,
     "major": 5,
@@ -18,8 +18,8 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "top-down-rpg",
-    "version": "0.0.1",
-    "name": "MSB - Statistikspiel",
+    "version": "0.0.2",
+    "name": "StatsQuest",
     "description": "Statistik M24 Gamification",
     "author": "Andreas Brandmaier",
     "windowWidth": 1280,

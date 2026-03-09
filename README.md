@@ -19,6 +19,11 @@ Traditional statistics courses can be dry and theoretical, but *StatsQuest* make
 
 Join us in the world of *StatsQuest* and level up your statistics skills! 🚀
 
+## ** Play Now**
+
+Here is a preliminary version to check out:
+[https://brandmaier.github.io/m24/app/](https://brandmaier.github.io/m24/app/)
+
 ## Authors
 
 StatsQuest was designed and written by 

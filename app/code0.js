@@ -1450,7 +1450,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 gdjs.HauptgebaeudeCode.mapOfGDgdjs_9546HauptgebaeudeCode_9546GDToiletteObjects1Objects = Hashtable.newFrom({"Toilette": gdjs.HauptgebaeudeCode.GDToiletteObjects1});
 gdjs.HauptgebaeudeCode.eventsList16 = function(runtimeScene) {
 
-};gdjs.HauptgebaeudeCode.userFunc0x26a23e0 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.HauptgebaeudeCode.userFunc0x1ee5928 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 //runtimeScene.setBackgroundColor(100,100,240);
 const players = runtimeScene.getObjects("Player");
@@ -2319,7 +2319,7 @@ gdjs.HauptgebaeudeCode.eventsList16(runtimeScene);
 gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.HauptgebaeudeCode.GDPlayerObjects1);
 
 const objects = gdjs.HauptgebaeudeCode.GDPlayerObjects1;
-gdjs.HauptgebaeudeCode.userFunc0x26a23e0(runtimeScene, objects);
+gdjs.HauptgebaeudeCode.userFunc0x1ee5928(runtimeScene, objects);
 
 }
 
